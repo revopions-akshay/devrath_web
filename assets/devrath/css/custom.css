@@ -282,8 +282,9 @@
     .item.room-item-style-2:hover .bgr .details .info {
       display: block; }
 
-.ot-accomd-modations .content {
-  border-top: 1px solid #dadada; }
+/* .ot-accomd-modations .content {
+  border-top: 1px solid #dadada;
+ } */
   .ot-accomd-modations .content .ot-accomd-modations-content .owl-buttons {
     display: none; }
   .ot-accomd-modations .content .ot-accomd-modations-content .owl-pagination {

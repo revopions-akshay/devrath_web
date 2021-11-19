@@ -73,21 +73,67 @@ class Banquet extends CI_Controller
 		$data['alt'] = $setting['name'];
 		$data['settings'] = $setting;
 
-        // Main Navbar
-        $data['navigations'] = $this->home_model->getNavigation();
+		// Sliders
+		$data['sliders'] = $this->home_model->getWebsiteSliders();
 
-        // Gallery
-        $data['galleries'] = $this->home_model->getGallery();
+		// Main Navbar
+		$data['navigations'] = $this->home_model->getNavigation();
 
-        
+		// Our Services
+		$data['services'] = $this->home_model->getCategoryProduct(3);
+
+		// Our Counter
+		$data['counters'] = $this->home_model->getCounters();
+
+		// Our Counter Background
+		$data['countersbackground'] = $this->home_model->getCountersBackground();
+
+
+		// About
+		$data['about'] = $this->home_model->getAboutContent();
+
+		
+
+		// Gallery
+		$data['galleries'] = $this->home_model->getGallery();
+
+		// Facilities
+		$data['facilities'] = $this->home_model->getfacilities();
+
 		// Gallery Category
 		$data['galleriescat'] = $this->home_model->getGalleryCategory();
 
-        // Partners
-        $data['partners'] = $this->home_model->getPartner();
+		// Partners
+		$data['partners'] = $this->home_model->getPartner();
 
-        // Social Links
-        $data['sociallinks'] = $this->home_model->getSocialLinks();
+		// Blogs
+		$data['blog4home'] = $this->home_model->getBlogsOnly(3);
+
+		
+		// Rooms
+		$data['room4home'] = $this->home_model->getRoomsOnly(6);
+
+		// Testiminials
+		$data['testimonials'] = $this->home_model->getTestimonials(6);
+
+		// Testiminials
+		$data['testiBackground'] = $this->home_model->getTestiBackground();
+
+		// Footer Menu
+		$data['quick_links'] = $this->home_model->getFooterMenu(6);
+
+		// Social Links
+		$data['sociallinks'] = $this->home_model->getSocialLinks();
+
+        // Banquets
+		$data['banquet'] = $this->home_model->getBanquet();
+
+        // Banquet Gallery
+		$data['banquetgalleries'] = $this->home_model->getBenquetGallery();
+
+        
+        // Contact About
+		$data['contactabout'] = $this->home_model->getContactAbout();
 
         $this->load->view('includes/header', $data);
         $this->load->view('includes/navigation', $data);

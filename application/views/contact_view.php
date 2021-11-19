@@ -229,9 +229,11 @@
     <section class="section-map">
         <h1 class="element-invisible">Map</h1>
         <div class="contact-map">
-            <div id="map">
+            <!-- <div id="map">
             <iframe width="1920" height="480" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192866!2d77.06889754725779!3d28.52758200617606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1609008483286!5m2!1sen!2sin" allowfullscreen=""></iframe>
-                </div>
+                </div> -->
+
+                <?php echo  $contactabout[0]->map;  ?>
         </div>
     </section>
     <!-- END / MAP -->

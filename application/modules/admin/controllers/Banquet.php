@@ -25,18 +25,19 @@ class Banquet extends Admin_Base_Controller
         try {
 
             // Grocery settings getGroceryCRUD( $TableName, $Subject, $PageTitle, $Breadcrumbs )
-            $crud = $this->getGroceryCRUD('about', 'About', 'Manage About', 'Manage About');
+            $crud = $this->getGroceryCRUD('banquet', 'Banquet', 'Manage Banquet', 'Manage Banquet');
 
             // data Grid view fields
-            $crud->columns('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two');
+            $crud->columns('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number');
 
             // Insert form
-            // $crud->add_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two');
+            $crud->add_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number');
 
             // Update form
-            $crud->edit_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two');
+            $crud->edit_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number' );
 
             //File upload
+            $crud->set_field_upload('contact_background', 'assets/devrath/images/banquet');
             $crud->set_field_upload('file_path', 'assets/devrath/images/banquet');
             $crud->set_field_upload('file_path_two', 'assets/devrath/images/banquet');
 
@@ -45,19 +46,23 @@ class Banquet extends Admin_Base_Controller
             // $crud->unset_texteditor(['metatags', 'full_text']);
          
             // Rename field level
+            $crud->display_as('contact_background', 'Contact Background (w1920 x h420)');
+            $crud->display_as('whatsapp_no', 'Inquiry Whatsapp Number');
+            $crud->display_as('mobile_number', 'Inquiry Mobile Number');
             $crud->display_as('file_path', 'Banner One(w580 x h420)');
             $crud->display_as('file_path_two', 'Banner Two(w580 x h420)');
             // $crud->display_as('short', 'Short Description');
 
+            $crud->callback_read_field('contact_background', array($this, '_callback_view_photo'));
             $crud->callback_read_field('file_path', array($this, '_callback_view_photo'));
             $crud->callback_read_field('file_path_two', array($this, '_callback_view_photo'));
            
 
 
-            $crud->unset_add();
+            // $crud->unset_add();
             $crud->unset_export();
             $crud->unset_print();
-            $crud->unset_delete();
+            // $crud->unset_delete();
 
             // render output result
             $output = $crud->render();
@@ -73,7 +78,7 @@ class Banquet extends Admin_Base_Controller
     // view user image in column
     public function _callback_view_photo($value, $row)
     {
-        $image_url = base_url('assets/devrath/images/about' . $value);
+        $image_url = base_url('assets/devrath/images/banquet' . $value);
         return "<a href=$image_url class='fancybox'><img class='img-responsive img-thumbnail' src=$image_url  width='200px'/></a>";
     }
 

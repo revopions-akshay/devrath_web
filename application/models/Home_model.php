@@ -388,6 +388,40 @@ class Home_model extends CI_Model
     
 
 
+       
+    // About Us ===========================
+    public function getBanquet()
+    {
+        $query = $this->db->order_by('id', 'DESC')->get('banquet');
+
+        if ($query->num_rows() > 0) {
+            $results = $query->result();
+            return $results;
+        }
+        return false;
+    }
+
+
+       // Gallery 
+       public function getBenquetGallery()
+       {
+           $query = $this->db->order_by('sort', 'ASC')->get('banquet_gallery');
+   
+           if ($query->num_rows() > 0) {
+               $results = $query->result();
+               return $results;
+           }
+           return false;
+       }
+
+
+    
+
+
+
+
+
+
 
 
 

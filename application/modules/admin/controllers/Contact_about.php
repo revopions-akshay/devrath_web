@@ -28,18 +28,18 @@ class Contact_about extends Admin_Base_Controller
             $crud = $this->getGroceryCRUD('contactabout', 'Contact About', 'Manage Contact About', 'Manage Contact About');
 
             // data Grid view fields
-            $crud->columns('title', 'content');
+            $crud->columns('title', 'content', 'map');
 
            // Insert form
             // $crud->add_fields('title', 'content');
 
             // Update form
-            $crud->edit_fields('title', 'content');
+            $crud->edit_fields('title', 'content', 'map');
 
            
             // Required fields
             $crud->required_fields('content');
-            // $crud->unset_texteditor(['metatags', 'full_text']);
+            $crud->unset_texteditor(['map', 'full_text']);
          
             // Rename field level
             // $crud->display_as('file_path', 'Banner One(w580 x h420)');

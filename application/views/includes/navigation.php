@@ -6,7 +6,7 @@
         <div class="container">
             <div class="header_left float-left">
                 <!-- <span><i class="lotus-icon-cloud"></i> 18 °C</span> -->
-                <span><i class="lotus-icon-location"></i><?php echo $settings['address']; ?></span>
+                <span><i class="lotus-icon-location"></i><?php echo $settings['email']; ?></span>
                 <span><i class="lotus-icon-phone"></i><?php echo $settings['phone']; ?></span>
             </div>
 
@@ -52,7 +52,7 @@
                 </div> -->
             </div>
             <!-- HEADER LOGO -->
-            <a class="logo-top img-responsive" href="#"><img src="<?php echo base_url(); ?>/assets/devrath/images/logo-header.png" alt=""></a>
+            <a class="logo-top img-responsive" href="#"><img src="<?php echo $logo;  ?>" alt=""></a>
             <!-- END / HEADER LOGO -->
 
         </div>
@@ -66,7 +66,7 @@
 
             <!-- HEADER LOGO -->
             <div class="header_logo">
-                <a href="#"><img src="<?php echo base_url(); ?>/assets/devrath/images/logo-header.png" alt=""></a>
+                <a href="#"><img src="<?php echo $logo;  ?>" alt=""></a>
             </div>
             <!-- END / HEADER LOGO -->
             <!-- HEADER MENU -->

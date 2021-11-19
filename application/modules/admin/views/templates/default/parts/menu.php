@@ -72,6 +72,7 @@
                     <li><a href="<?php echo site_url('admin/navigation'); ?>"><i class="fa fa-list-alt"></i>Menu</a></li>
                     <li><a href="<?php echo site_url('admin/categories'); ?>"><i class="fa fa-list-alt"></i> Sub-Menu</a></li>
                     <li><a href="<?php echo site_url('admin/sub_categories'); ?>"><i class="fa fa-list-alt"></i>Sub Sub-Menu</a></li>
+                    <li><a href="<?php echo site_url('admin/footer_menuone'); ?>"><i class="fa fa-list-alt"></i>Footer Quick Links</a></li>
 
                 </ul>
             </li>
@@ -121,8 +122,8 @@
 
                 <ul class="treeview-menu" style="">
                     <li><a href="<?php echo site_url('admin/banquet'); ?>"><i class="fa fa-list-alt"></i>Banquet</a></li>
-                    <!-- <li><a href="<?php echo site_url('admin/categories'); ?>"><i class="fa fa-list-alt"></i> Sub-Menu</a></li>
-                    <li><a href="<?php echo site_url('admin/sub_categories'); ?>"><i class="fa fa-list-alt"></i>Sub Sub-Menu</a></li> -->
+                    <li><a href="<?php echo site_url('admin/banquet_gallery'); ?>"><i class="fa fa-list-alt"></i> Banquet Gallery</a></li>
+                    <!-- <li><a href="<?php echo site_url('admin/sub_categories'); ?>"><i class="fa fa-list-alt"></i>Sub Sub-Menu</a></li> -->
 
                 </ul>
             </li>
@@ -256,7 +257,7 @@
             </li>
 
 
-
+<!-- 
             <li class="treeview menu-open">
 
                 <a href="<?php echo site_url('admin/footerbackground'); ?>">
@@ -272,7 +273,7 @@
                     <li><a href="<?php echo site_url('admin/footer_map'); ?>"><i class="fa fa-list-alt"></i>Footer Map</a></li>
                     
                 </ul>
-            </li>
+            </li> -->
 
 
 

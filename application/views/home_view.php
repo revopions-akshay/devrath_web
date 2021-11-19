@@ -33,89 +33,7 @@
     </section> -->
     <!-- END / CHECK AVAILABILITY -->
 
-    <!-- ACCOMMODATIONS -->
 
-    <section class="ot-accomd-modations">
-        <div class="container">
-            <div class="content">
-                <div class="row">
-                    <div class="col-xs-12 col-lg-6 col-lg-offset-3">
-                        <div class="ot-heading pt80 pb30 text-center row-20">
-                            <h2 class="mb15">ACCOMMODATIONS</h2>
-                            <p class="sub pr10 pl10">
-                                It is a long established fact that a reader will be distracted by the readable
-                                content of a page
-                                when looking at its layout
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="ot-accomd-modations-content owl-single" data-single_item="false" data-desktop="1"
-                             data-small_desktop="1"
-                             data-tablet="2" data-mobile="1"
-                             data-nav="false"
-                             data-pagination="false">
-                            <div class="row">
-
-
-                            
-                                <?php
-                                    if (!empty($room4home)) {
-                                ?>
-                                    <?php
-                                        foreach ($room4home as $room) {
-                                        ?>
-    
-                                    <div class="col-xs-12 col-sm-4">
-                                        <div class="item room-item text-center accomd-modations-room_1">
-                                            <div class="img">
-                                                <a href="#"><img class="img-responsive img-full" src="<?php echo base_url(); ?>assets/devrath/images/rooms/<?php echo $room->room_home; ?>"
-                                                                alt="" style="height: 236px; width: 370px;"></a>
-                                            </div>
-                                            <h2 class="title"><a href="<?php echo base_url(); ?><?php echo $room->seourl; ?>"><?php echo $room->title; ?></a></h2>
-                                            <p class="price">
-                                            <!-- <?php echo $room->short; ?> -->
-                                            </p>
-                                            <div class="info upper">
-                                                <p>
-                                                    <span class="number"><?php echo $room->max_person; ?></span>
-                                                    <span>Max Guest</span>
-                                                </p>
-                                                <p>
-                                                    <span class="number"><?php echo $room->room_size; ?></span>
-                                                    <span>Size (M<sup>2</sup>)</span>
-
-                                                </p>
-                                                <p>
-                                                    <span class="number"><?php echo $room->bedroom; ?></span>
-                                                    <span> Bedroom</span>
-                                                </p>
-                                            </div>
-                                            <a class="awe-btn awe-btn-default btn-medium font-hind f12 bold" href="<?php echo base_url(); ?><?php echo $room->seourl; ?>"> View
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                    <?php 
-                                        }
-                                    ?>
-
-                                <?php 
-                                }
-                                ?>
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
     <!-- END / ACCOMMODATIONS -->
 
     <!-- ABOUT -->
@@ -207,6 +125,94 @@
 
     <!-- END / ABOUT -->
 
+
+        <!-- ACCOMMODATIONS -->
+
+        <section class="ot-accomd-modations">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-6 col-lg-offset-3">
+                        <div class="ot-heading pt80 pb30 text-center row-20">
+                            <h2 class="mb15">ACCOMMODATIONS</h2>
+                            <!-- <p class="sub pr10 pl10">
+                                It is a long established fact that a reader will be distracted by the readable
+                                content of a page
+                                when looking at its layout
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="ot-accomd-modations-content owl-single" data-single_item="false" data-desktop="1"
+                             data-small_desktop="1"
+                             data-tablet="2" data-mobile="1"
+                             data-nav="false"
+                             data-pagination="false">
+                            <div class="row">
+
+
+                            
+                                <?php
+                                    if (!empty($room4home)) {
+                                ?>
+                                    <?php
+                                        foreach ($room4home as $room) {
+                                        ?>
+    
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div class="item room-item text-center accomd-modations-room_1">
+                                            <div class="img">
+                                                <a href="#"><img class="img-responsive img-full" src="<?php echo base_url(); ?>assets/devrath/images/rooms/<?php echo $room->room_home; ?>"
+                                                                alt="" style="height: 236px; width: 370px;"></a>
+                                            </div>
+                                            <h2 class="title"><a href="<?php echo base_url(); ?><?php echo $room->seourl; ?>"><?php echo $room->title; ?></a></h2>
+                                            <p class="price">
+                                            <!-- <?php echo $room->short; ?> -->
+                                            </p>
+                                            <div class="info upper">
+                                                <p>
+                                                    <span class="number"><?php echo $room->max_person; ?></span>
+                                                    <span>Max Guest</span>
+                                                </p>
+                                                <p>
+                                                    <span class="number"><?php echo $room->room_size; ?></span>
+                                                    <span>Size (M<sup>2</sup>)</span>
+
+                                                </p>
+                                                <p>
+                                                    <span class="number"><?php echo $room->bedroom; ?></span>
+                                                    <span> Bedroom</span>
+                                                </p>
+                                            </div>
+                                            <a class="awe-btn awe-btn-default btn-medium font-hind f12 bold" href="<?php echo base_url(); ?><?php echo $room->seourl; ?>"> View
+                                                Details</a>
+                                        </div>
+                                    </div>
+                                    <?php 
+                                        }
+                                    ?>
+
+                                <?php 
+                                }
+                                ?>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
     <!-- OUR BEST -->
     <section class="ot-out-best mt60">
         <div class="container">
@@ -214,7 +220,7 @@
                 <div class="row">
                     <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
                         <div class="ot-heading mb40 row-20 text-center">
-                            <h2>Our best</h2>
+                            <h2>We Provides</h2>
                         </div>
                     </div>
                 </div>
@@ -314,7 +320,7 @@
     <!-- END / HOME GUEST BOOK -->
 
     <!-- DEALS PACKAGE -->
-    <section class="section-deals mt90">
+    <!-- <section class="section-deals mt90">
         <div class="container">
             <div class="content">
                 <div class="row">
@@ -376,11 +382,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END / DEALS PACKAGE -->
 
     <!-- NEWS -->
-    <section class="section-news mt60">
+    <!-- <section class="section-news mt60">
         <div class="container">
             <div class="content">
                 <div class="row">
@@ -442,7 +448,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END / NEWS -->
 
  

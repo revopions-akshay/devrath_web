@@ -11,6 +11,7 @@ $route['blogs'] = 'blog/all';
 $route['rooms'] = 'room/all';
 $route['gallery'] = 'gallery';
 $route['banquet'] = 'banquet';
+$route['restaurant'] = 'restaurant';
 $route['about-us'] = 'about';
 $route['send-inquiry'] = 'inquiry';
 $route['contact-us'] = 'contact';
