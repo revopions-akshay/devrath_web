@@ -15,10 +15,10 @@
                                  <img src="<?php echo base_url() . '/assets/devrath/images/slider/' . $slider->file_path; ?>" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
 
                                  <div class="tp-caption sft fadeout slider-caption-sub slider-caption-1" data-x="center" data-y="100" data-speed="700" data-start="1500" data-easing="easeOutBack">
-                                      <img src="<?php echo base_url() . '/assets/devrath/images/slider/' . $slider->logo_file_path; ?>" alt="icons">
+                                      <!-- <img src="<?php echo base_url() . '/assets/devrath/images/slider/' . $slider->logo_file_path; ?>" alt="icons"> -->
                                  </div>
 
-                                 <div class="tp-caption sft fadeout slider-caption-sub slider-caption-1" data-x="center" data-y="240" data-speed="700" data-start="1500" data-easing="easeOutBack">
+                                 <div class="tp-caption sft fadeout slider-caption-sub slider-caption-1" style="color:#cba26d;" data-x="center" data-y="240" data-speed="700" data-start="1500" data-easing="easeOutBack">
                                       <?php
                                         if (!empty($slider->sub_title)) {
                                              $heading = $slider->sub_title;
@@ -27,7 +27,7 @@
                                         ?>
                                  </div>
 
-                                 <div class="tp-caption sfb fadeout slider-caption slider-caption-sub-1" data-x="center" data-y="280" data-speed="700" data-easing="easeOutBack" data-start="2000">
+                                 <div class="tp-caption sfb fadeout slider-caption slider-caption-sub-1" style="color:#cba26d;"  data-x="center" data-y="280" data-speed="700" data-easing="easeOutBack" data-start="2000">
                                       <?php
                                         if (!empty($slider->name)) {
                                              $name = $slider->name;

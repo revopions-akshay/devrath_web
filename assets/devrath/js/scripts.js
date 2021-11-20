@@ -390,7 +390,7 @@
 
                 shadow: 0,
                 fullWidth: "on",
-                fullScreen: "on",
+                fullScreen: "auto",
 
                 spinner: "spinner4",
 

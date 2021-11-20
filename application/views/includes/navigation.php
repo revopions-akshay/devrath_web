@@ -66,7 +66,7 @@
 
             <!-- HEADER LOGO -->
             <div class="header_logo">
-                <a href="#"><img src="<?php echo $logo;  ?>" alt=""></a>
+                <a href="#"><img src="<?php echo $mobile_logo;  ?>" alt=""></a>
             </div>
             <!-- END / HEADER LOGO -->
             <!-- HEADER MENU -->

@@ -5,7 +5,7 @@
         <div class="container">
             <div class="text text-center">
                 <h2>ABOUT lotus</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing</p> -->
             </div>
         </div>
     </div>
@@ -114,17 +114,16 @@
 <!-- END / HOTEL STATISTICS -->
 
 <!-- TEAM -->
-<section class="section-team">
+<!-- <section class="section-team">
     <div class="container">
 
         <div class="team">
             <h2 class="heading text-center">Team Member</h2>
-            <p class="sub-heading text-center">Lorem Ipsum is simply dummy text of the printing</p>
-
+            
             <div class="team_content">
                 <div class="row">
 
-                    <!-- ITEM -->
+                    
 
                   
                 <?php
@@ -158,81 +157,83 @@
                     <?php }
                     }
                     ?>
-                    <!-- END / ITEM -->
-
-                    <!-- ITEM -->
-                    <!-- <div class="col-xs-6 col-md-3">
-                        <div class="team_item text-center">
-
-                            <div class="img">
-                                <a href=""><img src="<?php echo base_url(); ?>/assets/devrath/images/team/img-1.jpg" alt=""></a>
-                            </div>
-
-                            <div class="text">
-                                <h2>Robet WILIAM</h2>
-                                <span>Founder Hotel</span>
-                                <p>Mea omnium explicari te, eu sit vidit harum fabellas, his no legere feugaitper in laudem malorum epicuri, quod natum evertitur ne per.</p>
-                                <div class="team-share">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div> -->
-                    <!-- END / ITEM -->
-
-                    <!-- ITEM -->
-                    <!-- <div class="col-xs-6 col-md-3">
-                        <div class="team_item text-center">
-
-                            <div class="img">
-                                <a href=""><img src="<?php echo base_url(); ?>/assets/devrath/images/team/img-1.jpg" alt=""></a>
-                            </div>
-
-                            <div class="text">
-                                <h2>Adam</h2>
-                                <span>Lorem lipsum</span>
-                                <p>Mea omnium explicari te, eu sit vidit harum fabellas, his no legere feugaitper in laudem malorum epicuri, quod natum evertitur ne per.</p>
-                                <div class="team-share">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div> -->
-                    <!-- END / ITEM -->
-
-                    <!-- ITEM -->
-                    <!-- <div class="col-xs-6 col-md-3">
-                        <div class="team_item text-center">
-
-                            <div class="img">
-                                <a href=""><img src="<?php echo base_url(); ?>/assets/devrath/images/team/img-1.jpg" alt=""></a>
-                            </div>
-
-                            <div class="text">
-                                <h2>David Gari</h2>
-                                <span>Lorem lipsum</span>
-                                <p>Mea omnium explicari te, eu sit vidit harum fabellas, his no legere feugaitper in laudem malorum epicuri, quod natum evertitur ne per.</p>
-                                <div class="team-share">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div> -->
-                    <!-- END / ITEM -->
-
+                   
                 </div>
             </div>
         </div>
 
     </div>
-</section>
+</section> -->
 <!-- END / TEAM -->
+
+
+
+   <!-- CONTACT -->
+   <section class="section-contact">
+    <div class="container">
+        <div class="contact">
+            <div class="row">
+
+                <div class="col-md-6 col-lg-5">
+                    <div class="text">
+                        <h2>Send Inquiry</h2>
+                        <!-- <p><?php echo $contactabout[0]->content; ?></p> -->
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12">
+                    <div class="contact-form">
+                        <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?>
+                        <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" name="form_name" class="field-text" value="" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="email" name="form_email" class="field-text" value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" name="form_phone" class="field-text" value="" placeholder="Phone" required>
+                                </div>
+                                <!-- <div class="col-sm-12">
+                                    <input type="text" name="form_subject" class="field-text" value="<?php echo (!empty($_GET['form_subject'])) ? $_GET['form_subject'] : ""; ?>" placeholder="Subject" required>
+                                </div> -->
+
+
+                                <div class="col-sm-12">
+                                    <textarea name="form_message" class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
+                                    <!-- <textarea cols="30" rows="10" name="message"  class="field-textarea" placeholder="Write what do you want"></textarea> -->
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="g-recaptcha" data-sitekey="6LeqV7MZAAAAAGOM15h14FVxdp-Y6LxadqtKxdAj"></div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <!-- <button type="submit" class="awe-btn awe-btn-13">SEND</button> -->
+                                    <div class="button-box">
+                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                        <button class="awe-btn awe-btn-13" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
+                                    </div>
+
+                                </div>
+                                <!-- 
+                                <div class="button-box">
+                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                    <button class="theme-button-one bttn color-one" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
+                                </div> -->
+
+
+                            </div>
+                            <div id="contact-content"></div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END / CONTACT -->
+

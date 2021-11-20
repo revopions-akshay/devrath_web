@@ -8,8 +8,8 @@
             <div class="sub-banner">
                 <div class="container">
                     <div class="text text-center">
-                        <h2>Gallery 3</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing</p>
+                        <h2>Gallery</h2>
+                        <!-- <p>Lorem Ipsum is simply dummy text of the printing</p> -->
                     </div>
                 </div>
             </div>

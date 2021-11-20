@@ -17,7 +17,7 @@
   
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url(); ?>assets/frontend/images/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="<?php  echo $site_icon; ?>">
 
   <!-- Title -->
   <?php
@@ -63,6 +63,15 @@
     .bg-10 {
     background-image: url('<?php echo base_url();?>assets/devrath/images/statics/<?php echo $countersbackground[0]->file; ?>') !important;  
     }
+
+
+    @media only screen and (max-width: 600px) {
+      .slider-style-2{
+        margin-top: 96px;
+      }
+
+    }
+
 
 
 

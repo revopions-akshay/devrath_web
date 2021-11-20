@@ -8,7 +8,7 @@
                 <div class="container">
                     <div class="text text-center">
                         <h2>LUXURY ROOM</h2>
-                        <p>Lorem Ipsum is simply dummy text</p>
+                        <!-- <p>Lorem Ipsum is simply dummy text</p> -->
                     </div>
                 </div>
 

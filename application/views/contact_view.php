@@ -199,18 +199,14 @@
                                     </div>
 
                                     <div class="col-sm-6">
-                                        <!-- <button type="submit" class="awe-btn awe-btn-13">SEND</button> -->
+                                      
                                         <div class="button-box">
                                     <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
                                     <button class="awe-btn awe-btn-13" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
                                 </div>
 
                                     </div>
-<!-- 
-                                <div class="button-box">
-                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                    <button class="theme-button-one bttn color-one" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
-                                </div> -->
+
 
 
                                 </div>

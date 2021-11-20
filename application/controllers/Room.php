@@ -76,6 +76,8 @@ class Room extends CI_Controller
 		$setting = $this->home_model->getWebsiteSettings();
 		$data['title'] = "Home | " . $setting['name'];
 		$data['logo'] = $setting['logo'];
+		$data['site_icon'] = $setting['site_icon'];
+		$data['mobile_logo'] = $setting['mobile_logo'];
 		$data['footer_logo'] = $setting['footer_logo'];
 		$data['footer_background'] = $setting['footer_background'];
 		$data['footer_about'] = $setting['footer_about'];
@@ -155,6 +157,8 @@ class Room extends CI_Controller
 		$setting = $this->home_model->getWebsiteSettings();
 		$data['title'] = "Home | " . $setting['name'];
 		$data['logo'] = $setting['logo'];
+		$data['site_icon'] = $setting['site_icon'];
+		$data['mobile_logo'] = $setting['mobile_logo'];
 		$data['footer_logo'] = $setting['footer_logo'];
 		$data['footer_background'] = $setting['footer_background'];
 		$data['footer_about'] = $setting['footer_about'];
@@ -297,6 +301,7 @@ class Room extends CI_Controller
 		$setting = $this->home_model->getWebsiteSettings();
 		$data['title'] = "Home | " . $setting['name'];
 		$data['logo'] = $setting['logo'];
+		$data['site_icon'] = $setting['site_icon'];
 		$data['footer_logo'] = $setting['footer_logo'];
 		$data['footer_background'] = $setting['footer_background'];
 		$data['footer_about'] = $setting['footer_about'];

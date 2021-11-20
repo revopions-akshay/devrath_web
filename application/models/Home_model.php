@@ -16,6 +16,8 @@ class Home_model extends CI_Model
                 'email' => $result[0]->email,
                 'footer_about' => $result[0]->footer_about,
                 'logo' => 'assets/devrath/images/setting/' . $result[0]->file_path,
+                'site_icon' => 'assets/devrath/images/setting/' . $result[0]->site_icon,
+                'mobile_logo' => 'assets/devrath/images/setting/' . $result[0]->mobile_logo,
                 'footer_logo' => 'assets/devrath/images/setting/' . $result[0]->footer_logo,
                 'address' => $result[0]->address,
                 'footer_background' => 'assets/devrath/images/setting/' . $result[0]->footer_background,

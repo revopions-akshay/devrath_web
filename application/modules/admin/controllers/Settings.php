@@ -38,10 +38,11 @@ class Settings extends Admin_Base_Controller
             // $crud->add_fields('name', 'reg', 'established', 'address', 'founder', 'slogan', 'footer_about', 'contact', 'site_icon', 'file_path', 'footer_logo', 'cre_or_up_date', 'cre_or_up_by');
 
             // Update form
-            $crud->edit_fields('status', 'name', 'established', 'address', 'founder', 'slogan', 'footer_about', 'footer_map', 'footer_copyright', 'email', 'contact', 'site_icon', 'file_path', 'footer_logo', 'footer_background', 'cre_or_up_date', 'cre_or_up_by');
+            $crud->edit_fields('status', 'name', 'established', 'address', 'founder', 'slogan', 'footer_about', 'footer_map', 'footer_copyright', 'email', 'contact', 'site_icon', 'file_path', 'mobile_logo', 'footer_logo', 'footer_background', 'cre_or_up_date', 'cre_or_up_by');
             
             //File upload
             $crud->set_field_upload('file_path', 'assets/devrath/images/setting');
+            $crud->set_field_upload('mobile_logo', 'assets/devrath/images/setting');
             $crud->set_field_upload('site_icon', 'assets/devrath/images/setting');
             $crud->set_field_upload('footer_logo', 'assets/devrath/images/setting');
             $crud->set_field_upload('footer_background', 'assets/devrath/images/setting');
@@ -62,6 +63,7 @@ class Settings extends Admin_Base_Controller
             // Rename field level
             $crud->display_as('site_icon', ' Site Icon(w512 x h512)');
             $crud->display_as('file_path', ' Logo(w180 x h54)');
+            $crud->display_as('mobile_logo', 'Mobile Logo(w180 x h54)');
             $crud->display_as('footer_logo', 'Footer Logo(w180 x h54)');
             $crud->display_as('footer_background', 'Footer background(w1920 x h360)');
 
@@ -75,6 +77,7 @@ class Settings extends Admin_Base_Controller
                 ->callback_before_update(array($this, 'custom_data_update_callback'))
                 ->callback_read_field('site_icon', array($this, '_callback_view_photo'))
                 ->callback_read_field('file_path', array($this, '_callback_view_photo'))
+                ->callback_read_field('mobile_logo', array($this, '_callback_view_photo'))
                 ->callback_read_field('footer_logo', array($this, '_callback_view_photo'))
                 ->callback_read_field('footer_background', array($this, '_callback_view_photo'))
                 ->callback_read_field('status', array($this, '_callback_status'));
