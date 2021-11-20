@@ -80,8 +80,8 @@
 
                                         <div class="item-isotope larger <?php echo $gallery->catid; ?>">
                                             <div class="gallery_item">
-                                                <a href="<?php echo base_url(); ?>assets/devrath/images/banquet/gallery<?php echo $gallery->file_path; ?>" class="mfp-image">
-                                                    <img src="<?php echo base_url(); ?>assets/devrath/images/banquet/gallery<?php echo $gallery->file_path; ?>" alt="">
+                                                <a href="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" class="mfp-image">
+                                                    <img src="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" alt="">
                                                 </a>
                                                 <h6 class="text"><?php echo $gallery->title; ?></h6>
                                             </div>

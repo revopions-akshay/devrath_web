@@ -43,7 +43,7 @@ class Gallery extends CI_Controller
         '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery-ui.min.js" type="text/javascript" ></script>',
         '<script  src="' . base_url() . 'assets/devrath/js/lib/bootstrap.min.js" type="text/javascript" ></script>',
         '<script  src="' . base_url() . 'assets/devrath/js/lib/bootstrap-select.js" type="text/javascript" ></script>',
-        ' <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>',
+        '<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>',
         '<script  src="' . base_url() . 'assets/devrath/js/lib/isotope.pkgd.min.js" type="text/javascript"></script>',
         '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.themepunch.revolution.min.js" type="text/javascript" ></script>',
         '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.themepunch.tools.min.js" type="text/javascript" ></script>',

@@ -71,7 +71,7 @@
    <section class="section_page-gallery">
        <div class="container">
            <div class="gallery gallery-3">
-               <h1 class="">Banquet Gallery</h1>
+               <h2 class="heading">Banquet Gallery</h2>
                <!-- FILTER -->
               
 
@@ -267,9 +267,9 @@
                                     <!-- <textarea cols="30" rows="10" name="message"  class="field-textarea" placeholder="Write what do you want"></textarea> -->
                                 </div>
 
-                                <div class="col-md-12">
+                                <!-- <div class="col-md-12">
                                     <div class="g-recaptcha" data-sitekey="6LeqV7MZAAAAAGOM15h14FVxdp-Y6LxadqtKxdAj"></div>
-                                </div>
+                                </div> -->
 
                                 <div class="col-sm-6">
                                     <!-- <button type="submit" class="awe-btn awe-btn-13">SEND</button> -->
@@ -297,3 +297,11 @@
     </div>
 </section>
 <!-- END / CONTACT -->
+
+
+<script>
+setTimeout(function() {
+    $('.success').fadeOut('fast');
+}, 30000);
+
+</script>

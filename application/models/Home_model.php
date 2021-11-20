@@ -391,7 +391,7 @@ class Home_model extends CI_Model
 
 
        
-    // About Us ===========================
+    // Banquet ===========================
     public function getBanquet()
     {
         $query = $this->db->order_by('id', 'DESC')->get('banquet');
@@ -404,17 +404,71 @@ class Home_model extends CI_Model
     }
 
 
-       // Gallery 
-       public function getBenquetGallery()
-       {
-           $query = $this->db->order_by('sort', 'ASC')->get('banquet_gallery');
-   
-           if ($query->num_rows() > 0) {
-               $results = $query->result();
-               return $results;
-           }
-           return false;
-       }
+    // Banquet  Gallery ==================
+    public function getBenquetGallery()
+    {
+        $query = $this->db->order_by('sort', 'ASC')->get('banquet_gallery');
+
+        if ($query->num_rows() > 0) {
+            $results = $query->result();
+            return $results;
+        }
+        return false;
+    }
+
+
+           
+    // Banquet ===========================
+    public function getRestaurant()
+    {
+        $query = $this->db->order_by('id', 'DESC')->get('restaurant');
+
+        if ($query->num_rows() > 0) {
+            $results = $query->result();
+            return $results;
+        }
+        return false;
+    }
+
+
+    // Banquet  Gallery ==================
+    public function getRestaurantGallery()
+    {
+        $query = $this->db->order_by('sort', 'ASC')->get('restaurant_gallery');
+
+        if ($query->num_rows() > 0) {
+            $results = $query->result();
+            return $results;
+        }
+        return false;
+    }
+
+    public function getLuxuryGallery()
+    {
+        $query = $this->db->where('catid', '1')->order_by('id', 'DESC')->get('room_gallery');
+
+        if ($query->num_rows() > 0) {
+            $results = $query->result();
+            return $results;
+        }
+        return false;
+    }
+
+
+    public function getPremiumGallery()
+    {
+        $query = $this->db->where('catid', '2')->order_by('id', 'DESC')->get('room_gallery');
+
+        if ($query->num_rows() > 0) {
+            $results = $query->result();
+            return $results;
+        }
+        return false;
+    }
+
+
+
+
 
 
     

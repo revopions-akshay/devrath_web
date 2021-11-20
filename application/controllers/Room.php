@@ -365,6 +365,14 @@ class Room extends CI_Controller
 		// Contact About
 		$data['contactabout'] = $this->home_model->getContactAbout();
 
+		// Contact About
+		$data['luxurygallery'] = $this->home_model->getLuxuryGallery();
+
+		// Contact About
+		$data['premiumgallery'] = $this->home_model->getPremiumGallery();
+
+
+
 			// $data['room'] = $RoomData;
 
 		$this->load->view('includes/header', $data);

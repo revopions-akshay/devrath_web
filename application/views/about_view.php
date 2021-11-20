@@ -206,9 +206,9 @@
                                     <!-- <textarea cols="30" rows="10" name="message"  class="field-textarea" placeholder="Write what do you want"></textarea> -->
                                 </div>
 
-                                <div class="col-md-12">
+                                <!-- <div class="col-md-12">
                                     <div class="g-recaptcha" data-sitekey="6LeqV7MZAAAAAGOM15h14FVxdp-Y6LxadqtKxdAj"></div>
-                                </div>
+                                </div> -->
 
                                 <div class="col-sm-6">
                                     <!-- <button type="submit" class="awe-btn awe-btn-13">SEND</button> -->

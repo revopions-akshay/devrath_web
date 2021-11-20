@@ -11,15 +11,7 @@ class Contact extends CI_Controller
 
     public function send()
     {
-        $secretKey = "6LeqV7MZAAAAAGzqaiKMCQI2Z5wAEJkIA0zFxIeP";
-        $ip = $_SERVER['REMOTE_ADDR'];
-        $captcha = $_POST['g-recaptcha-response'];
-        // post request to server
-        $url = 'https://www.google.com/recaptcha/api/siteverify?secret=' . urlencode($secretKey) .  '&response=' . urlencode($captcha);
-        $response = file_get_contents($url);
-        $responseKeys = json_decode($response, true);
-        // should return JSON with success as true
-        if ($responseKeys["success"]) {
+        
             $contactData = array(
                 'name' => (!empty($_POST['form_name'])) ? $_POST['form_name'] : NULL,
                 'email' => $_POST['form_email'],
@@ -34,11 +26,9 @@ class Contact extends CI_Controller
             } else {
                 $this->session->set_flashdata('msg', '<div class="alert alert-danger">Something went wrong, Try again!</div>');
             }
-        } else {
-            $this->session->set_flashdata('msg', '<div class="alert alert-danger">reCapcha error, Try again!</div>');
-        }
+       
 
-        redirect('contact-us');
+        redirect('#');
     }
 
     public function index()

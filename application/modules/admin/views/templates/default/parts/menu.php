@@ -104,11 +104,52 @@
 
 
 
-            <li class="treeview">
+            <!-- <li class="treeview">
                 <a href="<?php echo site_url('admin/rooms'); ?>">
                     <i class="fa fa-book"></i> <span>Rooms</span>
                 </a>
+            </li> -->
+
+            <li class="treeview menu-open">
+
+                <a href="<?php echo site_url('admin/rooms'); ?>">
+                    <i class="fa fa-list-alt"></i> <span>Rooms</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+
+                <ul class="treeview-menu" style="">
+                    <li><a href="<?php echo site_url('admin/rooms'); ?>"><i class="fa fa-list-alt"></i>Rooms</a></li>
+                    <li><a href="<?php echo site_url('admin/room_gallery'); ?>"><i class="fa fa-list-alt"></i>Rooms Gallery</a></li>
+                    <li><a href="<?php echo site_url('admin/roomcategory'); ?>"><i class="fa fa-list-alt"></i>Rooms Category</a></li>
+                
+
+                </ul>
             </li>
+
+
+
+
+
+            <li class="treeview menu-open">
+
+                <a href="<?php echo site_url('admin/restaurant'); ?>">
+                    <i class="fa fa-list-alt"></i> <span>Restaurant</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+
+                <ul class="treeview-menu" style="">
+                    <li><a href="<?php echo site_url('admin/restaurant'); ?>"><i class="fa fa-list-alt"></i>Restaurant</a></li>
+                    <li><a href="<?php echo site_url('admin/restaurant_gallery'); ?>"><i class="fa fa-list-alt"></i>Restaurant Gallery</a></li>
+                   
+
+                </ul>
+            </li>
+
+
 
 
             <li class="treeview menu-open">

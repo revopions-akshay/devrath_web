@@ -130,6 +130,14 @@ class Restaurant extends CI_Controller
         // Contact About
 		$data['contactabout'] = $this->home_model->getContactAbout();
 
+                // Restaurant
+		$data['restaurant'] = $this->home_model->getRestaurant();
+
+        // Restaurant Gallery
+		$data['restaurantgalleries'] = $this->home_model->getRestaurantGallery();
+
+
+
         $this->load->view('includes/header', $data);
         $this->load->view('includes/navigation', $data);
         $this->load->view('restaurant_view', $data);
