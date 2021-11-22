@@ -7,7 +7,7 @@
             <div class="sub-banner">
                 <div class="container">
                     <div class="text text-center">
-                        <h2>ROOMS &amp; RATES</h2>
+                        <h2>ACCOMMODATIONS</h2>
                         <!-- <p>Lorem Ipsum is simply dummy text</p> -->
                     </div>
                 </div>

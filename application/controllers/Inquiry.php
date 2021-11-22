@@ -11,15 +11,11 @@ class Inquiry extends CI_Controller
 
     public function send()
     {
-        $secretKey = "6LeqV7MZAAAAAGzqaiKMCQI2Z5wAEJkIA0zFxIeP";
-        $ip = $_SERVER['REMOTE_ADDR'];
-        $captcha = $_POST['g-recaptcha-response'];
+     
         // post request to server
-        $url = 'https://www.google.com/recaptcha/api/siteverify?secret=' . urlencode($secretKey) .  '&response=' . urlencode($captcha);
-        $response = file_get_contents($url);
-        $responseKeys = json_decode($response, true);
+  
         // should return JSON with success as true
-        if ($responseKeys["success"]) {
+      
             $contactData = array(
                 'name' => (!empty($_POST['form_name'])) ? $_POST['form_name'] : NULL,
                 'email' => $_POST['form_email'],
@@ -34,12 +30,12 @@ class Inquiry extends CI_Controller
             } else {
                 $this->session->set_flashdata('msg', '<div class="alert alert-danger">Something went wrong, Try again!</div>');
             }
-        } else {
-            $this->session->set_flashdata('msg', '<div class="alert alert-danger">reCapcha error, Try again!</div>');
-        }
+   
 
         redirect('inquiry-us');
     }
+
+
 
     public function index()
     {
@@ -66,30 +62,31 @@ class Inquiry extends CI_Controller
             '<link href="' . base_url() . 'assets/devrath/css/responsive.css"   rel="stylesheet" type="text/css"  >',
 
             '<link href="' .base_url() . 'assets/devrath/css/style.css" rel="stylesheet" type="text/css" >',
-    );
+        );
 
 
 
-    $data['scripts'] = array(
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery-1.11.0.min.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery-ui.min.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/bootstrap.min.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/bootstrap-select.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.themepunch.revolution.min.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.themepunch.tools.min.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/owl.carousel.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.appear.min.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.countTo.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.countdown.min.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.parallax-1.1.3.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.magnific-popup.min.js" type="text/javascript" ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/SmoothScroll.js" type="text/javascript" ></script>',
-    
-        '<script uery.f' . base_url() . 'assets/devrath/orm.min.js" type="text/javascript" src="js/lib/jq ></script>',
-        '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.validate.min.js" type="text/javascript" ></script>',
-    
-        '<script  src="' . base_url() . 'assets/devrath/js/scripts.js" type="text/javascript" ></script>',
-    );
+        $data['scripts'] = array(
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery-1.11.0.min.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery-ui.min.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/bootstrap.min.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/bootstrap-select.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.themepunch.revolution.min.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.themepunch.tools.min.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/owl.carousel.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.appear.min.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.countTo.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.countdown.min.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.parallax-1.1.3.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.magnific-popup.min.js" type="text/javascript" ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/SmoothScroll.js" type="text/javascript" ></script>',
+        
+            '<script uery.f' . base_url() . 'assets/devrath/orm.min.js" type="text/javascript" src="js/lib/jq ></script>',
+            '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.validate.min.js" type="text/javascript" ></script>',
+            '<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>',
+        
+            '<script  src="' . base_url() . 'assets/devrath/js/scripts.js" type="text/javascript" ></script>',
+        );
 
 
 

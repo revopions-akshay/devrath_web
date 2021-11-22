@@ -570,77 +570,72 @@
 
 
 
-    
+      
    <!-- CONTACT -->
-<section class="section-contact">
-    <div class="container">
-        <div class="contact">
-            <div class="row">
+    <section class="section-contact">
+        <div class="container">
+            <div class="contact">
+                <div class="row">
 
-                <div class="col-md-6 col-lg-5">
-                    <div class="text">
-                        <h2>Send Inquiry</h2>
-                        <!-- <p><?php echo $contactabout[0]->content; ?></p> -->
-                        
+                    <div class="col-md-2 col-lg-2">
+
+                                 
+
                     </div>
-                </div>
 
-                <div class="col-md-12 col-lg-12">
-                    
-                    <div class="contact-form">
-                        <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?>
-                        <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <input type="text" name="form_name" class="field-text" value="" placeholder="Your Name" required>
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="email" name="form_email" class="field-text" value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
-                                </div>
-                                <div class="col-sm-12">
-                                    <input type="text" name="form_phone" class="field-text" value="" placeholder="Phone" required>
-                                </div>
-                                <!-- <div class="col-sm-12">
-                                    <input type="text" name="form_subject" class="field-text" value="<?php echo (!empty($_GET['form_subject'])) ? $_GET['form_subject'] : ""; ?>" placeholder="Subject" required>
-                                </div> -->
+                    <div class="col-md-8 col-lg-8">
+                        <h2>Send Your Message</h2>
+                        <div class="contact-form">
+                               <!-- <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?> -->
+                            <!-- <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST"> -->
+                            <form id="send-contact-form"  method="POST">
 
-
-                                <div class="col-sm-12">
-                                    <textarea name="form_message" class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
-                                    <!-- <textarea cols="30" rows="10" name="message"  class="field-textarea" placeholder="Write what do you want"></textarea> -->
-                                </div>
-
-                                <!-- <div class="col-md-12">
-                                    <div class="g-recaptcha" data-sitekey="6LeqV7MZAAAAAGOM15h14FVxdp-Y6LxadqtKxdAj"></div>
-                                </div> -->
-
-                                <div class="col-sm-6">
-                                    <!-- <button type="submit" class="awe-btn awe-btn-13">SEND</button> -->
-                                    <div class="button-box">
-                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                        <button class="awe-btn awe-btn-13" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                    <input type="text" name="form_name" class="field-text"  value="" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="col-sm-6">
+                                    <input type="email" name="form_email" class="field-text"  value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="col-sm-12">
+                                    <input type="text" name="form_phone" class="field-text"  value="" placeholder="Phone" required>
+                                    </div>
+                                    <div class="col-sm-12">
+                                    <input type="text" name="form_subject" class="field-text"  value="<?php echo (!empty($_GET['form_subject'])) ? $_GET['form_subject'] : ""; ?>" placeholder="Subject" required>
                                     </div>
 
-                                </div>
-                                <!-- 
-                                <div class="button-box">
+
+                                    <div class="col-sm-12">
+                                    <textarea name="form_message"  class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
+                                      
+                                    </div>
+
+
+                                    <div class="col-sm-6">
+                                      
+                                        <div class="button-box">
                                     <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                    <button class="theme-button-one bttn color-one" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
-                                </div> -->
+                                    <button class="awe-btn awe-btn-13" id="submit-form" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
+                                </div>
+
+                                    </div>
 
 
-                            </div>
-                            <div id="contact-content"></div>
-                        </form>
+
+                                </div>
+                                <div id="contact-content"></div>
+                            </form>
+                        </div>
                     </div>
-                </div>
+                    
+                    <div class="col-md-2 col-lg-2">
+                     </div>
 
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- END / CONTACT -->
-
+    </section>
+    <!-- END / CONTACT -->
 
 
 

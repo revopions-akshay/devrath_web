@@ -21,14 +21,16 @@ class Contact extends CI_Controller
                 'created' => date('Y-m-d h:i:s'),
             );
             $ID = $this->db->insert('contactus', $contactData);
-            if ($ID) {
-                $this->session->set_flashdata('msg', '<div class="alert alert-success">We will get back to you soon, Thank You!</div>');
-            } else {
-                $this->session->set_flashdata('msg', '<div class="alert alert-danger">Something went wrong, Try again!</div>');
-            }
+            // if ($ID) {
+            //     $this->session->set_flashdata('msg', '<div class="alert alert-success">We will get back to you soon, Thank You!</div>');
+            // } else {
+            //     $this->session->set_flashdata('msg', '<div class="alert alert-danger">Something went wrong, Try again!</div>');
+            // }
        
 
-        redirect('#');
+        // redirect('contact-us');
+
+        echo "saved successfully";
     }
 
     public function index()
@@ -77,6 +79,7 @@ class Contact extends CI_Controller
     
         '<script uery.f' . base_url() . 'assets/devrath/orm.min.js" type="text/javascript" src="js/lib/jq ></script>',
         '<script  src="' . base_url() . 'assets/devrath/js/lib/jquery.validate.min.js" type="text/javascript" ></script>',
+        '<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>',
     
         '<script  src="' . base_url() . 'assets/devrath/js/scripts.js" type="text/javascript" ></script>',
     );

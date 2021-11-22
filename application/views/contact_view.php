@@ -40,8 +40,10 @@
 
                     <div class="col-md-6 col-lg-6 col-lg-offset-1">
                         <div class="contact-form">
-                               <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?>
-                            <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST">
+                               <!-- <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?> -->
+                            <!-- <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST"> -->
+                            <form id="send-contact-form"  method="POST">
+
                                 <div class="row">
                                     <div class="col-sm-6">
                                     <input type="text" name="form_name" class="field-text"  value="" placeholder="Your Name" required>
@@ -59,12 +61,9 @@
 
                                     <div class="col-sm-12">
                                     <textarea name="form_message"  class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
-                                        <!-- <textarea cols="30" rows="10" name="message"  class="field-textarea" placeholder="Write what do you want"></textarea> -->
+                                      
                                     </div>
 
-                                    <!-- <div class="col-md-12">
-                                        <div class="g-recaptcha" data-sitekey="6LeqV7MZAAAAAGOM15h14FVxdp-Y6LxadqtKxdAj"></div>
-                                    </div> -->
 
                                     <div class="col-sm-6">
                                       
@@ -103,13 +102,7 @@
     <!-- END / MAP -->
 
 
-<script>
-setTimeout(function() {
-    $('.success').fadeOut('fast');
-}, 3000);
 
-setTimeout(function() {
-    $('.danger').fadeOut('fast');
-}, 3000);
-</script>
+
+
 

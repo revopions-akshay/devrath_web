@@ -173,6 +173,66 @@
     }
     ?>
 
+    
+<script>
+setTimeout(function() {
+    $('.alert').fadeOut('fast');
+}, 3000);
+
+
+</script>
+
+
+
+<script type="text/javascript">
+// $(document).ready(function(){
+    $('#send-contact-form').submit(function(e) {
+        e.preventDefault();
+
+        // console.log(form_name);
+
+
+       var form_name = $("input[name='form_name']").val();
+       var form_email = $("input[name='form_email']").val();
+       var form_phone = $("input[name='form_phone']").val();
+       var form_subject = $("input[name='form_subject']").val();
+
+       var form_message = $("textarea[name='form_message']").val();
+       
+       if(form_name && form_email && form_phone && form_subject && form_message){
+
+            $.ajax({
+            url: '<?php echo base_url(); ?>contact-us/send',
+            type: 'POST',
+            data: {form_name: form_name, form_email: form_email, form_phone: form_phone, form_subject: form_subject, form_message: form_message},
+            error: function() {
+                alert('Something went wrong, Try again!');
+            },
+            success: function(data) {
+                    // $("tbody").append("<tr><td>"+title+"</td><td>"+description+"</td></tr>");
+                    alert("We will get back to you soon, Thank You!");  
+                    // location.reload();
+            }
+            });
+        }
+        return false;
+
+
+    });
+
+    
+// });
+
+
+
+</script>
+
+
+
+
+
+
+
    </body>
 
    </html>

@@ -26,6 +26,7 @@ class Error extends CI_Controller
 			'<script src="' . base_url() . 'assets/frontend/js/plugins.js"></script>',
 			'<script src="' . base_url() . 'assets/frontend/js/wow.js"></script>',
 			'<script src="' . base_url() . 'assets/frontend/js/magnific-popup.min.js"></script>',
+			'<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>',
 			'<script src="' . base_url() . 'assets/frontend/js/custom.js"></script>',
 		);
 
