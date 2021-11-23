@@ -35,27 +35,27 @@
 
                         </div>
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt="">
+                            <img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0695-min.jpg" alt="">
                         </div>
 
                             <div class="room_img-item">
-                                <img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt="">
+                                <img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0701-min.jpg" alt="">
 
                             </div>
                             <div class="room_img-item">
-                                <img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt="">
+                                <img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0702-min.jpg" alt="">
 
                             </div>
                             <div class="room_img-item">
-                                <img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt="">
+                                <img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0703-min.jpg" alt="">
 
                             </div>
                             <div class="room_img-item">
-                                <img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt="">
+                                <img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0710-min.jpg" alt="">
 
                             </div>
                             <div class="room_img-item">
-                                <img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt="">
+                                <img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0715-min.jpg" alt="">
 
                             </div>
                         </div>
@@ -63,14 +63,14 @@
 
                         <!-- THUMBNAIL IMAGE -->
                         <div class="room-detail_thumbs">
-                            <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a>
-                            <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a>
-                            <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a>
-                            <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a>
-                            <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a>
-                            <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a>
-                            <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a>
-                            <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt=""></a>
+                            <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0695-min.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0701-min.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0702-min.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0703-min.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0710-min.jpg" alt=""></a>
+                            <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0715-min.jpg" alt=""></a>
+                            <!-- <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a> -->
                         </div>
                         <!-- END / THUMBNAIL IMAGE -->
 

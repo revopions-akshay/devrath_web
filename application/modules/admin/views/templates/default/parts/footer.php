@@ -1,5 +1,5 @@
 <div class="pull-right hidden-xs">
-	<b>Developed by </b> <a target="_blank" href="https://codewife.com/">Codewife</a>
+	<b>Developed by </b> <a target="_blank" href="https://revopions.com/">Revopions Technologies</a>
 </div>
 <strong>Copyright &copy; <?php echo date('Y') ?> .</strong> All rights reserved.
 

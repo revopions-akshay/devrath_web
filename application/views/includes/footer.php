@@ -216,6 +216,8 @@ setTimeout(function() {
             });
         }
         return false;
+        alert('Some fields are empty, Try again!');
+        
 
 
     });

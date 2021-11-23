@@ -349,225 +349,89 @@
 
 
 
-    <!-- GALLERY -->
-    <section class="section-gallery bg-white">
-            
-            <div class="gallery  no-padding">
-                <h2 class="heading text-center">GALLERY</h2>
-                
-                <!-- FILTER -->
-                <div class="gallery-cat text-center">
+
+
+   <!-- GALLERY -->
+   <section class="section_page-gallery">
+       <div class="container">
+           <div class="gallery gallery-3">
+               <h2 class="heading text-center">Gallery</h2>
+               <!-- FILTER -->
+              
+               <div class="gallery-cat text-center">
                     <ul class="list-inline">
-                        <!-- <li class="active"><a href="#" data-filter="*">All</a></li>
-                        <li><a href="#" data-filter=".ground">HOTEL &amp; GROUND</a></li>
-                        <li><a href="#" data-filter=".suite">ROOM/SUITE </a></li>
-                        <li><a href="#" data-filter=".bathroom">BATHROOM</a></li>
-                        <li><a href="#" data-filter=".dining">DINING</a></li> -->
                         <li class="active"><a href="#" data-filter="*">All</a></li>
                         <?php
-
-                                            
-                        if (!empty($galleriescat)) {
+                            if (!empty($galleriescat)) {
                         ?>
-
                             <?php
                                 foreach ($galleriescat as $gallerycat) {
                             ?>
                                 <li><a href="#" data-filter=".<?php echo $gallerycat->id;   ?>"><?php echo $gallerycat->catname;   ?></a></li>
-
-
                             <?php
                                 }
                             ?>
-
-
-
                         <?php
-                        }
-
+                           }
                         ?>
 
-
                     </ul>
-
-                   
-
-
-
                 </div>
                 <!-- END / FILTER -->
 
-                <!-- GALLERY CONTENT -->
-                <div class="gallery-content hover-img">
-                    <div class="row">
-                        <div class="gallery-isotope col-6 pd-0">
+               <!-- GALLERY CONTENT -->
+               <div class="gallery-content">
+                   <div class="row">
+                       <div class="gallery-isotope col-4">
 
-                            <!-- ITEM SIZE -->
-                                <div class="item-size"></div>
-                                <!-- END / ITEM SIZE -->
-                            <!-- ITEM -->
+                           <!-- ITEM SIZE -->
+                           <div class="item-size"></div>
+                           <!-- END / ITEM SIZE -->
 
-                            
-                            <?php
-                                    if (!empty($galleries)) {
+                           <?php
+                            if (!empty($homegalleries)) {
+                            ?>
+
+                               <?php
+                                foreach ($homegalleries as $gallery) {
                                 ?>
 
-                                    <?php
-                                        foreach ($galleries as $gallery) {
-                                    ?>
-
-                                
-
-                                        <div class="item-isotope <?php echo $gallery->catid; ?>">
-                                            <div class="gallery_item">
-                                                <a  href="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                                    <img src="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
+                                   <div class="item-isotope larger <?php echo $gallery->catid;  ?>">
+                                       <div class="gallery_item">
+                                           <a href="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" class="mfp-image">
+                                               <img src="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" alt="">
+                                           </a>
+                                           <!-- <h6 class="text"><?php echo $gallery->title; ?></h6> -->
+                                       </div>
+                                   </div>
 
 
 
-                                    <?php
-                                        }
-                                    ?>
-
-
-
-                                <?php
-                                    }
-
+                               <?php
+                                }
                                 ?>
 
 
-                            
-                           
-                            <!-- END / ITEM -->
 
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope  ground bathroom suite">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-2.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
+                           <?php
+                            }
 
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope ground bathroom dining">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-3.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
+                            ?>
 
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope suite dining">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-4.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
 
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope  ground suite dining">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-5.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
+                       </div>
+                   </div>
 
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope ground bathroom dining">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-6.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
+               </div>
+              
 
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope ground suite dining">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-7.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
+           </div>
+       </div>
+   </section>
+   <!-- END / GALLERY -->
+           
 
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope bathroom suite dining">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-8.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
-
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope bathroom suite dining">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-9.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
-
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope ground bathroom">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-10.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
-
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope ground bathroom suite ">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-11.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
-
-                            <!-- ITEM -->
-                            <!-- <div class="item-isotope ground bathroom">
-                                <div class="gallery_item">
-                                    <a  href="images/gallery/popup/img-1.jpg" class="gallery-popup mfp-image" title="Luxury Room view all">
-                                        <img src="images/gallery/img-12.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div> -->
-                            <!-- END / ITEM -->
-
-                        </div>
-                    </div>
-
-                    <div class="our-gallery text-center">
-                        <a href="/gallery/" class="awe-btn awe-btn-default">BROWSE OUR GALLERY</a>
-                    </div>
-
-                </div>
-                <!-- GALLERY CONTENT -->
-
-            </div>
-        </section>
-        <!-- END / GALLERY -->
-
+           
 
 
       
