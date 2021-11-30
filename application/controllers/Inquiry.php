@@ -125,6 +125,10 @@ class Inquiry extends CI_Controller
 		// About
 		$data['about'] = $this->home_model->getAboutContent();
 
+        
+		// About
+		$data['inquiryabout'] = $this->home_model->getInquiryBreadcrumb();
+
 		
 
 		// Gallery

@@ -124,6 +124,9 @@ class Gallery extends CI_Controller
 		// Testiminials
 		$data['teamMember'] = $this->home_model->getTeams();
 
+        // Gallery breadcrumb
+		$data['gallery_breadcrumb'] = $this->home_model->getGalleryBreadcrumb();
+
 
 
 		// Testiminials

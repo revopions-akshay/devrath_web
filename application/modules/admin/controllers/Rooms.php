@@ -31,12 +31,13 @@ class Rooms extends Admin_Base_Controller
             $crud->columns('status', 'seourl', 'category', 'file_path', 'author');
 
             // Insert form
-            $crud->add_fields('pid', 'seourl', 'title', 'short', 'category', 'status', 'author', 'content', 'file_path', 'room_home', 'max_person', 'bed', 'bedroom', 'view', 'room_size', 'metatags');
+            $crud->add_fields('pid', 'seourl', 'title', 'short', 'category', 'status', 'author', 'content', 'file_path', 'room_home', 'max_person', 'bed', 'bedroom', 'view', 'room_size', 'metatags', 'page_breadcrumb');
 
             // Update form
-            $crud->edit_fields('pid', 'seourl', 'title', 'short', 'category', 'status', 'author', 'content', 'file_path', 'room_home', 'max_person', 'bed', 'bedroom', 'view', 'room_size', 'metatags');
+            $crud->edit_fields('pid', 'seourl', 'title', 'short', 'category', 'status', 'author', 'content', 'file_path', 'room_home', 'max_person', 'bed', 'bedroom', 'view', 'room_size', 'metatags', 'page_breadcrumb');
 
             //File upload
+            $crud->set_field_upload('page_breadcrumb', 'assets/devrath/images/rooms');
             $crud->set_field_upload('file_path', 'assets/devrath/images/rooms');
             $crud->set_field_upload('room_home', 'assets/devrath/images/rooms');
 
@@ -50,7 +51,9 @@ class Rooms extends Admin_Base_Controller
             $crud->display_as('file_path', 'Banner(w1903 x h531)');
             $crud->display_as('room_home', 'Room(home) Only(w600 x h400)');
             $crud->display_as('short', 'Short Description');
+            $crud->display_as('page_breadcrumb', 'Breadcrumb(w1920 x h310)');
 
+            $crud->callback_read_field('page_breadcrumb', array($this, '_callback_view_photo'));    
             $crud->callback_read_field('file_path', array($this, '_callback_view_photo'));
             $crud->callback_read_field('room_home', array($this, '_callback_view_photo'));
            
@@ -74,7 +77,7 @@ class Rooms extends Admin_Base_Controller
     // view user image in column
     public function _callback_view_photo($value, $row)
     {
-        $image_url = base_url('assets/frontend/images/blogs/' . $value);
+        $image_url = base_url('assets/devrath/images/rooms/' . $value);
         return "<a href=$image_url class='fancybox'><img class='img-responsive img-thumbnail' src=$image_url  width='200px'/></a>";
     }
 

@@ -31,12 +31,13 @@ class Restaurant extends Admin_Base_Controller
             $crud->columns('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number');
 
             // Insert form
-            $crud->add_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number');
+            $crud->add_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number', 'page_breadcrumb');
 
             // Update form
-            $crud->edit_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number' );
+            $crud->edit_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number', 'page_breadcrumb' );
 
             //File upload
+            $crud->set_field_upload('page_breadcrumb', 'assets/devrath/images/restaurant');
             $crud->set_field_upload('contact_background', 'assets/devrath/images/restaurant');
             $crud->set_field_upload('file_path', 'assets/devrath/images/restaurant');
             $crud->set_field_upload('file_path_two', 'assets/devrath/images/restaurant');
@@ -46,6 +47,7 @@ class Restaurant extends Admin_Base_Controller
             // $crud->unset_texteditor(['metatags', 'full_text']);
          
             // Rename field level
+            $crud->display_as('page_breadcrumb', 'Breadcrumb (w1920 x h310)');
             $crud->display_as('contact_background', 'Contact Background (w1920 x h420)');
             $crud->display_as('whatsapp_no', 'Inquiry Whatsapp Number');
             $crud->display_as('mobile_number', 'Inquiry Mobile Number');
@@ -53,6 +55,7 @@ class Restaurant extends Admin_Base_Controller
             $crud->display_as('file_path_two', 'Banner Two(w580 x h420)');
             // $crud->display_as('short', 'Short Description');
 
+            $crud->callback_read_field('page_breadcrumb', array($this, '_callback_view_photo'));
             $crud->callback_read_field('contact_background', array($this, '_callback_view_photo'));
             $crud->callback_read_field('file_path', array($this, '_callback_view_photo'));
             $crud->callback_read_field('file_path_two', array($this, '_callback_view_photo'));
@@ -78,7 +81,7 @@ class Restaurant extends Admin_Base_Controller
     // view user image in column
     public function _callback_view_photo($value, $row)
     {
-        $image_url = base_url('assets/devrath/images/banquet' . $value);
+        $image_url = base_url('assets/devrath/images/restaurant' . $value);
         return "<a href=$image_url class='fancybox'><img class='img-responsive img-thumbnail' src=$image_url  width='200px'/></a>";
     }
 

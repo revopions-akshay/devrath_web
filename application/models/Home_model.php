@@ -390,18 +390,30 @@ class Home_model extends CI_Model
     }
 
 
-       // Coontact About Section===========================
-       public function getContactAbout()
-       {
-           $query = $this->db->order_by('id', 'DESC')->get('contactabout');
-   
-           if ($query->num_rows() > 0) {
-               $results = $query->result();
-               return $results;
-           }
-           return false;
-       }
-    
+    // Coontact About Section===========================
+    public function getContactAbout()
+    {
+        $query = $this->db->order_by('id', 'DESC')->get('contactabout');
+
+        if ($query->num_rows() > 0) {
+            $results = $query->result();
+            return $results;
+        }
+        return false;
+    }
+
+
+    // Inquiry About Section===========================
+    public function getInquiryBreadcrumb()
+    {
+        $query = $this->db->order_by('id', 'DESC')->get('inquiry_about');
+
+        if ($query->num_rows() > 0) {
+            $results = $query->result();
+            return $results;
+        }
+        return false;
+    }
 
 
        
@@ -479,6 +491,22 @@ class Home_model extends CI_Model
         }
         return false;
     }
+
+
+
+
+     // Inquiry About Section===========================
+     public function getGalleryBreadcrumb()
+     {
+         $query = $this->db->order_by('id', 'DESC')->get('gallery_breadcrumb');
+ 
+         if ($query->num_rows() > 0) {
+             $results = $query->result();
+             return $results;
+         }
+         return false;
+     }
+ 
 
 
 

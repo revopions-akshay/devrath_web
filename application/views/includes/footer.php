@@ -185,7 +185,7 @@ setTimeout(function() {
 
 
 <script type="text/javascript">
-// $(document).ready(function(){
+$(document).ready(function(){
     $('#send-contact-form').submit(function(e) {
         e.preventDefault();
 
@@ -223,7 +223,7 @@ setTimeout(function() {
     });
 
     
-// });
+});
 
 
 

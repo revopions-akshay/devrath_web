@@ -18,7 +18,7 @@
                                       <!-- <img src="<?php echo base_url() . '/assets/devrath/images/slider/' . $slider->logo_file_path; ?>" alt="icons"> -->
                                  </div>
 
-                                 <div class="tp-caption sft fadeout slider-caption-sub slider-caption-1" style="color:#000000;" data-x="center" data-y="240" data-speed="700" data-start="1500" data-easing="easeOutBack">
+                                 <!-- <div class="tp-caption sft fadeout slider-caption-sub slider-caption-1" style="color:#000000;" data-x="center" data-y="240" data-speed="700" data-start="1500" data-easing="easeOutBack">
                                       <?php
                                         if (!empty($slider->sub_title)) {
                                              $heading = $slider->sub_title;
@@ -34,9 +34,9 @@
                                              echo "$name";
                                         }
                                         ?>
-                                 </div>
+                                 </div> -->
 
-                                 <a href="<?php echo $slider->link; ?>" class="tp-caption sfb fadeout awe-btn awe-btn-12 awe-btn-slider" data-x="center" data-y="380" data-easing="easeOutBack" data-speed="700" data-start="2200">VIEW NOW</a>
+                                 <!-- <a href="<?php echo $slider->link; ?>" class="tp-caption sfb fadeout awe-btn awe-btn-12 awe-btn-slider" data-x="center" data-y="380" data-easing="easeOutBack" data-speed="700" data-start="2200">VIEW NOW</a> -->
                             </li>
 
                   <?php

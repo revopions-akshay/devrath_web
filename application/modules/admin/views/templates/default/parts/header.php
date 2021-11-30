@@ -27,8 +27,8 @@
 
 <style>
     .sidebar-menu>li>a {
-    padding: 5px 5px 5px 14px  !important;
-    display: block;
+        padding: 3px 5px 4px 10px !important;
+        display: block;
     }
 
 </style>

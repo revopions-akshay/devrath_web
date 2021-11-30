@@ -1,5 +1,5 @@
 <!-- SUB BANNER -->
-<section class="section-sub-banner bg-9">
+<section class="section-sub-banner bg9" style="background-image: url(<?php echo base_url(); ?>/assets/devrath/images/about/<?php echo $about[0]->page_breadcrumb; ?>);">
     <div class="awe-overlay"></div>
     <div class="sub-banner">
         <div class="container">
@@ -58,7 +58,7 @@
 <!-- END / ABOUT -->
 
 <!-- HOTEL STATISTICS -->
-<section class="section-statistics bg-10">
+<!-- <section class="section-statistics bg-10">
 
     <div class="awe-overlay"></div>
 
@@ -70,47 +70,45 @@
             <div class="statistics_content">
                 <div class="row">
 
-                    <!-- ITEM -->
+                  
                     <div class="col-xs-6 col-md-3">
                         <div class="statistics_item">
                             <span class="count"><?php echo $counters[0]->value; ?></span>
                             <span><?php echo $counters[0]->title; ?></span>
                         </div>
                     </div>
-                    <!-- END ITEM -->
+                 
 
-                    <!-- ITEM -->
                     <div class="col-xs-6 col-md-3">
                         <div class="statistics_item">
                             <span class="count"><?php echo $counters[1]->value; ?></span>
                             <span><?php echo $counters[1]->title; ?></span>
                         </div>
                     </div>
-                    <!-- END ITEM -->
+                   
 
-                    <!-- ITEM -->
+
                     <div class="col-xs-6 col-md-3">
                         <div class="statistics_item">
                             <span class="count"><?php echo $counters[2]->value; ?></span>
                             <span><?php echo $counters[2]->title; ?></span>
                         </div>
                     </div>
-                    <!-- END ITEM -->
+                  
 
-                    <!-- ITEM -->
                     <div class="col-xs-6 col-md-3">
                         <div class="statistics_item">
                             <span class="count"><?php echo $counters[3]->value; ?></span>
                             <span><?php echo $counters[3]->title; ?></span>
                         </div>
                     </div>
-                    <!-- END ITEM -->
+               
 
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- END / HOTEL STATISTICS -->
 
 <!-- TEAM -->

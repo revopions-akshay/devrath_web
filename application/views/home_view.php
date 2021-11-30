@@ -291,61 +291,6 @@
     </section>
     <!-- END / OUR BEST -->
 
-    <!-- HOME GUEST BOOK -->
-    <div class="section-home-guestbook home-guestbook-style-2 awe-parallax bg-22 mt90 pt100 pb100">
-        <div class="container">
-            <div class="home-guestbook pt0 pb0">
-                <div class="row">
-                    <div class="col-xs-12 col-lg-6 col-lg-offset-3">
-                        <div class="ot-heading mb40 row-20 text-center">
-                            <h2>Guest book</h2>
-                            <p class="sub">Your feedback means the world to us.</p>
-                        </div>
-                    </div>
-                    <div class="guestbook-content text-center owl-single">
-
-
-
-                            <?php
-                            if (!empty($testimonials)) {
-                            ?>
-
-                            <?php
-                            foreach ($testimonials as $testimonial) {
-                            ?>
-
-                            <!-- ITEM -->
-                            <div class="guestbook-item">
-                                <div class="text">
-                                    <p class="f20"><?php echo $testimonial->short_desc; ?></p>
-                                </div>
-                                <div class="img">
-                                    <img src="<?php echo base_url(); ?>assets/devrath/images/testimonials/<?php echo $testimonial->file_path; ?>" alt="">
-                                </div>
-                                <div class="info-author">
-                                    <span class="f20 c-main"><strong><?php echo $testimonial->name; ?></strong></span><br>
-                                    <span class="f14"><?php echo $testimonial->address; ?></span>
-                                </div>
-                            </div>
-                            <!-- ITEM -->
-                            <?php
-                                }
-                            ?>
-
-                            <?php
-                                }
-                            ?>
-
-
-
-
-                        </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
 
 
 
@@ -432,6 +377,61 @@
            
 
            
+    <!-- HOME GUEST BOOK -->
+    <div class="section-home-guestbook home-guestbook-style-2 awe-parallax bg-22 mt90 pt100 pb100">
+        <div class="container">
+            <div class="home-guestbook pt0 pb0">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-6 col-lg-offset-3">
+                        <div class="ot-heading mb40 row-20 text-center">
+                            <h2>Guest book</h2>
+                            <p class="sub">Your feedback means the world to us.</p>
+                        </div>
+                    </div>
+                    <div class="guestbook-content text-center owl-single">
+
+
+
+                            <?php
+                            if (!empty($testimonials)) {
+                            ?>
+
+                            <?php
+                            foreach ($testimonials as $testimonial) {
+                            ?>
+
+                            <!-- ITEM -->
+                            <div class="guestbook-item">
+                                <div class="text">
+                                    <p class="f20"><?php echo $testimonial->short_desc; ?></p>
+                                </div>
+                                <div class="img">
+                                    <img src="<?php echo base_url(); ?>assets/devrath/images/testimonials/<?php echo $testimonial->file_path; ?>" alt="">
+                                </div>
+                                <div class="info-author">
+                                    <span class="f20 c-main"><strong><?php echo $testimonial->name; ?></strong></span><br>
+                                    <span class="f14"><?php echo $testimonial->address; ?></span>
+                                </div>
+                            </div>
+                            <!-- ITEM -->
+                            <?php
+                                }
+                            ?>
+
+                            <?php
+                                }
+                            ?>
+
+
+
+
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
 
 
       
@@ -442,8 +442,6 @@
                 <div class="row">
 
                     <div class="col-md-2 col-lg-2">
-
-                                 
 
                     </div>
 
@@ -456,36 +454,29 @@
 
                                 <div class="row">
                                     <div class="col-sm-6">
-                                    <input type="text" name="form_name" class="field-text"  value="" placeholder="Your Name" required>
+                                        <input type="text" name="form_name" class="field-text"  value="" placeholder="Your Name" required>
                                     </div>
                                     <div class="col-sm-6">
-                                    <input type="email" name="form_email" class="field-text"  value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
+                                        <input type="email" name="form_email" class="field-text"  value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
                                     </div>
                                     <div class="col-sm-12">
-                                    <input type="text" name="form_phone" class="field-text"  value="" placeholder="Phone" required>
+                                        <input type="text" name="form_phone" class="field-text"  value="" placeholder="Phone" required>
                                     </div>
                                     <div class="col-sm-12">
-                                    <input type="text" name="form_subject" class="field-text"  value="<?php echo (!empty($_GET['form_subject'])) ? $_GET['form_subject'] : ""; ?>" placeholder="Subject" required>
+                                        <input type="text" name="form_subject" class="field-text"  value="<?php echo (!empty($_GET['form_subject'])) ? $_GET['form_subject'] : ""; ?>" placeholder="Subject" required>
                                     </div>
-
-
                                     <div class="col-sm-12">
-                                    <textarea name="form_message"  class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
+                                        <textarea name="form_message"  class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
                                       
                                     </div>
-
-
                                     <div class="col-sm-6">
                                       
                                         <div class="button-box">
-                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                    <button class="awe-btn awe-btn-13" id="submit-form" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
-                                </div>
+                                            <!-- <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value=""> -->
+                                            <button class="awe-btn awe-btn-13" id="submit-form" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
+                                        </div>
 
                                     </div>
-
-
-
                                 </div>
                                 <div id="contact-content"></div>
                             </form>
@@ -493,7 +484,8 @@
                     </div>
                     
                     <div class="col-md-2 col-lg-2">
-                     </div>
+                    
+                    </div>
 
                 </div>
             </div>

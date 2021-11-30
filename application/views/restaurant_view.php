@@ -1,5 +1,5 @@
    <!-- SUB BANNER -->
-   <section class="section-sub-banner bg-9">
+   <section class="section-sub-banner" style="background-image: url(<?php echo base_url(); ?>/assets/devrath/images/restaurant/<?php echo $restaurant[0]->page_breadcrumb; ?>);">
 
 
        <div class="sub-banner">

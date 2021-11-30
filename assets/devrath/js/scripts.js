@@ -347,8 +347,8 @@
             jQuery('#slider-revolution').show().revolution({
                 dottedOverlay: "none",
                 delay: 7000,
-                startwidth: 1060,
-                startheight: 700,
+                startwidth: 1920,
+                startheight: 900,
                 hideThumbs: 200,
 
                 thumbWidth: 100,
@@ -389,7 +389,7 @@
                 soloArrowRightVOffset: 0,
 
                 shadow: 0,
-                fullWidth: "on",
+                fullWidth: "auto",
                 fullScreen: "auto",
 
                 spinner: "spinner4",

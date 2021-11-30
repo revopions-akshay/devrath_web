@@ -2,7 +2,7 @@
 
 
  <!-- SUB BANNER -->
- <section class="section-sub-banner bg-9">
+ <section class="section-sub-banner" style="background-image: url(<?php echo base_url(); ?>/assets/devrath/images/contact/<?php echo $contactabout[0]->page_breadcrumb; ?>);">
         <div class="sub-banner">
             <div class="container">
                 <div class="text text-center">

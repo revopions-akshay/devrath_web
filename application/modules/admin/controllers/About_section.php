@@ -28,15 +28,16 @@ class About_section extends Admin_Base_Controller
             $crud = $this->getGroceryCRUD('about', 'About', 'Manage About', 'Manage About');
 
             // data Grid view fields
-            $crud->columns('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two');
+            $crud->columns('title_one', 'content_one', 'file_path', 'title_two', 'content_two');
 
             // Insert form
-            // $crud->add_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two');
+            // $crud->add_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'page_breadcrumb');
 
             // Update form
-            $crud->edit_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two');
+            $crud->edit_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'page_breadcrumb');
 
             //File upload
+            $crud->set_field_upload('page_breadcrumb', 'assets/devrath/images/about');
             $crud->set_field_upload('file_path', 'assets/devrath/images/about');
             $crud->set_field_upload('file_path_two', 'assets/devrath/images/about');
 
@@ -45,10 +46,12 @@ class About_section extends Admin_Base_Controller
             // $crud->unset_texteditor(['metatags', 'full_text']);
          
             // Rename field level
+            $crud->display_as('page_breadcrumb', 'Breadcrumb(w1920 x h310)');
             $crud->display_as('file_path', 'Banner One(w580 x h420)');
             $crud->display_as('file_path_two', 'Banner Two(w580 x h420)');
             // $crud->display_as('short', 'Short Description');
 
+            $crud->callback_read_field('page_breadcrumb', array($this, '_callback_view_photo'));
             $crud->callback_read_field('file_path', array($this, '_callback_view_photo'));
             $crud->callback_read_field('file_path_two', array($this, '_callback_view_photo'));
            

@@ -31,12 +31,13 @@ class Banquet extends Admin_Base_Controller
             $crud->columns('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number');
 
             // Insert form
-            $crud->add_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number');
+            $crud->add_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number', 'page_breadcrumb');
 
             // Update form
-            $crud->edit_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number' );
+            $crud->edit_fields('title_one', 'content_one', 'file_path', 'title_two', 'content_two', 'file_path_two', 'contact_background', 'whatsapp_no', 'mobile_number', 'page_breadcrumb' );
 
             //File upload
+            $crud->set_field_upload('page_breadcrumb', 'assets/devrath/images/banquet');
             $crud->set_field_upload('contact_background', 'assets/devrath/images/banquet');
             $crud->set_field_upload('file_path', 'assets/devrath/images/banquet');
             $crud->set_field_upload('file_path_two', 'assets/devrath/images/banquet');
@@ -46,6 +47,7 @@ class Banquet extends Admin_Base_Controller
             // $crud->unset_texteditor(['metatags', 'full_text']);
          
             // Rename field level
+            $crud->display_as('page_breadcrumb', 'Breadcrumb image (w1920 x h310)');
             $crud->display_as('contact_background', 'Contact Background (w1920 x h420)');
             $crud->display_as('whatsapp_no', 'Inquiry Whatsapp Number');
             $crud->display_as('mobile_number', 'Inquiry Mobile Number');
@@ -54,6 +56,7 @@ class Banquet extends Admin_Base_Controller
             // $crud->display_as('short', 'Short Description');
 
             $crud->callback_read_field('contact_background', array($this, '_callback_view_photo'));
+            $crud->callback_read_field('page_breadcrumb', array($this, '_callback_view_photo'));
             $crud->callback_read_field('file_path', array($this, '_callback_view_photo'));
             $crud->callback_read_field('file_path_two', array($this, '_callback_view_photo'));
            

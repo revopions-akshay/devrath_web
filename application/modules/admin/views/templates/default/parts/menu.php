@@ -177,6 +177,13 @@
                 </a>
             </li>
 
+            
+            <li class="treeview">
+                <a href="<?php echo site_url('admin/inquiry_about'); ?>">
+                    <i class="fa fa-bookmark-o"></i> <span>Inquiry</span>
+                </a>
+            </li>
+
 
 
 
@@ -195,8 +202,9 @@
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
-
+           
                 <ul class="treeview-menu" style="">
+                    <li><a href="<?php echo site_url('admin/gallery_breadcrumb'); ?>"><i class="fa fa-photo"></i>Gallery Breadcrumb</a></li>
                     <li><a href="<?php echo site_url('admin/gallerycategory'); ?>"><i class="fa fa-photo"></i>Gallery Category</a></li>
                     <li><a href="<?php echo site_url('admin/gallery'); ?>"><i class="fa fa-photo"></i> Gallery</a></li>
 

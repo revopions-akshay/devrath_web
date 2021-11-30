@@ -52,7 +52,7 @@
                 </div> -->
             </div>
             <!-- HEADER LOGO -->
-            <a class="logo-top img-responsive" href="#"><img src="<?php echo $logo;  ?>" alt=""></a>
+            <a class="logo-top img-responsive" href="<?php echo base_url(); ?>"><img src="<?php echo $logo;  ?>" alt=""></a>
             <!-- END / HEADER LOGO -->
 
         </div>
@@ -66,7 +66,7 @@
 
             <!-- HEADER LOGO -->
             <div class="header_logo">
-                <a href="#"><img src="<?php echo $mobile_logo;  ?>" alt=""></a>
+                <a href="<?php echo base_url(); ?>"><img src="<?php echo $mobile_logo;  ?>" alt=""></a>
             </div>
             <!-- END / HEADER LOGO -->
             <!-- HEADER MENU -->
