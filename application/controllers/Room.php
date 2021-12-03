@@ -138,6 +138,20 @@ class Room extends CI_Controller
 
 		// Social Links
 		$data['sociallinks'] = $this->home_model->getSocialLinks();
+		
+
+			// gallery
+			$data['roomgallery'] = $this->home_model->getRoomsGallery();
+
+
+		//gallery
+		$data['clubgallery'] = $this->home_model->getClubGallery();
+
+		//gallery
+		$data['suitegallery'] = $this->home_model->getSuiteGallery();
+
+
+		
 
 		// Contact About
 		$data['contactabout'] = $this->home_model->getContactAbout();
@@ -222,6 +236,19 @@ class Room extends CI_Controller
 
 		// Contact About
 		$data['contactabout'] = $this->home_model->getContactAbout();
+		
+
+			// gallery
+			$data['roomgallery'] = $this->home_model->getRoomsGallery();
+
+
+		//gallery
+		$data['clubgallery'] = $this->home_model->getClubGallery();
+
+		//gallery
+		$data['suitegallery'] = $this->home_model->getSuiteGallery();
+
+
 
 			$data['room'] = $RoomData;
 			
@@ -367,11 +394,17 @@ class Room extends CI_Controller
 		// Contact About
 		$data['contactabout'] = $this->home_model->getContactAbout();
 
-		// Contact About
-		$data['luxurygallery'] = $this->home_model->getLuxuryGallery();
 
-		// Contact About
-		$data['premiumgallery'] = $this->home_model->getPremiumGallery();
+
+			// gallery
+			$data['roomgallery'] = $this->home_model->getRoomsGallery();
+
+
+		//gallery
+		$data['clubgallery'] = $this->home_model->getClubGallery();
+
+		//gallery
+		$data['suitegallery'] = $this->home_model->getSuiteGallery();
 
 
 

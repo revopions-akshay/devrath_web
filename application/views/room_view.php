@@ -1,5 +1,5 @@
 <!-- SUB BANNER -->
-<section class="section-sub-banner"  style="background-image: url(<?php echo base_url(); ?>/assets/devrath/images/room/<?php echo $room[0]->page_breadcrumb; ?>);">
+<section class="section-sub-banner" style="background-image: url(<?php echo base_url(); ?>/assets/devrath/images/rooms/<?php echo $room[0]->page_breadcrumb; ?>);">
     <div class="awe-overlay"></div>
     <div class="sub-banner">
         <div class="container">
@@ -28,9 +28,149 @@
                     <div class="room-detail_img">
 
 
-                    
+                        <?php
 
-                        <div class="room_img-item">
+                        if ($room[0]->pid == 1) {
+                        ?>
+
+
+                            <?php
+                            if (!empty($clubgallery)) {
+                            ?>
+
+                                <?php
+                                foreach ($clubgallery as $gallery) {
+                                ?>
+
+                                    <div class="room_img-item">
+                                        <img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt="">
+
+                                    </div>
+
+
+
+                                <?php
+                                }
+                                ?>
+
+
+
+                            <?php
+                            }
+
+                            ?>
+                    </div>
+
+<div class="room-detail_thumbs">
+
+                            <?php
+                            if (!empty($clubgallery)) {
+                            ?>
+
+                                <?php
+                                foreach ($clubgallery as $gallery) {
+                                ?>
+
+<a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt=""></a>
+
+
+
+                                <?php
+                                }
+                                ?>
+
+
+
+                            <?php
+                            }
+
+                            ?>
+
+</div>
+
+
+
+                        <?php
+
+                        }
+
+                        ?>
+
+
+<?php
+
+if ($room[0]->pid == 2) {
+?>
+
+
+    <?php
+    if (!empty($suitegallery)) {
+    ?>
+
+        <?php
+        foreach ($suitegallery as $gallery) {
+        ?>
+
+            <div class="room_img-item">
+                <img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt="">
+
+            </div>
+
+
+
+        <?php
+        }
+        ?>
+
+
+
+    <?php
+    }
+
+    ?>
+</div>
+
+<div class="room-detail_thumbs">
+
+    <?php
+    if (!empty($clubgallery)) {
+    ?>
+
+        <?php
+        foreach ($clubgallery as $gallery) {
+        ?>
+
+<a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt=""></a>
+
+
+
+        <?php
+        }
+        ?>
+
+
+
+    <?php
+    }
+
+    ?>
+
+</div>
+
+
+
+<?php
+
+}
+
+?>
+
+
+
+
+
+
+                        <!-- <div class="room_img-item">
                             <img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt="">
 
                         </div>
@@ -58,11 +198,11 @@
                                 <img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0715-min.jpg" alt="">
 
                             </div>
-                        </div>
+                        </div> -->
                         <!-- END / LAGER IMGAE -->
 
                         <!-- THUMBNAIL IMAGE -->
-                        <div class="room-detail_thumbs">
+                        <!-- <div class="room-detail_thumbs">
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt=""></a>
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0695-min.jpg" alt=""></a>
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0701-min.jpg" alt=""></a>
@@ -70,8 +210,8 @@
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0703-min.jpg" alt=""></a>
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0710-min.jpg" alt=""></a>
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0715-min.jpg" alt=""></a>
-                            <!-- <a href="#"><img src="images/room/detail/img-2.jpg" alt=""></a> -->
-                        </div>
+                            
+                        </div> -->
                         <!-- END / THUMBNAIL IMAGE -->
 
                     </div>
@@ -125,6 +265,9 @@
                 </div>
             </div>
             <!-- END / DETAIL -->
+            <div class="row">
+                <br>
+            </div>
 
 
             <div class="row">
@@ -240,68 +383,68 @@
 <!-- END / SHOP DETAIL -->
 
 
-   <!-- CONTACT -->
-    <section class="section-contact">
-        <div class="container">
-            <div class="contact">
-                <div class="row">
+<!-- CONTACT -->
+<section class="section-contact">
+    <div class="container">
+        <div class="contact">
+            <div class="row">
 
-                    <div class="col-md-2 col-lg-2">
-
-                                 
-
-                    </div>
-
-                    <div class="col-md-8 col-lg-8">
-                        <h2>Send Your Message</h2>
-                        <div class="contact-form">
-                               <!-- <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?> -->
-                            <!-- <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST"> -->
-                            <form id="send-contact-form"  method="POST">
-
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                    <input type="text" name="form_name" class="field-text"  value="" placeholder="Your Name" required>
-                                    </div>
-                                    <div class="col-sm-6">
-                                    <input type="email" name="form_email" class="field-text"  value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
-                                    </div>
-                                    <div class="col-sm-12">
-                                    <input type="text" name="form_phone" class="field-text"  value="" placeholder="Phone" required>
-                                    </div>
-                                    <div class="col-sm-12">
-                                    <input type="text" name="form_subject" class="field-text"  value="<?php echo (!empty($_GET['form_subject'])) ? $_GET['form_subject'] : ""; ?>" placeholder="Subject" required>
-                                    </div>
+                <div class="col-md-2 col-lg-2">
 
 
-                                    <div class="col-sm-12">
-                                    <textarea name="form_message"  class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
-                                      
-                                    </div>
-
-
-                                    <div class="col-sm-6">
-                                      
-                                        <div class="button-box">
-                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                    <button class="awe-btn awe-btn-13" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
-                                </div>
-
-                                    </div>
-
-
-
-                                </div>
-                                <div id="contact-content"></div>
-                            </form>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-2 col-lg-2">
-                     </div>
 
                 </div>
+
+                <div class="col-md-8 col-lg-8">
+                    <h2>Send Your Message</h2>
+                    <div class="contact-form">
+                        <!-- <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?> -->
+                        <!-- <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST"> -->
+                        <form id="send-contact-form" method="POST">
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" name="form_name" class="field-text" value="" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="email" name="form_email" class="field-text" value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" name="form_phone" class="field-text" value="" placeholder="Phone" required>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" name="form_subject" class="field-text" value="<?php echo (!empty($_GET['form_subject'])) ? $_GET['form_subject'] : ""; ?>" placeholder="Subject" required>
+                                </div>
+
+
+                                <div class="col-sm-12">
+                                    <textarea name="form_message" class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
+
+                                </div>
+
+
+                                <div class="col-sm-6">
+
+                                    <div class="button-box">
+                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                        <button class="awe-btn awe-btn-13" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                            <div id="contact-content"></div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-lg-2">
+                </div>
+
             </div>
         </div>
-    </section>
-    <!-- END / CONTACT -->
+    </div>
+</section>
+<!-- END / CONTACT -->

@@ -186,7 +186,7 @@ setTimeout(function() {
 
 <script type="text/javascript">
 $(document).ready(function(){
-    $('#send-contact-form').submit(function(e) {
+    $('#send-contact-form').click(function(e) {
         e.preventDefault();
 
         // console.log(form_name);

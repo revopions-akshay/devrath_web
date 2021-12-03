@@ -21,11 +21,58 @@ class Contact extends CI_Controller
                 'created' => date('Y-m-d h:i:s'),
             );
             $ID = $this->db->insert('contactus', $contactData);
-            // if ($ID) {
-            //     $this->session->set_flashdata('msg', '<div class="alert alert-success">We will get back to you soon, Thank You!</div>');
-            // } else {
-            //     $this->session->set_flashdata('msg', '<div class="alert alert-danger">Something went wrong, Try again!</div>');
-            // }
+            if ($ID) {
+                // $this->session->set_flashdata('msg', '<div class="alert alert-success">We will get back to you soon, Thank You!</div>');
+
+                   // Load PHPMailer library
+        $this->load->library('phpmailer_lib');
+        
+        // PHPMailer object
+        $mail = $this->phpmailer_lib->load();
+        
+        // SMTP configuration
+        $mail->isSMTP();
+        $mail->Host     = 'smtp.example.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'user@example.com';
+        $mail->Password = '';
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port     = 465;
+        
+        $mail->setFrom('info@devrath.com', 'Devrath Queries');
+        $mail->addReplyTo('info@devrath.com', 'Devrath Queries');
+        
+        // Add a recipient
+        $mail->addAddress('revopions2020@gmail.com');
+        
+        // Add cc or bcc 
+        $mail->addCC('cc@example.com');
+        $mail->addBCC('bcc@example.com');
+        
+        // Email subject
+        $mail->Subject = 'Send Email via SMTP using PHPMailer in CodeIgniter';
+        
+        // Set email format to HTML
+        $mail->isHTML(true);
+        
+        // Email body content
+        $mailContent = "<h1>Send HTML Email using SMTP in CodeIgniter</h1>
+            <p>This is a test email sending using SMTP mail server with PHPMailer.</p>";
+        $mail->Body = $mailContent;
+        
+        // Send email
+        if(!$mail->send()){
+            echo 'Message could not be sent.';
+            echo 'Mailer Error: ' . $mail->ErrorInfo;
+        }else{
+            echo 'Message has been sent';
+        }
+
+
+
+            } else {
+                $this->session->set_flashdata('msg', '<div class="alert alert-danger">Something went wrong, Try again!</div>');
+            }
        
 
         // redirect('contact-us');

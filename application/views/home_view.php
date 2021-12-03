@@ -112,7 +112,7 @@
                         <div class="text">
                             <h2 class="heading"><?php echo $about[0]->title_one; ?></h2>
                             <span class="box-border"></span>
-                            <p><?php echo $about[0]->content_one; ?></p>
+                            <p style="text-align: justify;"><?php echo $about[0]->content_one; ?></p>
                             <a href="/about-us/" class="awe-btn awe-btn-default">READ MORE</a>
                         </div>
                     </div>
@@ -241,61 +241,6 @@
 
 
 
-
-    <!-- OUR BEST -->
-    <section class="ot-out-best mt60">
-        <div class="container">
-            <div class="content">
-                <div class="row">
-                    <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
-                        <div class="ot-heading mb40 row-20 text-center">
-                            <h2>We Provides</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-single owl-best" data-single_item="false" data-desktop="6"
-                     data-small_desktop="4"
-                     data-tablet="3" data-mobile="2"
-                     data-nav="true"
-                     data-pagination="false">
-                    
-
-
-                   
-
-                <?php
-                    if (!empty($facilities)) {
-                ?>
-                <?php
-                    foreach ($facilities as $facility) {
-                    ?>
-                    <div class="item text-center">
-                        <img class="img-responsive mb10" src="<?php echo base_url(); ?>/assets/devrath/images/facilities/<?php echo $facility->file; ?>" alt="icon">
-                        <span class="font-hind f-500"><?php echo $facility->name; ?></span>
-                    </div>
-
-                    <?php  
-                        }
-                    ?>
-                <?php
-                    }
-                ?>
-
-
-
-
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END / OUR BEST -->
-
-
-
-
-
-
    <!-- GALLERY -->
    <section class="section_page-gallery">
        <div class="container">
@@ -376,9 +321,56 @@
    <!-- END / GALLERY -->
            
 
-           
-    <!-- HOME GUEST BOOK -->
-    <div class="section-home-guestbook home-guestbook-style-2 awe-parallax bg-22 mt90 pt100 pb100">
+
+    <!-- OUR BEST -->
+    <section class="ot-out-best mt60">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
+                        <div class="ot-heading mb40 row-20 text-center">
+                            <h2>Our Service</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-single owl-best" data-single_item="false" data-desktop="6" data-small_desktop="4" data-tablet="3" data-mobile="2"
+                     data-nav="true"
+                     data-pagination="false">
+                    
+
+
+                   
+
+                        <?php
+                            if (!empty($facilities)) {
+                        ?>
+                        <?php
+                            foreach ($facilities as $facility) {
+                            ?>
+                            <div class="item text-center">
+                                <img class="img-responsive mb10" src="<?php echo base_url(); ?>/assets/devrath/images/facilities/<?php echo $facility->file; ?>" alt="icon">
+                                <span class="font-hind f-500"><?php echo $facility->name; ?></span>
+                            </div>
+
+                            <?php  
+                                }
+                            ?>
+                        <?php
+                            }
+                        ?>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END / OUR BEST -->
+
+ <!-- HOME GUEST BOOK -->
+ <section class="section-home-guestbook home-guestbook-style-2 awe-parallax bg-22 mt90 pt100 pb100">
         <div class="container">
             <div class="home-guestbook pt0 pb0">
                 <div class="row">
@@ -431,8 +423,16 @@
             </div>
         </div>
 
-    </div>
+    </section>
 
+
+
+
+
+   
+
+           
+   
 
       
    <!-- CONTACT -->

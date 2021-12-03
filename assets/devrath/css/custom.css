@@ -21,7 +21,7 @@
   text-transform: uppercase; }
 
 .ot-heading .sub {
-  font: 300 16px 'Hind';
+  font: 300 16px 'Montserrat';
   margin-bottom: 5px; }
 
 .img-hover-box .img {
@@ -45,7 +45,7 @@
   background: rgba(0, 0, 0, 0.9);
   color: #fff; }
   #header.header-v3 .header_top {
-    font-family: 'Hind', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 20px 0 10px 0; }
     #header.header-v3 .header_top .logo-top {
@@ -62,7 +62,7 @@
         #header.header-v3 .header_top .dropdown ul li:hover a {
           color: #fff !important; }
     #header.header-v3 .header_top .socials a {
-      font-size: 12px;
+      font-size: 16px;
       line-height: 36px;
       color: #fff;
       display: inline-block;
@@ -169,7 +169,7 @@
         border-color: #000;
         color: #0E171E;
         font-size: 14px;
-        font-family: 'Hind', sans-serif; }
+        font-family: 'Montserrat', sans-serif; }
         .section-check-availability.availability-style-2 .check-availability .availability-form .awe-calendar-wrapper .awe-calendar::-webkit-input-placeholder {
           /* Chrome/Opera/Safari */
           color: #000; }
@@ -190,7 +190,7 @@
         .section-check-availability.availability-style-2 .check-availability .availability-form .awe-select .dropdown-toggle span {
           color: #0E171E;
           font-size: 14px;
-          font-family: 'Hind', sans-serif; }
+          font-family: 'Montserrat', sans-serif; }
           .section-check-availability.availability-style-2 .check-availability .availability-form .awe-select .dropdown-toggle span.caret {
             background: url("../images/home-3/icon-dropdow.png") !important;
             background-repeat: no-repeat;

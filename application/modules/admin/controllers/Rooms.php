@@ -28,13 +28,13 @@ class Rooms extends Admin_Base_Controller
             $crud = $this->getGroceryCRUD('rooms', 'Rooms', 'Manage Rooms', 'Manage Rooms');
 
             // data Grid view fields
-            $crud->columns('status', 'seourl', 'category', 'file_path', 'author');
+            $crud->columns('status', 'title', 'file_path', 'author');
 
             // Insert form
-            $crud->add_fields('pid', 'seourl', 'title', 'short', 'category', 'status', 'author', 'content', 'file_path', 'room_home', 'max_person', 'bed', 'bedroom', 'view', 'room_size', 'metatags', 'page_breadcrumb');
+            $crud->add_fields('pid', 'seourl', 'title', 'short', 'status', 'author', 'content', 'file_path', 'room_home', 'max_person', 'bed', 'bedroom', 'view', 'room_size', 'metatags', 'page_breadcrumb');
 
             // Update form
-            $crud->edit_fields('pid', 'seourl', 'title', 'short', 'category', 'status', 'author', 'content', 'file_path', 'room_home', 'max_person', 'bed', 'bedroom', 'view', 'room_size', 'metatags', 'page_breadcrumb');
+            $crud->edit_fields('pid', 'seourl', 'title', 'short', 'status', 'author', 'content', 'file_path', 'room_home', 'max_person', 'bed', 'bedroom', 'view', 'room_size', 'metatags', 'page_breadcrumb');
 
             //File upload
             $crud->set_field_upload('page_breadcrumb', 'assets/devrath/images/rooms');
@@ -42,12 +42,12 @@ class Rooms extends Admin_Base_Controller
             $crud->set_field_upload('room_home', 'assets/devrath/images/rooms');
 
             // Required fields
-            $crud->required_fields('seourl', 'title', 'short', 'category', 'author', 'content', 'file_path');
+            $crud->required_fields('seourl', 'pid', 'title', 'short', 'author', 'content', 'file_path');
             $crud->unset_texteditor(['metatags', 'full_text']);
             // Rename field level
             $crud->display_as('pid', 'Category');
             $crud->display_as('seourl', 'SeoURL');
-            $crud->display_as('category', 'Room Category');
+            
             $crud->display_as('file_path', 'Banner(w1903 x h531)');
             $crud->display_as('room_home', 'Room(home) Only(w600 x h400)');
             $crud->display_as('short', 'Short Description');
@@ -57,7 +57,7 @@ class Rooms extends Admin_Base_Controller
             $crud->callback_read_field('file_path', array($this, '_callback_view_photo'));
             $crud->callback_read_field('room_home', array($this, '_callback_view_photo'));
            
-            $crud->set_relation('pid', 'categories', 'catname');
+            $crud->set_relation('pid', 'room_category', 'catname');
             // $crud->unset_add();
             $crud->unset_export();
             $crud->unset_print();

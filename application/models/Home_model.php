@@ -167,7 +167,7 @@ class Home_model extends CI_Model
         // Gallery 
         public function getHomeGallery($no)
         {
-            $query = $this->db->order_by('sort', 'ASC')->get('gallery');
+            $query = $this->db->order_by('sort', 'ASC')->get('gallery', 10);
     
             if ($query->num_rows() > 0) {
                 $results = $query->result();
@@ -182,7 +182,7 @@ class Home_model extends CI_Model
 
     public function getGalleryCategory()
     {
-        $query = $this->db->order_by('sort', 'ASC')->get('gallery_category', 10);
+        $query = $this->db->order_by('sort', 'ASC')->get('gallery_category');
 
         if ($query->num_rows() > 0) {
             $results = $query->result();
@@ -469,9 +469,25 @@ class Home_model extends CI_Model
         return false;
     }
 
-    public function getLuxuryGallery()
+
+
+        // Banquet  Gallery ==================
+        public function getRoomsGallery()
+        {
+            $query = $this->db->order_by('sort', 'ASC')->get('room_gallery');
+    
+            if ($query->num_rows() > 0) {
+                $results = $query->result();
+                return $results;
+            }
+            return false;
+        }
+
+
+
+    public function getClubGallery()
     {
-        $query = $this->db->where('catid', '1')->order_by('id', 'DESC')->get('room_gallery');
+        $query = $this->db->where('catid', '1')->order_by('id', 'ASC')->get('room_gallery');
 
         if ($query->num_rows() > 0) {
             $results = $query->result();
@@ -481,9 +497,9 @@ class Home_model extends CI_Model
     }
 
 
-    public function getPremiumGallery()
+    public function getSuiteGallery()
     {
-        $query = $this->db->where('catid', '2')->order_by('id', 'DESC')->get('room_gallery');
+        $query = $this->db->where('catid', '2')->order_by('id', 'ASC')->get('room_gallery');
 
         if ($query->num_rows() > 0) {
             $results = $query->result();

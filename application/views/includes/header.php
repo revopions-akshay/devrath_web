@@ -43,11 +43,12 @@
 
     .section-home-guestbook.home-guestbook-style-2.bg-22 {
       background: url("<?php echo base_url();?>assets/devrath/images/home-3/<?php echo $testiBackground[0]->file; ?>");
-      background-position: 50% 50%;
-      background-attachment: fixed;
+      background-size: cover;
+      /* background-position: 50% 50%;
+      background-attachment: inherit;
       background-repeat: no-repeat;
       background-size: cover;
-      z-index: 0;
+      z-index: 0; */
      }
 
      
