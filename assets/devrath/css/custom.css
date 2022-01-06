@@ -16,12 +16,13 @@
 
 .ot-heading h2 {
   letter-spacing: 1px;
-  font: 700 36px 'Montserrat';
+  font: 700 36px 'FreightProItalic',sans-serif;
   margin-bottom: 15px;
-  text-transform: uppercase; }
+  text-transform: capitalize;
+ }
 
 .ot-heading .sub {
-  font: 300 16px 'Montserrat';
+  font: 300 16px 'FreightProItalic',sans-serif;
   margin-bottom: 5px; }
 
 .img-hover-box .img {
@@ -45,7 +46,7 @@
   background: rgba(0, 0, 0, 0.9);
   color: #fff; }
   #header.header-v3 .header_top {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'ITCFranklinGothicStd',sans-serif;
     text-align: center;
     padding: 20px 0 10px 0; }
     #header.header-v3 .header_top .logo-top {
@@ -155,7 +156,7 @@
     text-align: center; }
     .section-check-availability.availability-style-2 .check-availability h2 {
       color: #040404;
-      font: 700 36px 'Montserrat';
+      font: 700 36px 'ITCFranklinGothicStd',sans-serif;
       padding-left: 0; }
       .section-check-availability.availability-style-2 .check-availability h2:before {
         top: -65px;
@@ -169,7 +170,7 @@
         border-color: #000;
         color: #0E171E;
         font-size: 14px;
-        font-family: 'Montserrat', sans-serif; }
+        font-family: 'ITCFranklinGothicStd',sans-serif }
         .section-check-availability.availability-style-2 .check-availability .availability-form .awe-calendar-wrapper .awe-calendar::-webkit-input-placeholder {
           /* Chrome/Opera/Safari */
           color: #000; }
@@ -190,7 +191,7 @@
         .section-check-availability.availability-style-2 .check-availability .availability-form .awe-select .dropdown-toggle span {
           color: #0E171E;
           font-size: 14px;
-          font-family: 'Montserrat', sans-serif; }
+          font-family: 'ITCFranklinGothicStd',sans-serif }
           .section-check-availability.availability-style-2 .check-availability .availability-form .awe-select .dropdown-toggle span.caret {
             background: url("../images/home-3/icon-dropdow.png") !important;
             background-repeat: no-repeat;
@@ -215,26 +216,26 @@
   .item.room-item .title {
     padding: 15px 0 5px 0; }
     .item.room-item .title a {
-      font: 400 28px 'Montserrat';
+      font: 400 28px 'FreightProItalic',sans-serif;
       -webkit-transition: all .3s;
       -o-transition: all .3s;
       transition: all .3s;
-      text-transform: uppercase; }
+      text-transform: capitalize; }
       .item.room-item .title a:hover, .item.room-item .title a:focus {
         color: #E1BD85; }
   .item.room-item .price {
-    font: 600 16px 'Montserrat';
+    font: 600 16px 'ITCFranklinGothicStd',sans-serif;
     color: #E1BD85;
     margin-bottom: 15px;
-    text-transform: uppercase; }
+    text-transform: capitalize; }
   .item.room-item .info p {
     display: inline-block;
     max-width: 80px;
     margin: 0 20px; }
     .item.room-item .info p .number {
-      font: 300 24px 'Montserrat'; }
+      font: 300 24px 'ITCFranklinGothicStd',sans-serif; }
     .item.room-item .info p span {
-      font: 300 12px 'Montserrat';
+      font: 300 12px 'ITCFranklinGothicStd',sans-serif;
       display: block; }
   .item.room-item .awe-btn {
     margin: 25px 0 20px 0; }

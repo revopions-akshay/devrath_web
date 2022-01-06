@@ -1,0 +1,28 @@
+@font-face {
+  font-display: swap;
+  font-family: ITCFranklinGothicStd;
+  font-style: normal;
+  src: url(../fonts/frhi/03dda592-ab39-4f26-9535-fdea194854cfd41d.eot?#iefix)
+      format("eot"),
+    url(../fonts/frhi/84083fa0-6a9d-40f7-806f-63add8cde800.woff2) format("woff2"),
+    url(../fonts/frhi/41c174b1-68c1-41b7-a19f-5ec80929b115.woff) format("woff"),
+    url(../fonts/frhi/06d99598-12aa-461b-b57e-81a137da1b9f.ttf) format("truetype"),
+    url(../fonts/frhi/427cca04-e0ee-4395-a5d3-b7d45feeff62.svg#427cca04-e0ee-4395-a5d3-b7d45feeff62)
+      format("svg");
+}
+@font-face {
+  font-display: swap;
+  font-family: FreightProItalic;
+  font-style: normal;
+  src: url(../fonts/frhi/freight-big-pro-italic-font.woff2) format("woff2"),
+    url(../fonts/frhi/freight-big-pro-italic-font.woff) format("woff"),
+    url(../fonts/frhi/freight-big-pro-italic-font.ttf) format("truetype");
+}
+@font-face {
+  font-display: swap;
+  font-family: FreightPro;
+  font-style: normal;
+  src: url(../fonts/frhi/freight-big-pro-regular-font.woff2) format("woff2"),
+    url(../fonts/frhi/freight-big-pro-regular-font.woff) format("woff"),
+    url(../fonts/frhi/freight-big-pro-regular-font.ttf) format("truetype");
+}

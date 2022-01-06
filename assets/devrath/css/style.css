@@ -7,8 +7,9 @@ a:hover,a:focus,input:focus,textarea:focus,button:focus,select:focus{
 }
 body{
     position:relative;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:14px;
+    background-color: #f8f8f8;
     color:#232323;
     padding:0;
     margin:0;
@@ -36,7 +37,7 @@ input[type="search"],input[type="text"],input[type="url"],input[type="number"],i
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button{
     -webkit-appearance:none;
@@ -47,7 +48,7 @@ input[type=number]{
 }
 select{
     color:#232323;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:12px
 }
 textarea{
@@ -177,9 +178,9 @@ img{
 .awe-btn{
     display:inline-block;
     background:none;
-    font-family:'Montserrat';
+    font-family:'FreightProItalic',sans-serif;
     white-space:nowrap;
-    text-transform:uppercase;
+    text-transform:capitalize;
     cursor:pointer;
     line-height:normal;
     padding:8px 10px;
@@ -345,7 +346,7 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
     font-weight:normal;
     line-height:1.5em;
     color:#232323;
-    font-family:'Montserrat';
+    font-family:'FreightProItalic',sans-serif;
     margin:0
 }
 h1 a,.h1 a,h2 a,.h2 a,h3 a,.h3 a,h4 a,.h4 a,h5 a,.h5 a,h6 a,.h6 a{
@@ -421,8 +422,8 @@ mark,.mark{
     color:#232323;
     font-size:36px;
     font-weight:bold;
-    font-family:'Montserrat';
-    text-transform:uppercase;
+    font-family: 'FreightProItalic',sans-serif;
+    text-transform:capitalize;
     line-height:1;
     position:relative
 }
@@ -437,7 +438,7 @@ mark,.mark{
 }
 .shortcode-heading{
     color:#464646;
-    font-family:'Montserrat';
+    font-family:'FreightProItalic',sans-serif;
     font-weight:normal;
     padding-bottom:10px;
     font-size:14px;
@@ -458,7 +459,7 @@ blockquote p{
 }
 blockquote p:before{
     content:'“';
-    font-family:'Montserrat';
+    font-family:'FontAwesome';
     font-size:28px;
     margin-right:10px;
     font-style:inherit
@@ -468,7 +469,7 @@ blockquote p:after{
     font-size:28px;
     font-style:inherit;
     margin-left:10px;
-    font-family:'Montserrat'
+    font-family:'FontAwesome'
 }
 .bg-white{
     background-color:#fff
@@ -510,8 +511,8 @@ blockquote p:after{
     color:#232323 !important;
     font-weight:500;
     padding:0 !important;
-    text-transform:uppercase;
-    font-family:'Hind'
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .tabs .ui-tabs-nav li:hover a,.tabs .ui-tabs-nav li.ui-tabs-active a{
     color:#e1bd85 !important
@@ -524,7 +525,7 @@ blockquote p:after{
     margin:0 !important
 }
 .tabs.tabs-2 .ui-tabs-nav li a{
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     padding:7px 10px !important;
     border:2px solid transparent;
     -webkit-transition:all .2s ease;
@@ -544,8 +545,8 @@ blockquote p:after{
     background-color:#e1bd85;
     color:#fff;
     padding:10px 20px;
-    font-family:'Hind';
-    text-transform:uppercase;
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
     font-weight:normal;
     margin-top:10px;
     border-width:0;
@@ -639,7 +640,7 @@ blockquote p:after{
 }
 .bootstrap-select.btn-group.awe-select .dropdown-toggle .filter-option{
     color:#fff;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:12px
 }
 .bootstrap-select.btn-group.awe-select .dropdown-menu{
@@ -652,7 +653,7 @@ blockquote p:after{
 }
 .bootstrap-select.btn-group.awe-select .dropdown-menu ul li a{
     padding:10px 20px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     color:#333;
     font-size:12px;
     border-bottom:1px solid #f1f1f1;
@@ -688,8 +689,8 @@ blockquote p:after{
     color:#333333;
     font-size:16.37px;
     line-height:50px;
-    text-transform:uppercase;
-    font-family:'Montserrat'
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .tab-price table caption a{
     display:block;
@@ -720,7 +721,7 @@ blockquote p:after{
 }
 .tab-price table thead th{
     text-align:center;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:14px;
     text-transform:capitalize;
     font-weight:normal;
@@ -729,7 +730,7 @@ blockquote p:after{
 .tab-price table tr td{
     padding:15px 10px;
     border:2px solid #333;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:16px;
     color:#333333;
     text-align:center;
@@ -767,10 +768,10 @@ blockquote p:after{
     border-radius:0
 }
 .ui-datepicker .ui-datepicker-header .ui-datepicker-title{
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:16px;
     color:#fff;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:both;
     line-height:50px
 }
@@ -837,7 +838,7 @@ blockquote p:after{
 .ui-datepicker .ui-datepicker-calendar thead th{
     text-transform:capitalize;
     color:#fff;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:normal;
     background-color:#e1bd85;
     padding:12px 5px
@@ -850,7 +851,7 @@ blockquote p:after{
     padding:0;
     background:none;
     color:#232323;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     border-width:0;
     text-align:center;
     font-weight:400;
@@ -1129,20 +1130,20 @@ blockquote p:after{
     clear:both
 }
 .header_top .header_left span{
-    font-size:14px;
+    font-size:15px;
     color:#fff;
     margin-right:15px;
     line-height:36px
 }
 .header_top .header_left span i{
-    font-size:11px;
+    font-size:12px;
     margin-right:5px
 }
 .header_top .header_right{
     font-size:0
 }
 .header_top .header_right .login-register{
-    text-transform:uppercase
+    text-transform:capitalize
 }
 .header_top .header_right .login-register a{
     font-size:12px;
@@ -1276,7 +1277,7 @@ blockquote p:after{
     color:#232323;
     font-weight:500;
     text-transform:uppercase;
-    font-size:13.45px;
+    font-size:14.45px;
     -webkit-transition:all .2s ease;
     -moz-transition:all .2s ease;
     -ms-transition:all .2s ease;
@@ -1508,7 +1509,7 @@ blockquote p:after{
     padding:10px 40px 10px 20px;
     color:#fff;
     font-size:14px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:500;
     border-bottom:1px solid rgba(255,255,255,0.1);
     position:relative;
@@ -1609,7 +1610,7 @@ blockquote p:after{
 }
 .slider-caption-sub{
     color:#fff;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:20px;
     line-height:1;
     display:inline-block
@@ -1624,20 +1625,20 @@ blockquote p:after{
 }
 .slider-caption-sub.slider-caption-sub-3{
     font-size:26px;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .slider-caption{
     font-size:60px;
     color:#fff;
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     line-height:1
 }
 .slider-caption small{
     display:inline-block;
     line-height:1;
     font-weight:500;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:30px;
     color:#fff;
     line-height:1.15em
@@ -1755,8 +1756,8 @@ blockquote p:after{
     margin-bottom:0;
     color:#fff;
     font-size:35.68px;
-    font-family:'Montserrat';
-    text-transform:uppercase
+    font-family:'FreightProItalic',sans-serif;
+    text-transform:capitalize;
 }
 .sub-banner .text p{
     margin-bottom:0;
@@ -1817,7 +1818,7 @@ blockquote p:after{
     font-size:20px;
     font-weight:normal;
     margin:0;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     float:left
 }
 .accomd-modations-room .text h2 a{
@@ -1833,7 +1834,7 @@ blockquote p:after{
 .accomd-modations-room .text .price{
     color:#e1bd85;
     margin-bottom:0;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     margin-top:0;
     float:right
 }
@@ -1896,8 +1897,8 @@ blockquote p:after{
     margin-top:20px
 }
 .accomd-modations-room_1 .text h2{
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:24px;
     padding:0 17px
 }
@@ -1925,7 +1926,7 @@ blockquote p:after{
     margin-bottom:0;
     color:#898989;
     font-size:14px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     width:60%;
     padding-left:17px;
     padding-top:12px
@@ -1952,7 +1953,7 @@ blockquote p:after{
     padding:0 25px;
     font-size:14px;
     color:#232323;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     line-height:49px
 }
 .accomd-modations-room_1 .text .wrap-price .awe-btn:hover{
@@ -1963,7 +1964,7 @@ blockquote p:after{
 }
 .accomd-modations-room_1 .text .wrap-price .awe-btn:after{
     content:"\f101";
-    font-family:"FontAwesome";
+    font-family:'FontAwesome';
     font-size:14px;
     margin-left:5px;
     transition:all .3s ease 0s
@@ -2000,7 +2001,7 @@ blockquote p:after{
     font-size:25px;
     margin:0;
     font-weight:normal;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     position:relative;
     padding-left:60px;
     line-height:1
@@ -2206,14 +2207,14 @@ blockquote p:after{
 }
 .guestbook-item .text p:before{
     position:absolute;
-    font-family:'Montserrat';
+    font-family:'FontAwesome';
     content:'“';
     top:0;
     left:-20px;
     font-size:40px
 }
 .guestbook-item .text p:after{
-    font-family:'Montserrat';
+    font-family:'FontAwesome';
     content:'„';
     font-size:40px;
     line-height:0;
@@ -2306,8 +2307,8 @@ blockquote p:after{
 .news-item .text h2{
     font-size:17px;
     font-weight:bold;
-    font-family:'Montserrat';
-    text-transform:uppercase
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
 }
 .news-item .text h2 a{
     color:#e1bd85;
@@ -2394,11 +2395,11 @@ blockquote p:after{
 }
 .event-item .text h2{
     font-size:26px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     line-height:1.3em;
     font-weight:bold;
     color:#fff;
-    text-transform:uppercase
+    text-transform:capitalize;
 }
 .event-item .text span{
     color:#fff;
@@ -2585,7 +2586,7 @@ blockquote p:after{
     right:15px;
     color:#fff;
     z-index:10;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:16px;
     pointer-events:none;
     font-weight:normal;
@@ -2662,7 +2663,7 @@ blockquote p:after{
 }
 .gallery-cat ul li a{
     color:#232323;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:500;
     display:block;
     padding:7px 15px;
@@ -2783,9 +2784,9 @@ blockquote p:after{
     font-size:18px;
     margin-top:0;
     margin-bottom:20px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold;
-    text-transform:uppercase
+    text-transform:capitalize;
 }
 .sidebar .widget ul{
     list-style:none;
@@ -2810,8 +2811,8 @@ blockquote p:after{
     margin-top:25px;
     color:#e1bd85;
     font-size:14px;
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold
 }
 .sidebar .widget.widget_check_availability .check_availability .check_availability_title:before{
@@ -2830,8 +2831,8 @@ blockquote p:after{
     color:#232323;
     font-size:12px;
     margin-bottom:10px;
-    font-family:'Montserrat';
-    text-transform:uppercase
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
 }
 .sidebar .widget.widget_check_availability .check_availability .check_availability-field .awe-calendar-wrapper{
     width:100%
@@ -2875,8 +2876,8 @@ blockquote p:after{
     font-weight:bold;
     font-size:12px;
     color:#232323;
-    font-family:'Montserrat';
-    text-transform:uppercase
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
 }
 .sidebar .widget.widget_check_availability .check_availability .check_availability_group .check_availability-field_group{
     margin-left:-4px;
@@ -2930,7 +2931,7 @@ blockquote p:after{
 .sidebar .widget .widget-deal .item .text h2{
     color:#fff;
     font-size:20px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin:0;
     font-weight:normal
 }
@@ -2938,7 +2939,7 @@ blockquote p:after{
     color:#fff;
     font-weight:bold;
     font-size:39px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     margin-bottom:0;
     line-height:1;
     margin-top:5px
@@ -3000,7 +3001,7 @@ blockquote p:after{
 .sidebar .widget.widget_upcoming_events ul li .event-date strong{
     margin-bottom:3px;
     display:block;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:34px;
     font-weight:normal
 }
@@ -3011,8 +3012,8 @@ blockquote p:after{
 .sidebar .widget.widget_upcoming_events ul li .text a{
     color:#232323;
     font-weight:bold;
-    font-family:'Montserrat';
-    text-transform:uppercase;
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
     -webkit-transition:all .2s ease;
     -moz-transition:all .2s ease;
     -ms-transition:all .2s ease;
@@ -3046,10 +3047,10 @@ blockquote p:after{
     width:100%
 }
 .sidebar .widget.widget_recent_entries ul li a{
-    text-transform:uppercase;
+    text-transform:capitalize;
     color:#232323;
     font-weight:bold;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     -webkit-transition:all .2s ease;
     -moz-transition:all .2s ease;
     -ms-transition:all .2s ease;
@@ -3179,7 +3180,7 @@ blockquote p:after{
     padding:15px 30px
 }
 .post .entry-media .count-date span{
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:30px;
     display:inline-block;
     text-align:center;
@@ -3188,9 +3189,9 @@ blockquote p:after{
 }
 .post .entry-media .count-date span span{
     display:block;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:12px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin-top:5px
 }
 .post .entry-media .post-format{
@@ -3222,7 +3223,7 @@ blockquote p:after{
     text-align:center;
     color:#000;
     font-size:16px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     line-height:1;
     width:70px;
     height:70px;
@@ -3234,7 +3235,7 @@ blockquote p:after{
 }
 .post .entry-media .posted-on strong{
     display:block;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:34px
 }
 .post .entry-media .owl-pagination{
@@ -3250,9 +3251,9 @@ blockquote p:after{
     font-size:18px
 }
 .post .entry-header h2 a{
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     color:#232323;
-    text-transform:uppercase;
+    text-transform:capitalize;
     -webkit-transition:all .2s ease;
     -moz-transition:all .2s ease;
     -ms-transition:all .2s ease;
@@ -3266,12 +3267,12 @@ blockquote p:after{
     margin-bottom:0
 }
 .post.post-single .entry-header h1{
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     color:#232323;
     font-weight:bold;
     margin:0;
     font-size:22px;
-    text-transform:uppercase
+    text-transform:capitalize
 }
 .post .entry-meta{
     font-size:14px;
@@ -3351,7 +3352,7 @@ blockquote p:after{
     font-size:15px
 }
 .post.post-single .entry-content h1,.post.post-single .entry-content h2,.post.post-single .entry-content h3,.post.post-single .entry-content h4,.post.post-single .entry-content h5,.post.post-single .entry-content h6{
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin-bottom:10px
 }
 .post.post-single .entry-content .wp-caption{
@@ -3441,8 +3442,8 @@ blockquote p:after{
 }
 #comments .comment-title{
     font-weight:bold;
-    text-transform:uppercase;
-    font-family:'Montserrat'
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 #comments .commentlist{
     list-style:none;
@@ -3528,12 +3529,12 @@ blockquote p:after{
     padding-top:20px
 }
 .comment-respond .comment-reply-title{
-    text-transform:uppercase;
+    text-transform:capitalize;
     color:#000;
     font-size:18px;
     margin:0;
     font-weight:bold;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .comment-respond .comment-form{
     margin-top:10px
@@ -3642,7 +3643,7 @@ blockquote p:after{
     background-color:#f9b82c;
     color:#fff;
     font-size:12px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     padding:8px
 }
 .restaurant_item .img img{
@@ -3662,8 +3663,8 @@ blockquote p:after{
 .restaurant_item .text h2{
     font-size:18px;
     font-weight:normal;
-    font-family:'Montserrat';
-    text-transform:uppercase
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize
 }
 .restaurant_item .text h2 a{
     color:#444444;
@@ -3684,7 +3685,7 @@ blockquote p:after{
 }
 .restaurant_item .text .price{
     text-align:right;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:18px;
     color:#e1bd85;
     line-height:1.428em;
@@ -3852,7 +3853,7 @@ blockquote p:after{
 }
 .tabs-restaurant .ui-tabs-nav li a{
     color:#232323;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold;
     display:block;
     font-size:23px;
@@ -3867,7 +3868,7 @@ blockquote p:after{
     clear:both;
     color:#898989;
     font-size:16px;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:normal;
     text-transform:none;
     margin-top:5px
@@ -3906,10 +3907,10 @@ blockquote p:after{
     z-index:-1
 }
 .reservation h2{
-    text-transform:uppercase;
+    text-transform:capitalize;
     color:#fff;
     font-weight:bold;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     margin:0;
     line-height:1;
     text-align:center
@@ -4007,7 +4008,7 @@ blockquote p:after{
     font-size:50px
 }
 .event-restaurant_header h2{
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:35px;
     color:#fff;
     font-weight:bold;
@@ -4040,12 +4041,12 @@ blockquote p:after{
     text-align:center;
     color:#fff;
     font-size:16px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     line-height:1
 }
 .event-restaurant_content li .event-date strong{
     display:block;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:34px;
     margin-bottom:5px
 }
@@ -4055,9 +4056,9 @@ blockquote p:after{
 .event-restaurant_content li .text h2{
     color:#fff;
     font-size:18px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:normal;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     line-height:1.4em;
     margin-top:-3px
 }
@@ -4081,9 +4082,9 @@ blockquote p:after{
     position:relative
 }
 .room_item-1 h2{
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:26px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold
 }
 .room_item-1 h2 a{
@@ -4176,7 +4177,7 @@ blockquote p:after{
     display:inline-block;
     color:#898989;
     font-size:14px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     line-height:1
 }
 .room_item-1 .bot .price .amout{
@@ -4266,9 +4267,9 @@ blockquote p:after{
 }
 .room_item-2 .text h2{
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:36px;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .room_item-2 .text h2 a{
     color:#333;
@@ -4283,8 +4284,8 @@ blockquote p:after{
 .room_item-2 .text .price{
     display:block;
     color:#333333;
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     margin-top:7px
 }
 .room_item-2 .text p{
@@ -4415,9 +4416,9 @@ blockquote p:after{
 }
 .room_item-3 .text-thumbs .text h2{
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:36px;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .room_item-3 .text-thumbs .text h2 a{
     color:#333;
@@ -4432,8 +4433,8 @@ blockquote p:after{
 .room_item-3 .text-thumbs .text .price{
     display:block;
     color:#333333;
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     margin-top:7px
 }
 .room_item-3 .text-thumbs .text p{
@@ -4505,9 +4506,9 @@ blockquote p:after{
 }
 .room_item-4 .text h2{
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:36px;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .room_item-4 .text h2 a{
     color:#333;
@@ -4522,8 +4523,8 @@ blockquote p:after{
 .room_item-4 .text .price{
     display:block;
     color:#333333;
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     margin-top:7px
 }
 .room_item-4 .text p{
@@ -4677,10 +4678,10 @@ blockquote p:after{
     backface-visibility:hidden
 }
 .room_item-5 .room_item-forward h2{
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     font-size:30px;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .room_item-5 .room_item-forward h2 a{
     color:#fff
@@ -4688,8 +4689,8 @@ blockquote p:after{
 .room_item-5 .room_item-forward .price{
     display:block;
     color:#fff;
-    text-transform:uppercase;
-    font-family:'Montserrat'
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .room_item-5 .room_item-back{
     position:relative;
@@ -4712,16 +4713,16 @@ blockquote p:after{
 .room_item-5 .room_item-back h3{
     color:#333;
     font-size:30px;
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold;
     line-height:1
 }
 .room_item-5 .room_item-back .price{
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     color:#333;
     font-size:14px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin-top:10px;
     display:block
 }
@@ -4803,9 +4804,9 @@ blockquote p:after{
 }
 .room_item-6 .text h2{
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:32px;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .room_item-6 .text h2 a{
     color:#fff;
@@ -4820,8 +4821,8 @@ blockquote p:after{
 .room_item-6 .text .price{
     display:block;
     color:#e1bd85;
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     margin-top:7px
 }
 .room_item-6 .text p{
@@ -5026,7 +5027,7 @@ blockquote p:after{
     color:#898989;
     font-size:18px;
     line-height:1;
-    font-family:'Montserrat'
+    font-family:'FreightProItalic',sans-serif;
 }
 .room-detail_book .room-detail_total .price .amout{
     font-weight:bold;
@@ -5041,9 +5042,9 @@ blockquote p:after{
     display:block;
     clear:both;
     font-size:12px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin-top:25px;
     margin-bottom:10px
 }
@@ -5098,10 +5099,10 @@ blockquote p:after{
 .room-detail_tab-header li a{
     padding:30px 0 10px 0;
     color:#232323;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     position:relative;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     display:inline-block;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
@@ -5145,7 +5146,7 @@ blockquote p:after{
     font-weight:500
 }
 .room-detail_amenities h5,.room-detail_overview h5{
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold
 }
 .room-detail_amenities p,.room-detail_overview p{
@@ -5153,11 +5154,11 @@ blockquote p:after{
     margin-bottom:0
 }
 .room-detail_amenities h6,.room-detail_overview h6{
-    text-transform:uppercase;
+    text-transform:capitalize;
     color:#232323;
     font-weight:bold;
     font-size:14px;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     margin-top:25px
 }
 .room-detail_amenities ul,.room-detail_overview ul{
@@ -5196,11 +5197,11 @@ blockquote p:after{
     min-height:70px
 }
 .room-package_item .text h4{
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     font-size:14px;
     margin:0;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .room-package_item .text h4 a{
     color:#232323;
@@ -5252,8 +5253,8 @@ blockquote p:after{
 .room-detail_rates table th{
     color:#232323;
     font-size:12px;
-    font-family:'Montserrat';
-    text-transform:uppercase;
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
     font-weight:bold;
     background-color:#f1f1f1;
     padding:15px 20px
@@ -5266,8 +5267,8 @@ blockquote p:after{
 .room-detail_rates table td h6{
     color:#232323;
     font-size:14px;
-    text-transform:uppercase;
-    font-family:'Hind';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold
 }
 .room-detail_rates table td ul{
@@ -5282,7 +5283,7 @@ blockquote p:after{
 }
 .room-detail_rates table td .price{
     color:#232323;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:14px;
     margin-bottom:0
 }
@@ -5293,9 +5294,9 @@ blockquote p:after{
     text-align:center;
     color:#333;
     font-size:14px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin:0;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold;
     padding-top:15px;
     padding-bottom:15px;
@@ -5340,7 +5341,7 @@ blockquote p:after{
     table-layout:fixed
 }
 .calendar_custom .calendar_tabel th{
-    text-transform:uppercase;
+    text-transform:capitalize;
     text-align:center;
     color:#333;
     font-size:12px;
@@ -5446,7 +5447,7 @@ blockquote p:after{
     font-size:18px;
     font-weight:bold;
     margin:0;
-    text-transform:uppercase
+    text-transform:capitalize
 }
 .room-compare_item .text h2 a{
     color:#232323;
@@ -5501,9 +5502,9 @@ blockquote p:after{
     margin-top:20px
 }
 .activiti_item .text h2{
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:20px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold
 }
 .activiti_item .text h2 a{
@@ -5526,7 +5527,7 @@ blockquote p:after{
     color:#232323;
     font-size:10px;
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
     -ms-transition:all .3s ease;
@@ -5594,7 +5595,7 @@ blockquote p:after{
     color:#000;
     font-weight:bold;
     font-size:30px;
-    text-transform:uppercase
+    text-transform:capitalize
 }
 .checkout .checkout_head span{
     color:#000;
@@ -5754,8 +5755,8 @@ blockquote p:after{
 .checkout .checkout_cart .cart-item .text a{
     color:#232323;
     font-size:14px;
-    font-family:'Montserrat';
-    text-transform:uppercase;
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
     -webkit-transition:all .2s ease;
     -moz-transition:all .2s ease;
     -ms-transition:all .2s ease;
@@ -5766,7 +5767,7 @@ blockquote p:after{
 }
 .checkout .checkout_cart .cart-item .text p{
     margin:0;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     color:#232323;
     font-size:14px
 }
@@ -5801,7 +5802,7 @@ blockquote p:after{
     margin-top:5px;
     font-weight:bold;
     font-size:20px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     color:#000
 }
 .checkout .checkout_cartinfo p:first-child{
@@ -5873,7 +5874,7 @@ blockquote p:after{
 }
 .info-location-map h2{
     font-size:14px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     color:#333;
     font-weight:bold;
     margin-bottom:5px
@@ -5893,7 +5894,7 @@ blockquote p:after{
 .attraction_sidebar .attraction_heading{
     color:#333333;
     font-size:16px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     border-bottom:1px solid #e4e4e4;
     padding:15px 20px;
@@ -5924,9 +5925,9 @@ blockquote p:after{
 .attraction_sidebar .attraction_sidebar-content .attraction_title{
     background-color:#e1bd85;
     color:#fff;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:12px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     padding:10px 15px;
     margin-top:30px
@@ -5984,9 +5985,9 @@ blockquote p:after{
 }
 .attraction_detail .attraction_detail-title{
     color:#333333;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:20px
 }
 .attraction_detail .attraction_detail-title i{
@@ -6008,7 +6009,7 @@ blockquote p:after{
 }
 .attraction_detail ul li span{
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin-right:20px
 }
 .attraction_detail ul li a{
@@ -6022,10 +6023,10 @@ blockquote p:after{
     margin-top:35px
 }
 .attraction_content .attraction_content-title{
-    text-transform:uppercase;
+    text-transform:capitalize;
     color:#333;
     font-size:20px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold
 }
 .attraction_content p{
@@ -6122,7 +6123,7 @@ blockquote p:after{
     text-align:center;
     color:#fff;
     font-size:18px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     position:relative
 }
 .statistics_item:before{
@@ -6138,7 +6139,7 @@ blockquote p:after{
 }
 .statistics_item .count{
     font-size:60px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     color:#fff;
     display:block;
     line-height:1.3em
@@ -6213,7 +6214,7 @@ blockquote p:after{
     margin:0;
     font-size:20px;
     font-weight:bold;
-    text-transform:uppercase
+    text-transform:capitalize
 }
 .team_item .text span{
     color:#898989;
@@ -6282,9 +6283,9 @@ blockquote p:after{
 .guest-book .guest-book_head .text h2{
     color:#fff;
     margin:0;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:23px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     line-height:1.428em
 }
 .guest-book .guest-book_head .text p{
@@ -6413,8 +6414,8 @@ blockquote p:after{
 .guest-book_item h2{
     margin-top:10px;
     font-size:20px;
-    font-family:'Montserrat';
-    text-transform:uppercase;
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
     color:#444444;
     font-weight:bold
 }
@@ -6449,9 +6450,9 @@ blockquote p:after{
 }
 .guest-book-form h2{
     color:#333333;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:26px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     line-height:1.3em;
     text-align:center;
@@ -6517,9 +6518,9 @@ blockquote p:after{
 }
 .comingsoon h1{
     color:#fff;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:60px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     line-height:1;
     margin-top:20px
 }
@@ -6531,7 +6532,7 @@ blockquote p:after{
     font-size:36px;
     margin-top:10px;
     font-weight:normal;
-    font-family:'Hind'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .comingsoon p{
     margin-bottom:0;
@@ -6554,7 +6555,7 @@ blockquote p:after{
     float:left;
     color:#fff;
     font-size:20px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     text-align:center;
     margin-top:10px;
     position:relative
@@ -6572,7 +6573,7 @@ blockquote p:after{
 }
 .comingsoon .countdown .item .count{
     display:block;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:50px;
     line-height:1
 }
@@ -6580,7 +6581,7 @@ blockquote p:after{
     margin-top:25px;
     color:#fff;
     font-weight:normal;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:20px
 }
 .comingsoon .widget_social .widget-social{
@@ -6618,7 +6619,7 @@ blockquote p:after{
 }
 .login-register .text h2{
     font-size:36px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin:0;
     color:#fff;
     font-weight:bold
@@ -6734,9 +6735,9 @@ blockquote p:after{
 }
 .page-404 h1{
     color:#fff;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:80px;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     line-height:1;
     margin-top:50px
 }
@@ -6747,7 +6748,7 @@ blockquote p:after{
     color:#fff;
     font-size:27px;
     margin-top:10px;
-    font-family:'Hind'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .page-404 p{
     margin-bottom:0;
@@ -6819,7 +6820,7 @@ blockquote p:after{
 }
 .contact .text h2{
     color:#232323;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     font-size:20px
 }
@@ -6849,12 +6850,12 @@ blockquote p:after{
     margin-top:35px
 }
 .contact .contact-location .btn-collapse{
-    text-transform:uppercase;
+    text-transform:capitalize;
     color:#232323;
     font-weight:bold;
     font-size:20px;
     display:block;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
     -ms-transition:all .3s ease;
@@ -6875,7 +6876,7 @@ blockquote p:after{
     color:#444444;
     font-size:20px;
     margin-bottom:5px;
-    text-transform:uppercase
+    text-transform:capitalize
 }
 .contact .contact-location .location-group span{
     color:#898989;
@@ -7128,7 +7129,7 @@ blockquote p:after{
 .reservation-date ul li span:last-child{
     float:right;
     font-weight:bold;
-    text-transform:uppercase
+    text-transform:capitalize
 }
 .reservation-room-selected{
     background-color:#f1f1f1;
@@ -7146,24 +7147,24 @@ blockquote p:after{
     vertical-align:middle;
     color:#232323;
     font-size:14px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin:0 10px 0 0;
     line-height:1.428em;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold
 }
 .reservation-room-selected .reservation-room-seleted_item .reservation-option{
     display:inline-block;
     font-size:12px;
     font-weight:500;
-    font-family:'Hind'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .reservation-room-selected .reservation-room-seleted_item .reservation-room-seleted_name{
     overflow:hidden;
     margin-top:10px
 }
 .reservation-room-selected .reservation-room-seleted_item .reservation-room-seleted_name h2{
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:14px;
     font-weight:bold;
     margin-right:80px;
@@ -7229,7 +7230,7 @@ blockquote p:after{
 .reservation-room-selected .reservation-room-seleted_item .reservation-room-seleted_package ul li span:last-child{
     float:right;
     font-weight:bold;
-    text-transform:uppercase
+    text-transform:capitalize
 }
 .reservation-room-selected .reservation-room-seleted_item .reservation-room-seleted_package ul+ul{
     border-top:1px solid #e4e4e4;
@@ -7239,11 +7240,11 @@ blockquote p:after{
     color:#333;
     font-size:14px;
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     border-top:1px solid #e4e4e4;
     padding-top:15px;
     padding-bottom:10px;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .reservation-room-selected .reservation-room-seleted_item .reservation-room-seleted_total-room .reservation-amout{
     float:right;
@@ -7268,7 +7269,7 @@ blockquote p:after{
     margin-top:0;
     margin-bottom:10px;
     font-size:14px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     line-height:1.428em;
     position:relative;
@@ -7294,11 +7295,11 @@ blockquote p:after{
     overflow:hidden;
     font-size:16px;
     font-weight:bold;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .reservation-room-selected .reservation-room-seleted_total label{
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin:0
 }
 .reservation-room-selected .reservation-room-seleted_total .reservation-total{
@@ -7318,8 +7319,8 @@ blockquote p:after{
 .reservation-heading{
     font-size:16px;
     color:#333333;
-    font-family:'Montserrat';
-    text-transform:uppercase;
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
     padding:12px 20px;
     font-weight:bold;
     text-align:center;
@@ -7337,8 +7338,8 @@ blockquote p:after{
     margin-top:20px;
     color:#e1bd85;
     font-size:14px;
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:bold
 }
 .reservation-sidebar_availability .check_availability-field{
@@ -7349,8 +7350,8 @@ blockquote p:after{
     color:#232323;
     font-size:12px;
     margin-bottom:7px;
-    font-family:'Montserrat';
-    text-transform:uppercase
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize
 }
 .reservation-sidebar_availability .check_availability-field .awe-calendar-wrapper{
     width:100%
@@ -7395,8 +7396,8 @@ blockquote p:after{
     font-weight:bold;
     font-size:12px;
     color:#232323;
-    font-family:'Montserrat';
-    text-transform:uppercase
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize
 }
 .reservation-sidebar_availability .check_availability_group .check_availability-field_group{
     margin-left:-4px;
@@ -7427,7 +7428,7 @@ blockquote p:after{
     text-align:center;
     color:#232323;
     font-size:14px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     margin:0;
     padding-top:15px;
@@ -7436,7 +7437,7 @@ blockquote p:after{
     border-bottom:1px solid #e4e4e4;
     margin-left:3px;
     margin-right:3px;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .reservation-calendar_custom .reservation-calendar_title .reservation-calendar_corner{
     display:block;
@@ -7474,7 +7475,7 @@ blockquote p:after{
     margin-top:15px
 }
 .reservation-calendar_custom .reservation-calendar_tabel th{
-    text-transform:uppercase;
+    text-transform:capitalize;
     text-align:center;
     color:#232323;
     font-size:12px;
@@ -7545,7 +7546,7 @@ blockquote p:after{
 }
 .reservation-room_item .reservation-room_name{
     color:#232323;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     margin:0;
     font-size:24px
@@ -7617,7 +7618,7 @@ blockquote p:after{
     font-size:14px;
     margin:0;
     line-height:1;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .reservation-room_item .reservation-room_text .reservation-room_price .reservation-room_amout{
     font-weight:bold;
@@ -7637,8 +7638,8 @@ blockquote p:after{
     color:#333333;
     font-size:12px;
     font-weight:bold;
-    font-family:'Montserrat';
-    text-transform:uppercase;
+    font-family:'ITCFranklinGothicStd',sans-serif;
+    text-transform:capitalize;
     padding:15px 30px;
     background-color:#f1f1f1;
     -webkit-transition:all .3s ease;
@@ -7679,7 +7680,7 @@ blockquote p:after{
     min-height:72px
 }
 .reservation-package_item .reservation-package_text h4{
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:bold;
     font-size:14px;
     margin:0
@@ -7716,14 +7717,14 @@ blockquote p:after{
     font-weight:bold;
     font-size:20px;
     line-height:1;
-    font-family:'Montserrat'
+    font-family:'ITCFranklinGothicStd',sans-serif
 }
 .reservation-package_item .reservation-package_text .reservation-package_book-price .awe-btn{
     padding:5px 10px;
     min-width:inherit;
     font-size:10px;
     margin-top:5px;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-weight:700
 }
 .reservation-package_item:hover,.reservation-package_item.current-select{
@@ -7736,7 +7737,7 @@ blockquote p:after{
 }
 .reservation-chosen-message h4{
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin:0;
     font-size:20px;
     color:#232323
@@ -7775,19 +7776,19 @@ blockquote p:after{
 }
 .reservation-billing-detail h4{
     color:#000;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin-top:20px;
     margin-bottom:0;
     padding-bottom:10px;
     font-weight:bold;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:30px
 }
 .reservation-billing-detail label{
     color:#232323;
     font-size:12px;
-    text-transform:uppercase;
-    font-family:'Montserrat';
+    text-transform:capitalize;
+    font-family:'ITCFranklinGothicStd',sans-serif;
     display:block;
     margin-top:20px;
     margin-bottom:10px
@@ -7869,7 +7870,7 @@ blockquote p:after{
 }
 .reservation-billing-detail .awe-btn{
     padding:10px 40px;
-    font-family:'Hind';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     font-size:14px;
     font-weight:600;
     margin-top:40px
@@ -7883,12 +7884,12 @@ blockquote p:after{
 }
 #footer .footer_top .mailchimp h4{
     display:inline-block;
-    font-family:'Montserrat';
+    font-family:'ITCFranklinGothicStd',sans-serif;
     margin:0;
     color:#fff;
     font-size:25px;
     vertical-align:middle;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-weight:normal
 }
 #footer .footer_top .mailchimp h4:before{
@@ -7939,7 +7940,7 @@ blockquote p:after{
     color:#fff;
     background-color:#e1bd85;
     font-size:16px;
-    text-transform:uppercase;
+    text-transform:capitalize;
     margin-left:10px
 }
 #footer .footer_top .mailchimp .mailchimp-form .awe-btn:hover{
@@ -8020,7 +8021,7 @@ blockquote p:after{
 }
 #footer .footer_center .widget .widget-title{
     color:#fff;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:16px;
     margin-top:0;
     margin-bottom:20px

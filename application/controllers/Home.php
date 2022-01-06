@@ -28,7 +28,8 @@ class Home extends CI_Controller
 				'<link href="' . base_url() . 'assets/devrath/css/helper.css"   rel="stylesheet" type="text/css"  >',
 				'<link href="' . base_url() . 'assets/devrath/css/custom.css"   rel="stylesheet" type="text/css"  >',
 				'<link href="' . base_url() . 'assets/devrath/css/responsive.css"   rel="stylesheet" type="text/css"  >',
-
+				// '<link href="' . base_url() . 'assets/devrath/css/brand-styles-bundle.min332.css"   rel="stylesheet" type="text/css"  >',
+				'<link href="' . base_url() . 'assets/devrath/css/font.min.css" rel="stylesheet" type="text/css" >',
 				'<link href="' . base_url() . 'assets/devrath/css/style.css" rel="stylesheet" type="text/css" >',
 		);
 

@@ -400,7 +400,7 @@
 
                 shuffle: "off",
 
-                autoHeight: "off",
+                autoHeight: "on",
                 forceFullWidth: "off",
 
 
@@ -494,7 +494,7 @@
                     autoPlay: false,
                     autoplayHoverPause: true,
                     singleItem: true,
-                    smartSpeed: 1000,
+                    smartSpeed: 4000,
                     navigation: true,
                     navigationText: ['<i class="lotus-icon-left-arrow"></i>', '<i class="lotus-icon-right-arrow"></i>']
                 };

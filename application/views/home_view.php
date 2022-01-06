@@ -1,396 +1,672 @@
- 
-    <!-- CHECK AVAILABILITY -->
-    <!-- <section class="section-check-availability availability-style-2 clearfix">
-        <div class="container">
-            <div class="check-availability">
-                <div class="ot-heading">
-                    <h2 class="mb40">CHECK availability</h2>
-                </div>
-                <form id="ajax-form-search-room" class="mt40 mb50" action="search_step_2.php" method="post">
-                    <div class="availability-form mb40">
-                        <input type="text" name="arrive" class="awe-calendar from" placeholder="Arrival Date">
-                        <input type="text" name="departure" class="awe-calendar to" placeholder="Departure Date">
-
-                        <select class="awe-select" name="adults">
-                            <option>Adults</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
-                        <select class="awe-select" name="children">
-                            <option>Children</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
-                    </div>
-                    <div class="vailability-submit">
-                        <button class="awe-btn awe-btn-13 pr30 pl30 f16 bold font-hind">Check Availability</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section> -->
-    <!-- END / CHECK AVAILABILITY -->
-
-
-    <!-- END / ACCOMMODATIONS -->
-
-    <!-- ABOUT -->
-    <!-- <section class="ot-about mt60">
-        <div class="container">
-            <div class="content">
-                <div class="row">
-                    <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
-                        <div class="ot-heading mb40 row-20 text-center">
-                            <h2>ABOUT LOTUS HOTEL</h2>
-                            <p class="sub pr10 pl10">
-                                It is a long established fact that a reader will be distracted by the readable content
-                                of a page when looking at its layout
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-hover-box mb40">
+<section class="section-home-about bg-white">
+    <div class="container">
+        <div class="home-about">
+            <div class="row">
+                <div class="col-md-6">
                     <div class="img">
-                        <img class="img-responsive" src="<?php echo base_url(); ?>/assets/devrath/images/home-3/about-hill.png" alt="">
+                        <a href="#"><img src="<?php echo base_url(); ?>/assets/devrath/images/about/<?php echo $about[0]->file_path; ?>" alt=""></a>
                     </div>
                 </div>
-                <div class="text-center mt40 mb30 featured">
-                    <p class="font-hind f-500 f20">Brent Conrad talks with everyone from, frequent travelers to the busy
-                        family that can
-                        only get away for vacation every couple of years. </p>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                        <div class="details">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6">
-                                    <p class="font-hind f14 pr15">
-                                        The cards are being handed out by quarantine officials at Chicago,
-                                        O’Hare International Airport; Los Angeles; old York City, JFK International
-                                        Airport; Newark; & San Francisco. These airports are the only U.S.
-                                        airports receiving direct flights from Hong Kong. No U.S. airports
-                                        receive direct flights from Hanoi or the Guangdong Province. CDC officials
-                                        expect to expand the distribution of
-                                    </p>
-                                </div>
-                                <div class="col-xs-12 col-sm-6">
-                                    <p class="font-hind f14 pl15">
-                                        The Centers for Disease Control & Prevention (CDC) on Saturday began
-                                        distributing cards at airports receiving flights returning directly from Hong
-                                        Kong warning travelers returning to the United States from Hong Kong & Guangdong
-                                        Province, People’s Republic of China & Hanoi,
-                                        Vietnam that they may have been exposed to cases of severe acute respiratory
-                                        syndrome (SARS).
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <a href="!#" class="awe-btn awe-btn-default mt30 mb30 font-hind f12 bold btn-medium"
-                                   target="_blank">Read more</a>
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                    <div class="text">
+                        <h2 class="heading"><?php echo $about[0]->title_one; ?></h2>
+                        <span class="box-border"></span>
+                        <p style="text-align: justify;"><?php echo $about[0]->content_one; ?></p>
+                        <a href="/about-us/" class="awe-btn awe-btn-default">READ MORE</a>
                     </div>
                 </div>
 
             </div>
         </div>
-    </section> -->
+    </div>
+</section>
 
 
-    <section class="section-home-about bg-white">
-        <div class="container">
-            <div class="home-about">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="img">
-                            <a href="#"><img src="<?php echo base_url(); ?>/assets/devrath/images/about/<?php echo $about[0]->file_path; ?>" alt=""></a>
-                        </div>
+
+
+<section class="section-home-about bg-white">
+    <div class="container">
+        <div class="home-about">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="text">
+                        <h2 class="heading"><?php echo $banquet[0]->title_two; ?></h2>
+                        <span class="box-border"></span>
+                        <p><?php echo $banquet[0]->content_one; ?></p>
+                        <a href="/banquet/" class="awe-btn awe-btn-default">READ MORE</a>
                     </div>
-                    <div class="col-md-6">
-                        <div class="text">
-                            <h2 class="heading"><?php echo $about[0]->title_one; ?></h2>
-                            <span class="box-border"></span>
-                            <p style="text-align: justify;"><?php echo $about[0]->content_one; ?></p>
-                            <a href="/about-us/" class="awe-btn awe-btn-default">READ MORE</a>
-                        </div>
-                    </div>
-
                 </div>
+
+                <div class="col-md-6">
+                    <div class="img">
+                        <a href="#"><img src="<?php echo base_url(); ?>/assets/devrath/images/banquet/<?php echo $banquet[0]->file_path_two;  ?>" alt=""></a>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </section>
-
-    
-    <section class="section-home-about bg-white">
-        <div class="container">
-            <div class="home-about">
-                <div class="row">
-                   
-                    <div class="col-md-6">
-                        <div class="text">
-                            <h2 class="heading"><?php echo $banquet[0]->title_two; ?></h2>
-                            <span class="box-border"></span>
-                            <p><?php echo $banquet[0]->content_one; ?></p>
-                            <a href="/banquet/" class="awe-btn awe-btn-default">READ MORE</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="img">
-                            <a href="#"><img src="<?php echo base_url(); ?>/assets/devrath/images/banquet/<?php echo $banquet[0]->file_path_two;  ?>" alt=""></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>
 
 
 
 
 
-    <!-- END / ABOUT -->
+<!-- END / ABOUT -->
 
 
-        <!-- ACCOMMODATIONS -->
+<!-- ACCOMMODATIONS -->
 
-        <section class="ot-accomd-modations">
-        <div class="container">
-            <div class="content">
-                <div class="row">
-                    <div class="col-xs-12 col-lg-6 col-lg-offset-3">
-                        <div class="ot-heading pt80 pb30 text-center row-20">
-                            <h2 class="mb15">ACCOMMODATIONS</h2>
-                            <!-- <p class="sub pr10 pl10">
+<section class="ot-accomd-modations">
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 col-lg-offset-3">
+                    <div class="ot-heading pt80 pb30 text-center row-20">
+                        <h2 class="mb15">Accommodations</h2>
+                        <!-- <p class="sub pr10 pl10">
                                 It is a long established fact that a reader will be distracted by the readable
                                 content of a page
                                 when looking at its layout
                             </p> -->
-                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="ot-accomd-modations-content owl-single" data-single_item="false" data-desktop="1"
-                             data-small_desktop="1"
-                             data-tablet="2" data-mobile="1"
-                             data-nav="false"
-                             data-pagination="false">
-                            <div class="row">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="ot-accomd-modations-content owl-single" data-single_item="false" data-desktop="1" data-small_desktop="1" data-tablet="2" data-mobile="1" data-nav="false" data-pagination="false">
+                        <div class="row">
+                            <div class="col-xs-2">
+                            </div>
 
 
-                            
+                            <div class="col-xs-8 room-design">
                                 <?php
-                                    if (!empty($room4home)) {
+                                if (!empty($room4home)) {
                                 ?>
                                     <?php
-                                        foreach ($room4home as $room) {
-                                        ?>
-    
-                                    <div class="col-xs-12 col-sm-6">
-                                        <div class="item room-item text-center accomd-modations-room_1">
-                                            <div class="img">
-                                                <a href="#"><img class="img-responsive img-full" src="<?php echo base_url(); ?>assets/devrath/images/rooms/<?php echo $room->room_home; ?>"
-                                                                alt="" style="height: 236px; width: 370px;"></a>
-                                            </div>
-                                            <h2 class="title"><a href="<?php echo base_url(); ?><?php echo $room->seourl; ?>"><?php echo $room->title; ?></a></h2>
-                                            <p class="price">
-                                            <!-- <?php echo $room->short; ?> -->
-                                            </p>
-                                            <div class="info upper">
-                                                <p>
-                                                    <span class="number"><?php echo $room->max_person; ?></span>
-                                                    <span>Max Guest</span>
-                                                </p>
-                                                <p>
-                                                    <span class="number"><?php echo $room->room_size; ?></span>
-                                                    <span>Size (M<sup>2</sup>)</span>
-
-                                                </p>
-                                                <p>
-                                                    <span class="number"><?php echo $room->bedroom; ?></span>
-                                                    <span> Bedroom</span>
-                                                </p>
-                                            </div>
-                                            <a class="awe-btn awe-btn-default btn-medium font-hind f12 bold" href="<?php echo base_url(); ?><?php echo $room->seourl; ?>"> View
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                    <?php 
-                                        }
+                                    foreach ($room4home as $room) {
                                     ?>
 
-                                <?php 
+                                        <div class="col-xs-12 col-sm-6">
+                                            <!-- <div class="col-sm-4">
+                                        </div> -->
+                                            <div class="item room-item text-center accomd-modations-room_1">
+                                                <div class="img">
+                                                    <a href="#"><img class="img-responsive img-full" src="<?php echo base_url(); ?>assets/devrath/images/rooms/<?php echo $room->room_home; ?>" alt="" style="height: 236px; width: 370px;"></a>
+                                                </div>
+                                                <h2 class="title"><a href="<?php echo base_url(); ?><?php echo $room->seourl; ?>"><?php echo $room->title; ?></a></h2>
+                                                <p class="price">
+                                                    <!-- <?php echo $room->short; ?> -->
+                                                </p>
+                                                <div class="info upper">
+                                                    <p>
+                                                        <span class="number"><?php echo $room->max_person; ?></span>
+                                                        <span>Max Guest</span>
+                                                    </p>
+                                                    <p>
+                                                        <span class="number"><?php echo $room->room_size; ?></span>
+                                                        <span>Size (M<sup>2</sup>)</span>
+
+                                                    </p>
+                                                    <p>
+                                                        <span class="number"><?php echo $room->bedroom; ?></span>
+                                                        <span> Bedroom</span>
+                                                    </p>
+                                                </div>
+                                                <a class="awe-btn awe-btn-default btn-medium font-hind f12 bold" href="<?php echo base_url(); ?><?php echo $room->seourl; ?>"> View
+                                                    Details</a>
+                                            </div>
+                                            <!-- <div class="col-sm-4">
+                                        </div> -->
+                                        </div>
+                                    <?php
+                                    }
+                                    ?>
+
+                                <?php
                                 }
                                 ?>
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-   <!-- GALLERY -->
-   <section class="section_page-gallery">
-       <div class="container">
-           <div class="gallery gallery-3">
-               <h2 class="heading text-center">Gallery</h2>
-               <!-- FILTER -->
-              
-               <div class="gallery-cat text-center">
-                    <ul class="list-inline">
-                        <li class="active"><a href="#" data-filter="*">All</a></li>
-                        <?php
-                            if (!empty($galleriescat)) {
-                        ?>
-                            <?php
-                                foreach ($galleriescat as $gallerycat) {
-                            ?>
-                                <li><a href="#" data-filter=".<?php echo $gallerycat->id;   ?>"><?php echo $gallerycat->catname;   ?></a></li>
-                            <?php
-                                }
-                            ?>
-                        <?php
-                           }
-                        ?>
-
-                    </ul>
-                </div>
-                <!-- END / FILTER -->
-
-               <!-- GALLERY CONTENT -->
-               <div class="gallery-content">
-                   <div class="row">
-                       <div class="gallery-isotope col-4">
-
-                           <!-- ITEM SIZE -->
-                           <div class="item-size"></div>
-                           <!-- END / ITEM SIZE -->
-
-                           <?php
-                            if (!empty($homegalleries)) {
-                            ?>
-
-                               <?php
-                                foreach ($homegalleries as $gallery) {
-                                ?>
-
-                                   <div class="item-isotope larger <?php echo $gallery->catid;  ?>">
-                                       <div class="gallery_item">
-                                           <a href="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" class="mfp-image">
-                                               <img src="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" alt="">
-                                           </a>
-                                           <!-- <h6 class="text"><?php echo $gallery->title; ?></h6> -->
-                                       </div>
-                                   </div>
-
-
-
-                               <?php
-                                }
-                                ?>
-
-
-
-                           <?php
-                            }
-
-                            ?>
-
-
-                       </div>
-                   </div>
-
-               </div>
-              
-
-           </div>
-       </div>
-   </section>
-   <!-- END / GALLERY -->
-           
-
-
-    <!-- OUR BEST -->
-    <section class="ot-out-best mt60">
-        <div class="container">
-            <div class="content">
-                <div class="row">
-                    <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
-                        <div class="ot-heading mb40 row-20 text-center">
-                            <h2>Our Service</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-single owl-best" data-single_item="false" data-desktop="6" data-small_desktop="4" data-tablet="3" data-mobile="2"
-                     data-nav="true"
-                     data-pagination="false">
-                    
-
-
-                   
-
-                        <?php
-                            if (!empty($facilities)) {
-                        ?>
-                        <?php
-                            foreach ($facilities as $facility) {
-                            ?>
-                            <div class="item text-center">
-                                <img class="img-responsive mb10" src="<?php echo base_url(); ?>/assets/devrath/images/facilities/<?php echo $facility->file; ?>" alt="icon">
-                                <span class="font-hind f-500"><?php echo $facility->name; ?></span>
                             </div>
 
-                            <?php  
-                                }
-                            ?>
+                            <div class="col-xs-2">
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<style>
+    #owl-demo .item img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .modal-header .count-slide {
+        height: 415px;
+    }
+
+    @media (max-width: 767px) {
+        .hidden-xs {
+            display: none !important;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .room-design{
+            width: 100% !important;
+        }
+
+    }
+
+
+
+    .event-small-title {
+        text-transform: uppercase;
+        color: #393939;
+        font-size: 1.6875rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+
+    .event-all-info div.event-title,
+    .event-all-info h3.event-title,
+    .event-all-info p.event-title {
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 2.75rem;
+        font-family: FreightProItalic, sans-serif;
+        font-weight: 500;
+    }
+
+    .event-description {
+        color: #393939;
+        width: 65%;
+        margin: 0 auto;
+        max-height: 280px;
+        overflow: auto;
+    }
+
+    .event-detail-link {
+        display: inline-block;
+        padding: 5px 8px;
+        margin-bottom: 15px;
+    }
+
+    .event-all-info a:focus {
+        outline: none;
+    }
+
+    a:focus .tertiary-button {
+        color: #393939;
+        font-weight: 500;
+        outline: 2px solid #bb5c19;
+        outline-offset: 2px;
+    }
+
+    .event-slider-item {
+        position: relative;
+    }
+
+    .event-info {
+        width: 90%;
+        margin: 20px auto 30px;
+        max-width: 600px;
+    }
+
+    .event-slider {
+        margin: 0 auto;
+        position: relative;
+        max-width: 1130px;
+    }
+
+    .event-details {
+        width: 460px;
+        height: 460px;
+        background-color: #fff;
+        position: absolute;
+        top: 10%;
+        right: 0;
+        display: table;
+        box-shadow: 0 2px 60px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .event-all-info {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 10px;
+    }
+
+    .event-content {
+        text-align: center;
+        max-width: 975px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .event-content h2 {
+        padding-top: 30px;
+        font-family: FreightProItalic, sans-serif;
+        font-weight: 400;
+    }
+
+    .event-all-info p.event-small-title {
+        padding-top: 15px !important;
+        margin: 0;
+    }
+
+    .event-all-info h3.event-title,
+    .event-all-info p.event-description {
+        padding-top: 15px !important;
+    }
+
+    .event-all-info div,
+    .event-all-info h2 {
+        padding-top: 15px;
+    }
+
+    .event-all-info h2 {
+        font-family: ITCFranklinGothicStd !important;
+    }
+
+    .event-all-info div.tertiary-button,
+    .event-all-info p.tertiary-button {
+        padding-top: 0;
+        margin-top: 15px;
+    }
+
+    .brand-destination-scroll button.slick-prev,
+    .event-slider button.slick-prev {
+        left: -45px;
+        z-index: 9;
+        fill: #000;
+        width: 20px;
+        height: 20px;
+    }
+
+    .brand-destination-scroll button.slick-next,
+    .event-slider button.slick-next {
+        right: -45px;
+        z-index: 9;
+        fill: #000;
+        width: 20px;
+        height: 20px;
+    }
+
+    .event-details {
+        width: 460PX;
+        height: 360PX;
+        background-color: #fff;
+        position: absolute;
+        top: 10%;
+        right: 0;
+        display: table;
+        box-shadow: 0 2px 60px 0 rgb(0 0 0 / 10%);
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .event-all-info p.event-small-title {
+        padding-top: 15px !important;
+        margin: 0;
+    }
+
+
+    @media (max-width: 767px) {
+        #events .event-all-info .event-description {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .event-description {
+            width: 100%;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        #events .event-details {
+            min-height: 300px;
+            height: 400px;
+            padding-bottom: 15px;
+        }
+
+        .event-details {
+            width: 90%;
+            position: relative;
+            height: 350px;
+            left: 0;
+            margin: -60px auto 50px;
+        }
+
+    }
+</style>
+
+
+
+
+
+
+
+<!-- Events -->
+<section class="ot-out-best mt60">
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
+                    <div class="ot-heading mb40 row-20 text-center">
+                        <h2>Plan an Event</h2>
+                    </div>
+                </div>
+            </div>
+           <!-- owl-carousel owl-theme  id="owl-demo"    -->
+
+            <div class=" owl-single owl-best">
+
+            
+                <div class="item-slide">
+                    <div class="row" style="background-color:aliceblue;">
+                        <div class="col-md-12">
+
+                            <img src="<?php echo base_url(); ?>assets/devrath/images/events/wedding.jpg" width="770" height="578" alt="The Last of us">
+
+                            <div class="event-details text-center">
+                            
+                                <div class="event-all-info">
+                                    <p class="event-small-title text-center">
+                                       Event
+                                    </p>
+                                    <h3 class="event-title text-center remove-title-padding NoClass">
+                                   Weddings
+                                    </h3>
+                                    <a href="" class="underlined-link" target="_self" tabindex="0">
+                                        <p class="event-description text-center NoClass">
+                                           Devrath offers an enviable array of venues for successful wedding and all wedding functions.
+                                        </p>
+                                        <div class="status-label-container">
+
+                                        </div>
+
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="item-slide">
+                    <div class="row" style="background-color:aliceblue;">
+                        <div class="col-md-12">
+
+                            <img src="<?php echo base_url(); ?>assets/devrath/images/events/birthday2.jpg" width="770" height="578"  alt="The Last of us">
+
+                            <div class="event-details text-center">
+                            
+                                <div class="event-all-info">
+                                    <p class="event-small-title text-center">
+                                        Event
+                                    </p>
+                                    <h3 class="event-title text-center remove-title-padding NoClass">
+                                   Birthdays
+                                    </h3>
+                                    <a href="#" class="underlined-link" target="_self"  tabindex="0">
+                                        <p class="event-description text-center NoClass">
+                                           Devrath offers an enviable array of venues for successful Birthday parties and all events.
+                                        </p>
+                                        <div class="status-label-container">
+
+                                        </div>
+
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="item-slide">
+                    <div class="row" style="background-color:aliceblue;">
+                        <div class="col-md-12">
+
+                            <img src="<?php echo base_url(); ?>assets/devrath/images/events/3.jpeg" width="770" height="578" alt="The Last of us">
+
+                            <div class="event-details text-center">
+                            
+                                <div class="event-all-info">
+                                    <p class="event-small-title text-center">
+                                       Event
+                                    </p>
+                                    <h3 class="event-title text-center remove-title-padding NoClass">
+                                    Meetings
+                                    </h3>
+                                    <a href="" class="underlined-link" target="_self" tabindex="0">
+                                        <p class="event-description text-center NoClass">
+                                           Devrath offers an enviable array of venues for successful corporate meetings and professional conferences.
+                                        </p>
+                                        <div class="status-label-container">
+
+                                        </div>
+
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+             
+               
+         
+
+                <div class="item-slide">
+                    <div class="row" style="background-color:aliceblue;">
+                        <div class="col-md-12">
+
+                            <img src="<?php echo base_url(); ?>assets/devrath/images/events/2A.jpeg" width="770" height="578" alt="The Last of us">
+
+                            <div class="event-details text-center">
+                            
+                                <div class="event-all-info">
+                                    <p class="event-small-title text-center">
+                                        Event
+                                    </p>
+                                    <h3 class="event-title text-center remove-title-padding NoClass">
+                                    
+                                    Social Events
+                                
+                                    </h3>
+                                    <a href="#" class="underlined-link" target="_self"  tabindex="0">
+                                        <p class="event-description text-center NoClass">
+                                           
+                                        Whether you are planning a black-tie gala or a prestigious affair, Devrath understands the demands of hosting center stage events.
+                                    
+                                        </p>
+                                        <div class="status-label-container">
+
+                                        </div>
+
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+               
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<!-- Events -->
+
+
+
+
+
+<!-- GALLERY -->
+<section class="section_page-gallery">
+    <div class="container">
+        <div class="gallery gallery-3">
+            <h2 class="heading text-center" style="font-family: FreightProItalic,sans-serif !important;">Gallery</h2>
+            <!-- FILTER -->
+
+            <div class="gallery-cat text-center">
+                <ul class="list-inline">
+                    <li class="active"><a href="#" data-filter="*">All</a></li>
+                    <?php
+                    if (!empty($galleriescat)) {
+                    ?>
                         <?php
+                        foreach ($galleriescat as $gallerycat) {
+                        ?>
+                            <li><a href="#" data-filter=".<?php echo $gallerycat->id;   ?>"><?php echo $gallerycat->catname;   ?></a></li>
+                        <?php
+                        }
+                        ?>
+                    <?php
+                    }
+                    ?>
+
+                </ul>
+            </div>
+            <!-- END / FILTER -->
+
+            <!-- GALLERY CONTENT -->
+            <div class="gallery-content">
+                <div class="row">
+                    <div class="gallery-isotope col-4">
+                        <div class="item-size"></div>
+
+                        <?php
+                        if (!empty($homegalleries)) {
+                        ?>
+                            <?php
+                            foreach ($homegalleries as $gallery) {
+                            ?>
+
+                                <div class="item-isotope larger <?php echo $gallery->catid;  ?>">
+                                    <div class="gallery_item">
+                                        <a href="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" class="mfp-image">
+                                            <img src="<?php echo base_url(); ?>assets/devrath/images/gallery/<?php echo $gallery->file_path; ?>" alt="">
+                                        </a>
+                                        <!-- <h6 class="text"><?php echo $gallery->title; ?></h6> -->
+                                    </div>
+                                </div>
+
+                            <?php
                             }
+                            ?>
+
+                        <?php
+                        }
+
                         ?>
 
-
-
-
-
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- END / OUR BEST -->
+    </div>
+</section>
+<!-- END / GALLERY -->
 
- <!-- HOME GUEST BOOK -->
- <section class="section-home-guestbook home-guestbook-style-2 awe-parallax bg-22 mt90 pt100 pb100">
-        <div class="container">
-            <div class="home-guestbook pt0 pb0">
-                <div class="row">
-                    <div class="col-xs-12 col-lg-6 col-lg-offset-3">
-                        <div class="ot-heading mb40 row-20 text-center">
-                            <h2>Guest book</h2>
-                            <p class="sub">Your feedback means the world to us.</p>
-                        </div>
+
+<!-- OUR BEST -->
+<section class="ot-out-best mt60">
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
+                    <div class="ot-heading mb40 row-20 text-center">
+                        <h2>Our Service</h2>
                     </div>
-                    <div class="guestbook-content text-center owl-single">
+                </div>
+            </div>
+     
+            <div class="owl-single owl-best" data-single_item="false" data-desktop="6" data-small_desktop="4" data-tablet="3" data-mobile="2" data-nav="true" data-pagination="false">
+
+                <?php
+                if (!empty($facilities)) {
+                ?>
+                    <?php
+                    foreach ($facilities as $facility) {
+                    ?>
+                        <div class="item text-center">
+                            <img class="img-responsive mb10" src="<?php echo base_url(); ?>/assets/devrath/images/facilities/<?php echo $facility->file; ?>" alt="icon">
+                            <span class="font-hind f-500"><?php echo $facility->name; ?></span>
+                        </div>
+
+                    <?php
+                    }
+                    ?>
+                <?php
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END / OUR BEST -->
 
 
 
-                            <?php
-                            if (!empty($testimonials)) {
-                            ?>
 
-                            <?php
-                            foreach ($testimonials as $testimonial) {
-                            ?>
+<!-- HOME GUEST BOOK -->
+<section class="section-home-guestbook home-guestbook-style-2 awe-parallax bg-22 mt90 pt100 pb100">
+    <div class="container">
+        <div class="home-guestbook pt0 pb0">
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 col-lg-offset-3">
+                    <div class="ot-heading mb40 row-20 text-center">
+                        <h2>Guest book</h2>
+                        <p class="sub">Your feedback means the world to us.</p>
+                    </div>
+                </div>
+                <div class="guestbook-content text-center owl-single">
+
+
+
+                    <?php
+                    if (!empty($testimonials)) {
+                    ?>
+
+                        <?php
+                        foreach ($testimonials as $testimonial) {
+                        ?>
 
                             <!-- ITEM -->
                             <div class="guestbook-item">
@@ -406,99 +682,99 @@
                                 </div>
                             </div>
                             <!-- ITEM -->
-                            <?php
-                                }
-                            ?>
+                        <?php
+                        }
+                        ?>
 
-                            <?php
-                                }
-                            ?>
-
-
+                    <?php
+                    }
+                    ?>
 
 
-                        </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- CONTACT -->
+<section class="section-contact">
+    <div class="container">
+        <div class="contact">
+            <div class="row">
+
+                <div class="col-md-2 col-lg-2">
+
                 </div>
 
-            </div>
-        </div>
+                <div class="col-md-8 col-lg-8">
+                    <h2>Send Your Message</h2>
+                    <div class="contact-form">
+                        <!-- <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?> -->
+                        <!-- <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST"> -->
+                        <form id="send-contact-form" method="POST">
 
-    </section>
-
-
-
-
-
-   
-
-           
-   
-
-      
-   <!-- CONTACT -->
-    <section class="section-contact">
-        <div class="container">
-            <div class="contact">
-                <div class="row">
-
-                    <div class="col-md-2 col-lg-2">
-
-                    </div>
-
-                    <div class="col-md-8 col-lg-8">
-                        <h2>Send Your Message</h2>
-                        <div class="contact-form">
-                               <!-- <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?> -->
-                            <!-- <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST"> -->
-                            <form id="send-contact-form"  method="POST">
-
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <input type="text" name="form_name" class="field-text"  value="" placeholder="Your Name" required>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="email" name="form_email" class="field-text"  value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <input type="text" name="form_phone" class="field-text"  value="" placeholder="Phone" required>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <input type="text" name="form_subject" class="field-text"  value="<?php echo (!empty($_GET['form_subject'])) ? $_GET['form_subject'] : ""; ?>" placeholder="Subject" required>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <textarea name="form_message"  class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
-                                      
-                                    </div>
-                                    <div class="col-sm-6">
-                                      
-                                        <div class="button-box">
-                                            <!-- <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value=""> -->
-                                            <button class="awe-btn awe-btn-13" id="submit-form" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
-                                        </div>
-
-                                    </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" name="form_name" class="field-text" value="" placeholder="Your Name" required>
                                 </div>
-                                <div id="contact-content"></div>
-                            </form>
-                        </div>
+                                <div class="col-sm-6">
+                                    <input type="email" name="form_email" class="field-text" value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" name="form_phone" class="field-text" value="" placeholder="Phone" required>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" name="form_subject" class="field-text" value="<?php echo (!empty($_GET['form_subject'])) ? $_GET['form_subject'] : ""; ?>" placeholder="Subject" required>
+                                </div>
+                                <div class="col-sm-12">
+                                    <textarea name="form_message" class="field-textarea" placeholder="Your Message.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
+
+                                </div>
+                                <div class="col-sm-6">
+
+                                    <div class="button-box">
+                                        <!-- <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value=""> -->
+                                        <button class="awe-btn awe-btn-13" id="submit-form" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="contact-content"></div>
+                        </form>
                     </div>
-                    
-                    <div class="col-md-2 col-lg-2">
-                    
-                    </div>
+                </div>
+
+                <div class="col-md-2 col-lg-2">
 
                 </div>
+
             </div>
         </div>
-    </section>
-    <!-- END / CONTACT -->
+    </div>
+</section>
+<!-- END / CONTACT -->
 
 
 
-    <!-- END / HOME GUEST BOOK -->
+<!-- END / HOME GUEST BOOK -->
 
-    <!-- DEALS PACKAGE -->
-    <!-- <section class="section-deals mt90">
+<!-- DEALS PACKAGE -->
+<!-- <section class="section-deals mt90">
         <div class="container">
             <div class="content">
                 <div class="row">
@@ -561,10 +837,10 @@
             </div>
         </div>
     </section> -->
-    <!-- END / DEALS PACKAGE -->
+<!-- END / DEALS PACKAGE -->
 
-    <!-- NEWS -->
-    <!-- <section class="section-news mt60">
+<!-- NEWS -->
+<!-- <section class="section-news mt60">
         <div class="container">
             <div class="content">
                 <div class="row">
@@ -627,6 +903,4 @@
             </div>
         </div>
     </section> -->
-    <!-- END / NEWS -->
-
- 
+<!-- END / NEWS -->

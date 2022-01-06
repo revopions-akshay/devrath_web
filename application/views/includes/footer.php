@@ -229,6 +229,55 @@ $(document).ready(function(){
 
 </script>
 
+<script> 
+
+$(document).ready(function () {
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 12)
+            greet = 'Good Morning.';
+    else if (hrs >= 12 && hrs < 17)
+            greet = 'Good Afternoon.';
+    else if (hrs >= 17 && hrs <= 24)
+            greet = 'Good Evening.';
+
+    $(".slider-caption-sub-1 p i").html(greet);
+});
+
+</script>
+
+<script>
+    $('#carouselHacked').carousel();
+</script>
+
+<script>
+$(document).ready(function() {
+ 
+ $("#owl-demo").owlCarousel({
+
+     navigation : true, // Show next and prev buttons
+     slideSpeed : 300,
+     paginationSpeed : 400,
+     singleItem:true
+
+     // "singleItem:true" is a shortcut for:
+     // items : 1, 
+     // itemsDesktop : false,
+     // itemsDesktopSmall : false,
+     // itemsTablet: false,
+     // itemsMobile : false
+
+ });
+
+
+
+});
+
+</script>
+
 
 
 
