@@ -4,8 +4,8 @@
     <div class="sub-banner">
         <div class="container">
             <div class="text text-center">
-                <h2>ABOUT US</h2>
-                <!-- <p>Lorem Ipsum is simply dummy text of the printing</p> -->
+                <h2>About Us</h2>
+         
             </div>
         </div>
     </div>

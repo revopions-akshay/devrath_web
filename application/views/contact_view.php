@@ -6,7 +6,7 @@
         <div class="sub-banner">
             <div class="container">
                 <div class="text text-center">
-                    <h2>CONTACT WITH US</h2>
+                    <h2>Contact With Us</h2>
                     
                 </div>
             </div>
