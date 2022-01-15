@@ -19,15 +19,27 @@
             <div class="about-item">
 
                 <div class="img owl-single">
-                    <img src="<?php echo base_url(); ?>/assets/devrath/images/about/<?php echo $about[0]->file_path; ?>" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/devrath/images/about/<?php echo $about[0]->file_path; ?>" height="400" alt="">
                     <!-- <img src="<?php echo base_url(); ?>/assets/devrath/images/about/img-2.jpg" alt=""> -->
                 </div>
 
                 <div class="text">
                     <h2 class="heading"><?php echo $about[0]->title_one; ?></h2>
                     <div class="desc">
-                        <p><?php echo $about[0]->content_one; ?></p><br>
+                        <!-- <p><?php echo $about[0]->content_one; ?></p><br>
+                     -->
                         <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p> -->
+
+                        <p style="text-align: justify;">Devrath – Palace and Resort by Big Bite is an iconic 
+                        luxury resort located on Meerut – Delhi Expressway (NH 58) at Meerut By-Pass. 
+                        With a total area of 10 acres, it has played host to some of the most illustrious social 
+                        and corporate events in the city.</p>
+                        <p style="text-align: justify;">As the name suggests, Devrath Palace is a divine carriage 
+                        that takes you closer to your dream events. With 10 unique and beautifully crafted venues, 
+                        it gives you a wide variety to choose from for your D-Day. 
+                        </p>
+
+
                     </div>
                 </div>
 
@@ -38,13 +50,23 @@
             <div class="about-item about-right">
 
                 <div class="img">
-                    <img src="<?php echo base_url(); ?>/assets/devrath/images/about/<?php echo $about[0]->file_path_two; ?>" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/devrath/images/about/<?php echo $about[0]->file_path_two; ?>" height="400" alt="">
                 </div>
 
                 <div class="text">
                     <h2 class="heading"><?php echo $about[0]->title_two; ?></h2>
                     <div class="desc">
-                        <p><?php echo $about[0]->content_two; ?></p>
+                        <!-- <p><?php echo $about[0]->content_two; ?></p> -->
+                        <p style="text-align: justify;">Creative menus, dedicated catering staff, unique culinary team, 
+                        beautifully designed venues and professional wedding services are all available at Devrath –
+                         Palace and Resort. Our 41 fully equipped living rooms can accommodate up to 100 guests.
+                          The ceaseless energy of our chefs and banqueting team will ensure a successful and truly 
+                          memorable outing for all your family members and guests. </p>
+
+                          <p style="text-align: justify;">Our creative team of florists and decorators will be pleased to assist you 
+                          with any kind of tailor-made floral arrangements and settings to suit your theme and budget. </p>
+                          
+                          <p style="text-align: justify;">At Devrath, we are committed to take care of your loved ones.   </p>
                     </div>
                 </div>
 

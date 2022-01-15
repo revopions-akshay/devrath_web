@@ -80,6 +80,85 @@ class Contact extends CI_Controller
         echo "saved successfully";
     }
 
+
+
+    
+
+public function send_event()
+{
+    
+        $eventsData = array(
+            'name' => (!empty($_POST['form_name'])) ? $_POST['form_name'] : NULL,
+            // 'email' => $_POST['form_email'],
+            'mobile_no' => (!empty($_POST['form_phone'])) ? $_POST['form_phone'] : NULL,
+            'event_date' => $_POST['form_date'],
+            'message' => $_POST['form_message'],
+            'created' => date('Y-m-d h:i:s'),
+        );
+        $ID = $this->db->insert('events', $eventsData);
+        if ($ID) {
+            // $this->session->set_flashdata('msg', '<div class="alert alert-success">We will get back to you soon, Thank You!</div>');
+
+              
+    // $this->load->library('phpmailer_lib');
+    
+  
+    // $mail = $this->phpmailer_lib->load();
+    
+  
+    // $mail->isSMTP();
+    // $mail->Host     = 'smtp.example.com';
+    // $mail->SMTPAuth = true;
+    // $mail->Username = 'user@example.com';
+    // $mail->Password = '';
+    // $mail->SMTPSecure = 'ssl';
+    // $mail->Port     = 465;
+    
+    // $mail->setFrom('info@devrath.com', 'Events Queries');
+    // $mail->addReplyTo('info@devrath.com', 'Events Queries');
+    
+  
+    // $mail->addAddress('revopions2020@gmail.com');
+    
+ 
+    // $mail->addCC('cc@example.com');
+    // $mail->addBCC('bcc@example.com');
+    
+  
+    // $mail->Subject = 'Send Email via SMTP using PHPMailer in CodeIgniter';
+    
+  
+    // $mail->isHTML(true);
+    
+    // $mailContent = "<h1>Send HTML Email using SMTP in CodeIgniter</h1>
+    //     <p>This is a test email sending using SMTP mail server with PHPMailer.</p>";
+    // $mail->Body = $mailContent;
+    
+  
+    // if(!$mail->send()){
+    //     echo 'Message could not be sent.';
+    //     echo 'Mailer Error: ' . $mail->ErrorInfo;
+    // }else{
+    //     echo 'Message has been sent';
+    // }
+
+
+
+        } else {
+            $this->session->set_flashdata('msg', '<div class="alert alert-danger">Something went wrong, Try again!</div>');
+        }
+   
+
+    // redirect('contact-us');
+
+    echo "saved successfully";
+}
+
+
+
+
+
+
     public function index()
     {
         $data['metatags'] = array();

@@ -29,8 +29,11 @@
                             <p><?php echo $contactabout[0]->content; ?></p>
                             <ul>
                                 <li><i class="icon lotus-icon-location"></i> <?php echo $settings['address']; ?></li>
-                                <li><i class="icon lotus-icon-phone"></i> <?php echo $settings['phone']; ?></li>
-                                <li><i class="icon fa fa-envelope-o"></i> <?php echo $settings['email']; ?></li>
+                                <li><i class="icon lotus-icon-phone"></i><a href="tel:<?php echo $settings['phone']; ?>"> <?php echo $settings['phone']; ?></a></li>
+                                <li><i class="icon lotus-icon-phone"></i><a href="+917409102000">+917409102000</a></li>
+                                <li><i class="icon lotus-icon-phone"></i><a href="+919837777693">+919837777693</a</li>
+                                <li><i class="icon lotus-icon-phone"></i><a href="+919870674557">+919870674557</a</li>
+                                <li><i class="icon fa fa-envelope-o"></i> <a href="mailto:<?php echo $settings['email']; ?>"><?php echo $settings['email']; ?></a></li>
                             </ul>
                         </div>
 

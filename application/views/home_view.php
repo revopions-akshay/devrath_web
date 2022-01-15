@@ -11,7 +11,19 @@
                     <div class="text">
                         <h2 class="heading"><?php echo $about[0]->title_one; ?></h2>
                         <span class="box-border"></span>
-                        <p style="text-align: justify;"><?php echo $about[0]->content_one; ?></p>
+                        <!-- <p style="text-align: justify;"><?php echo $about[0]->content_one; ?></p> -->
+                        <p style="text-align: justify;">Devrath – Palace and Resort by Big Bite is an iconic luxury resort 
+                        located on Meerut – Delhi Expressway (NH 58) at Meerut By-Pass. With a total area of 10 acres, 
+                        it has played host to some of the most illustrious social and corporate events in the city.</p>
+
+                        <p style="text-align: justify;">As the name suggests, Devrath Palace is a divine carriage that 
+                        takes you closer to your dream events. With 10 unique and beautifully crafted venues, it gives
+                         you a wide variety to choose from for your D-Day.</p>
+
+                         <p style="text-align: justify;">Creative menus, dedicated catering staff, unique culinary team, 
+                         beautifully designed venues 
+                         and professional wedding services are all available at Devrath – Palace and Resort.</p> 
+
                         <a href="/about-us/" class="awe-btn awe-btn-default">READ MORE</a>
                     </div>
                 </div>
@@ -641,6 +653,69 @@
     </div>
 </section>
 <!-- END / OUR BEST -->
+
+
+
+<!-- CONTACT -->
+<section class="section-contact">
+    <div class="container">
+        <div class="contact">
+            <div class="row">
+
+                <div class="col-md-2 col-lg-2">
+
+                </div>
+
+                <div class="col-md-8 col-lg-8">
+                    <h2>Plan an Event</h2>
+                    <div class="contact-form">
+                        <!-- <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?> -->
+                        <!-- <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST"> -->
+                        <form id="send-event-form" method="POST">
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <input type="text" name="form_name" class="field-text" value="" placeholder="Your Name" required>
+                                </div>
+                                <!-- <div class="col-sm-6">
+                                    <input type="email" name="form_email" class="field-text" value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
+                                </div> -->
+                                <div class="col-sm-12">
+                                    <input type="text" name="form_phone" class="field-text" value="" placeholder="Phone" required>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" name="form_date" class="field-text" value="<?php echo (!empty($_GET['form_date'])) ? $_GET['form_date'] : ""; ?>" placeholder="Event Date" required>
+                                </div>
+                                <div class="col-sm-12">
+                                    <textarea name="form_message" class="field-textarea" placeholder="Description.." required><?php echo (!empty($_GET['form_message'])) ? $_GET['form_message'] : ""; ?></textarea>
+
+                                </div>
+                                <div class="col-sm-6">
+
+                                    <div class="button-box">
+                                        <!-- <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value=""> -->
+                                        <button class="awe-btn awe-btn-13" id="submit-form" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="contact-content"></div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-lg-2">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END / CONTACT -->
+
+
+
 
 
 
