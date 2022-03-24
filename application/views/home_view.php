@@ -158,6 +158,47 @@
 </section>
 
 
+
+<!-- OUR BEST -->
+<section class="ot-out-best mt60">
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
+                    <div class="ot-heading mb40 row-20 text-center">
+                        <h2>Amenities and Facilities</h2>
+                    </div>
+                </div>
+            </div>
+     
+            <div class="owl-single owl-best" data-single_item="false" data-desktop="6" data-small_desktop="4" data-tablet="3" data-mobile="2" data-nav="true" data-pagination="false">
+
+                <?php
+                if (!empty($facilities)) {
+                ?>
+                    <?php
+                    foreach ($facilities as $facility) {
+                    ?>
+                        <div class="item text-center">
+                            <img class="img-responsive mb10" src="<?php echo base_url(); ?>/assets/devrath/images/facilities/<?php echo $facility->file; ?>" alt="icon">
+                            <span class="font-hind f-500"><?php echo $facility->name; ?></span>
+                        </div>
+
+                    <?php
+                    }
+                    ?>
+                <?php
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END / OUR BEST -->
+
+
+
+
 <style>
     #owl-demo .item img {
         display: block;
@@ -389,37 +430,28 @@
 
             <div class=" owl-single owl-best">
 
-            
                 <div class="item-slide">
                     <div class="row" style="background-color:aliceblue;">
                         <div class="col-md-12">
-
                             <img src="<?php echo base_url(); ?>assets/devrath/images/events/wedding.jpg" width="770" height="578" alt="The Last of us">
-
-                            <div class="event-details text-center">
-                            
+                            <div class="event-details text-center">                            
                                 <div class="event-all-info">
                                     <p class="event-small-title text-center">
                                        Event
                                     </p>
                                     <h3 class="event-title text-center remove-title-padding NoClass">
-                                   Weddings
+                                        Weddings
                                     </h3>
                                     <a href="" class="underlined-link" target="_self" tabindex="0">
                                         <p class="event-description text-center NoClass">
                                            Devrath offers an enviable array of venues for successful wedding and all wedding functions.
                                         </p>
                                         <div class="status-label-container">
-
                                         </div>
-
                                     </a>
                                 </div>
                             </div>
-
-
                         </div>
-
                     </div>
                 </div>
 
@@ -427,11 +459,8 @@
                 <div class="item-slide">
                     <div class="row" style="background-color:aliceblue;">
                         <div class="col-md-12">
-
                             <img src="<?php echo base_url(); ?>assets/devrath/images/events/birthday2.jpg" width="770" height="578"  alt="The Last of us">
-
-                            <div class="event-details text-center">
-                            
+                            <div class="event-details text-center">                            
                                 <div class="event-all-info">
                                     <p class="event-small-title text-center">
                                         Event
@@ -444,14 +473,10 @@
                                            Devrath offers an enviable array of venues for successful Birthday parties and all events.
                                         </p>
                                         <div class="status-label-container">
-
                                         </div>
-
                                     </a>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -461,11 +486,8 @@
                 <div class="item-slide">
                     <div class="row" style="background-color:aliceblue;">
                         <div class="col-md-12">
-
                             <img src="<?php echo base_url(); ?>assets/devrath/images/events/3.jpeg" width="770" height="578" alt="The Last of us">
-
-                            <div class="event-details text-center">
-                            
+                            <div class="event-details text-center">                            
                                 <div class="event-all-info">
                                     <p class="event-small-title text-center">
                                        Event
@@ -478,68 +500,42 @@
                                            Devrath offers an enviable array of venues for successful corporate meetings and professional conferences.
                                         </p>
                                         <div class="status-label-container">
-
                                         </div>
-
                                     </a>
                                 </div>
                             </div>
-
-
                         </div>
-
                     </div>
-                </div>
-
-             
+                </div>           
                
          
 
                 <div class="item-slide">
                     <div class="row" style="background-color:aliceblue;">
                         <div class="col-md-12">
-
                             <img src="<?php echo base_url(); ?>assets/devrath/images/events/2A.jpeg" width="770" height="578" alt="The Last of us">
-
-                            <div class="event-details text-center">
-                            
+                            <div class="event-details text-center">                            
                                 <div class="event-all-info">
                                     <p class="event-small-title text-center">
                                         Event
                                     </p>
-                                    <h3 class="event-title text-center remove-title-padding NoClass">
-                                    
-                                    Social Events
-                                
+                                    <h3 class="event-title text-center remove-title-padding NoClass">                                    
+                                    Social Events                                
                                     </h3>
                                     <a href="#" class="underlined-link" target="_self"  tabindex="0">
                                         <p class="event-description text-center NoClass">
-                                           
-                                        Whether you are planning a black-tie gala or a prestigious affair, Devrath understands the demands of hosting center stage events.
-                                    
+                                            Whether you are planning a black-tie gala or a prestigious affair,
+                                             Devrath understands the demands of hosting center stage events.                                    
                                         </p>
                                         <div class="status-label-container">
-
                                         </div>
-
                                     </a>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
-
-
-
-               
-
-
-
             </div>
-
-
         </div>
     </div>
 </section>
@@ -617,47 +613,10 @@
 <!-- END / GALLERY -->
 
 
-<!-- OUR BEST -->
-<section class="ot-out-best mt60">
-    <div class="container">
-        <div class="content">
-            <div class="row">
-                <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
-                    <div class="ot-heading mb40 row-20 text-center">
-                        <h2>Our Service</h2>
-                    </div>
-                </div>
-            </div>
-     
-            <div class="owl-single owl-best" data-single_item="false" data-desktop="6" data-small_desktop="4" data-tablet="3" data-mobile="2" data-nav="true" data-pagination="false">
-
-                <?php
-                if (!empty($facilities)) {
-                ?>
-                    <?php
-                    foreach ($facilities as $facility) {
-                    ?>
-                        <div class="item text-center">
-                            <img class="img-responsive mb10" src="<?php echo base_url(); ?>/assets/devrath/images/facilities/<?php echo $facility->file; ?>" alt="icon">
-                            <span class="font-hind f-500"><?php echo $facility->name; ?></span>
-                        </div>
-
-                    <?php
-                    }
-                    ?>
-                <?php
-                }
-                ?>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- END / OUR BEST -->
-
 
 
 <!-- CONTACT -->
-<section class="section-contact">
+<!-- <section class="section-contact">
     <div class="container">
         <div class="contact">
             <div class="row">
@@ -669,17 +628,14 @@
                 <div class="col-md-8 col-lg-8">
                     <h2>Plan an Event</h2>
                     <div class="contact-form">
-                        <!-- <?php echo (!empty($this->session->flashdata('msg'))) ? $this->session->flashdata('msg') : ''; ?> -->
-                        <!-- <form id="send-contact-form" action="<?php echo base_url(); ?>contact-us/send" method="POST"> -->
+                       
                         <form id="send-event-form" method="POST">
 
                             <div class="row">
                                 <div class="col-sm-12">
                                     <input type="text" name="form_name" class="field-text" value="" placeholder="Your Name" required>
                                 </div>
-                                <!-- <div class="col-sm-6">
-                                    <input type="email" name="form_email" class="field-text" value="<?php echo (!empty($_GET['form_email'])) ? $_GET['form_email'] : ""; ?>" placeholder="Email Address" required>
-                                </div> -->
+                             
                                 <div class="col-sm-12">
                                     <input type="text" name="form_phone" class="field-text" value="" placeholder="Phone" required>
                                 </div>
@@ -693,7 +649,7 @@
                                 <div class="col-sm-6">
 
                                     <div class="button-box">
-                                        <!-- <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value=""> -->
+                                     
                                         <button class="awe-btn awe-btn-13" id="submit-form" data-text="Submit Here" type="submit" data-loading-text="Please wait...">Submit Here</button>
                                     </div>
 
@@ -711,7 +667,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- END / CONTACT -->
 
 
