@@ -44,15 +44,14 @@
                                        <div class="img">
                                            <a href="#"><img class="img-center" src="<?php echo base_url(); ?><?php echo ($footer_logo != "" ? $footer_logo : 'assets/devrath/images/logo.png'); ?>" alt=""></a>
                                        </div>
-
-                                   </div>
+                                    </div>
                                </div>
                                <div class="widget widget_tripadvisor clearfix">
-                                   <div class="tripadvisor text-center">
+                                   <div class="tripadvisor text-center" >
                                        <?php
                                         if (!empty($footer_about)) {
                                         ?>
-                                           <p><?php echo $footer_about; ?></p>
+                                           <p style="font-size: 14px; color: #fff;"><?php echo $footer_about; ?></p>
                                        <?php
                                         }
                                         ?>
