@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <!-- TITLE -->
-    <title>Home</title>
+    <title>Devrath By Big Bite - Wedding Venue And Best Banquet Hall In Meerut By City</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
