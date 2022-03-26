@@ -61,116 +61,116 @@
                             ?>
                     </div>
 
-<div class="room-detail_thumbs">
+                    <div class="room-detail_thumbs">
 
-                            <?php
+                        <?php
                             if (!empty($clubgallery)) {
+                        ?>
+
+                            <?php
+                                foreach ($clubgallery as $gallery) {
                             ?>
 
-                                <?php
-                                foreach ($clubgallery as $gallery) {
-                                ?>
-
-<a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt=""></a>
-
-
-
-                                <?php
-                                }
-                                ?>
+                                <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt=""></a>
 
 
 
                             <?php
-                            }
-
+                                }
                             ?>
-
-</div>
 
 
 
                         <?php
-
-                        }
+                            }
 
                         ?>
 
-
-<?php
-
-if ($room[0]->pid == 2) {
-?>
-
-
-    <?php
-    if (!empty($suitegallery)) {
-    ?>
-
-        <?php
-        foreach ($suitegallery as $gallery) {
-        ?>
-
-            <div class="room_img-item">
-                <img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt="">
-
-            </div>
+                    </div>
 
 
 
-        <?php
-        }
-        ?>
+                <?php
+
+                        }
+
+                ?>
+
+
+                <?php
+
+                if ($room[0]->pid == 2) {
+                ?>
+
+
+                    <?php
+                    if (!empty($suitegallery)) {
+                    ?>
+
+                        <?php
+                        foreach ($suitegallery as $gallery) {
+                        ?>
+
+                            <div class="room_img-item">
+                                <img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt="">
+
+                            </div>
 
 
 
-    <?php
-    }
-
-    ?>
-</div>
-
-<div class="room-detail_thumbs">
-
-    <?php
-    if (!empty($clubgallery)) {
-    ?>
-
-        <?php
-        foreach ($clubgallery as $gallery) {
-        ?>
-
-<a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt=""></a>
+                        <?php
+                        }
+                        ?>
 
 
 
-        <?php
-        }
-        ?>
+                    <?php
+                    }
+
+                    ?>
+                </div>
+
+                <div class="room-detail_thumbs">
+
+                    <?php
+                    if (!empty($clubgallery)) {
+                    ?>
+
+                        <?php
+                        foreach ($clubgallery as $gallery) {
+                        ?>
+
+                            <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/gallery/') . $gallery->file_path; ?>" alt=""></a>
 
 
 
-    <?php
-    }
-
-    ?>
-
-</div>
+                        <?php
+                        }
+                        ?>
 
 
 
-<?php
+                    <?php
+                    }
 
-}
+                    ?>
 
-?>
-
-
-
+                </div>
 
 
 
-                        <!-- <div class="room_img-item">
+            <?php
+
+                }
+
+            ?>
+
+
+
+
+
+
+            <!-- <div class="room_img-item">
                             <img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt="">
 
                         </div>
@@ -199,10 +199,10 @@ if ($room[0]->pid == 2) {
 
                             </div>
                         </div> -->
-                        <!-- END / LAGER IMGAE -->
+            <!-- END / LAGER IMGAE -->
 
-                        <!-- THUMBNAIL IMAGE -->
-                        <!-- <div class="room-detail_thumbs">
+            <!-- THUMBNAIL IMAGE -->
+            <!-- <div class="room-detail_thumbs">
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/') . $room[0]->file_path; ?>" alt=""></a>
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0695-min.jpg" alt=""></a>
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0701-min.jpg" alt=""></a>
@@ -212,72 +212,72 @@ if ($room[0]->pid == 2) {
                             <a href="#"><img src="<?php echo base_url('assets/devrath/images/rooms/'); ?>IMG_0715-min.jpg" alt=""></a>
                             
                         </div> -->
-                        <!-- END / THUMBNAIL IMAGE -->
+            <!-- END / THUMBNAIL IMAGE -->
 
+            </div>
+
+            <div class="col-lg-3">
+
+                <!-- FORM BOOK -->
+                <div class="room-detail_book">
+
+                    <div class="room-detail_total">
+                        <img src="images/icon-logo.png" alt="" class="icon-logo">
+
+                        <!-- <h6><?php echo  $room[0]->title;   ?></h6> -->
+
+                        <p class="price">
+                            <span class="amout"><?php echo  $room[0]->title;   ?></span>
+                        </p>
                     </div>
 
-                    <div class="col-lg-3">
-
-                        <!-- FORM BOOK -->
-                        <div class="room-detail_book">
-
-                            <div class="room-detail_total">
-                                <img src="images/icon-logo.png" alt="" class="icon-logo">
-
-                                <!-- <h6><?php echo  $room[0]->title;   ?></h6> -->
-
-                                <p class="price">
-                                    <span class="amout"><?php echo  $room[0]->title;   ?></span>
-                                </p>
-                            </div>
-
-                            <div class="room-detail_form">
-                                <label>Max. Person</label>
-                                <!-- <input type="text" class="awe-calendar from" placeholder="Arrive Date"> -->
-                                <?php echo  $room[0]->max_person;   ?>
-                                <label>Bed</label>
-                                <!-- <input type="text" class="awe-calendar to" placeholder="Departure Date">
+                    <div class="room-detail_form">
+                        <label>Max. Person</label>
+                        <!-- <input type="text" class="awe-calendar from" placeholder="Arrive Date"> -->
+                        <?php echo  $room[0]->max_person;   ?>
+                        <label>Bed</label>
+                        <!-- <input type="text" class="awe-calendar to" placeholder="Departure Date">
                                  -->
-                                <?php echo  $room[0]->bed;   ?>
-                                <label>View</label>
-                                <?php echo  $room[0]->view;   ?>
-                                <!-- <select class="awe-select">
+                        <?php echo  $room[0]->bed;   ?>
+                        <label>View</label>
+                        <?php echo  $room[0]->view;   ?>
+                        <!-- <select class="awe-select">
                                         <option>1</option>
                                         <option>2</option>
                                         <option selected>3</option>
                                         <option>4</option>
                                     </select> -->
-                                <label>Room Size</label>
-                                <?php echo  $room[0]->room_size;   ?>
-                                <!-- <select class="awe-select">
+                        <label>Room Size</label>
+                        <?php echo  $room[0]->room_size;   ?>
+                        <!-- <select class="awe-select">
                                         <option>1</option>
                                         <option>2</option>
                                         <option selected>3</option>
                                         <option>4</option>
                                     </select> -->
-                                <!-- <button class="awe-btn awe-btn-13">Book Now</button> -->
-                            </div>
-
-                        </div>
-                        <!-- END / FORM BOOK -->
-
+                        <!-- <button class="awe-btn awe-btn-13">Book Now</button> -->
                     </div>
-                </div>
-            </div>
-            <!-- END / DETAIL -->
-            <div class="row">
-                <br>
-            </div>
-
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <?php echo  $room[0]->content;   ?>
 
                 </div>
-            </div>
+                <!-- END / FORM BOOK -->
 
-            <!--              
+            </div>
+        </div>
+    </div>
+    <!-- END / DETAIL -->
+    <div class="row">
+        <br>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <?php echo  $room[0]->content;   ?>
+
+        </div>
+    </div>
+
+    <!--              
                 <div class="room-detail_compare">
                     <h2 class="room-compare_title">COMPARE ACCOMMODATION</h2>
 
@@ -378,7 +378,7 @@ if ($room[0]->pid == 2) {
                     </div>
                 </div> -->
 
-        </div>
+    </div>
 </section>
 <!-- END / SHOP DETAIL -->
 

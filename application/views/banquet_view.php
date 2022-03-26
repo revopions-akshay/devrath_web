@@ -68,126 +68,310 @@
 
 
    <!-- GALLERY -->
-   <section class="section_page-gallery">
+   <!-- <section class="section_page-gallery">
        <div class="container">
            <div class="gallery gallery-3">
                <h2 class="heading">Banquet Gallery</h2>
-               <!-- FILTER -->
               
-
-               <!-- GALLERY CONTENT -->
                <div class="gallery-content">
                    <div class="row">
                        <div class="gallery-isotope col-4">
-
-                           <!-- ITEM SIZE -->
-                           <div class="item-size"></div>
-                           <!-- END / ITEM SIZE -->
-
-                           <?php
-                            if (!empty($banquetgalleries)) {
-                            ?>
-
-                               <?php
-                                foreach ($banquetgalleries as $gallery) {
+                            <div class="item-size"></div>
+                                <?php
+                                    if (!empty($banquetgalleries)) {
                                 ?>
 
-                                   <div class="item-isotope larger <?php echo $gallery->class; ?>">
-                                       <div class="gallery_item">
-                                           <a href="<?php echo base_url(); ?>assets/devrath/images/banquet/gallery/<?php echo $gallery->file_path; ?>" class="mfp-image">
-                                               <img src="<?php echo base_url(); ?>assets/devrath/images/banquet/gallery/<?php echo $gallery->file_path; ?>" alt="">
-                                           </a>
-                                           <!-- <h6 class="text"><?php echo $gallery->title; ?></h6> -->
-                                       </div>
-                                   </div>
+                                    <?php
+                                        foreach ($banquetgalleries as $gallery) {
+                                    ?>
 
+                                        <div class="item-isotope larger <?php echo $gallery->class; ?>">
+                                            <div class="gallery_item">
+                                                <a href="<?php echo base_url(); ?>assets/devrath/images/banquet/gallery/<?php echo $gallery->file_path; ?>" class="mfp-image">
+                                                    <img src="<?php echo base_url(); ?>assets/devrath/images/banquet/gallery/<?php echo $gallery->file_path; ?>" alt="">
+                                                </a>
+                                                
+                                            </div>
+                                        </div>
 
+                                    <?php
+                                        }
+                                    ?>
 
-                               <?php
-                                }
+                                <?php
+                                    }
                                 ?>
-
-
-
-                           <?php
-                            }
-
-                            ?>
-
-
                        </div>
                    </div>
+               </div>           
 
-               </div>
-              
-
-           </div>
-       </div>
-   </section>
-   <!-- END / GALLERY -->
-
-
-   <!-- EVENT DEAL RESTAURANT -->
-   <!-- <section class="section-event-restaurant bg-18">
-
-
-       <div class="container">
-           <div class="event-restaurant">
-               <div class="row">
-                   <div class="col-md-5 col-lg-4">
-
-                       <div class="event-restaurant_header">
-                           <span class="icon"><i class="lotus-icon-calendar"></i></span>
-                           <h2>EVENT &amp; DEAL</h2>
-                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                       </div>
-
-                   </div>
-                   <div class="col-md-7 col-lg-6 col-lg-offset-2">
-
-                       <ul class="event-restaurant_content">
-
-                           <li>
-                               <span class="event-date">
-                                   <strong>17</strong>
-                                   Dec
-                               </span>
-                               <div class="text">
-                                   <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                   <a href="#">[ Read More ]</a>
-                               </div>
-                           </li>
-
-                           <li>
-                               <span class="event-date">
-                                   <strong>23</strong>
-                                   JUN
-                               </span>
-                               <div class="text">
-                                   <h2>Lorem Ipsum is simply dummy text</h2>
-                                   <a href="#">[ Read More ]</a>
-                               </div>
-                           </li>
-
-                           <li>
-                               <span class="event-date">
-                                   <strong>26</strong>
-                                   NOV
-                               </span>
-                               <div class="text">
-                                   <h2>Lorem Ipsum is simply dummy text of the printing</h2>
-                                   <a href="#">[ Read More ]</a>
-                               </div>
-                           </li>
-
-                       </ul>
-
-                   </div>
-               </div>
            </div>
        </div>
    </section> -->
-   <!-- END / EVENT DEAL RESTAURANT -->
+   <!-- END / GALLERY -->
+
+
+<!-- BANQUET DETAIL -->
+<section class="section-room-detail bg-white">
+    <div class="container">
+
+        <!-- DETAIL -->
+        <div class="room-detail">
+            <div class="row">
+                <div class="col-lg-9">
+
+                    <!-- LAGER IMGAE -->
+                    <div class="room-detail_img">
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler.jpg'); ?>" alt="Antler">
+                        </div>
+                                            
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.jpg'); ?>" alt="Antler">
+                        </div>
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.jpg'); ?>" alt="Antler">
+                        </div>
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.jpg'); ?>" alt="Antler">
+                        </div>
+                    </div>
+
+                    <!-- <div class="room-detail_thumbs">
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler.jpg'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.jpg'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.jpg'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.jpg'); ?>" alt="Antler"></a>
+
+                    </div>          -->
+                </div>
+
+
+            <div class="col-lg-3">
+                <!-- FORM BOOK -->
+                <div class="room-detail_book">
+                    <div class="room-detail_total">
+                        <img src="images/icon-logo.png" alt="" class="icon-logo">
+
+                        <p class="price">
+                            <span class="amout">Antler</span>
+                        </p>
+                    </div>   
+
+                </div>
+                <!-- END / FORM BOOK -->
+
+            </div>
+        </div>
+    </div>
+    <!-- END / DETAIL -->
+    <div class="row">
+        <br>
+    </div>
+
+    </div>
+</section>
+<!-- END / Banquet DETAIL -->
+
+
+<!-- BANQUET DETAIL -->
+<section class="section-room-detail bg-white">
+    <div class="container">
+
+        <!-- DETAIL -->
+        <div class="room-detail">
+            <div class="row">
+                <div class="col-lg-9">
+
+                    <!-- LAGER IMGAE -->
+                    <div class="room-detail_img">
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-1.jpg'); ?>" alt="Devrath">
+                        </div>
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-2.jpg'); ?>" alt="Devrath">
+                        </div>
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-3.jpg'); ?>" alt="Devrath">
+                        </div>
+                                            
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-4.jpg'); ?>" alt="Devrath">
+                        </div>
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-5.jpg'); ?>" alt="Devrath">
+                        </div>
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-6.jpg'); ?>" alt="Devrath">
+                        </div>
+                    </div>
+
+                    <!-- <div class="room-detail_thumbs">
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-1.jpg'); ?>" alt="Devrath"></a>
+                         <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-2.jpg'); ?>" alt="Devrath"></a>
+                          <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-3.jpg'); ?>" alt="Devrath"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-4.jpg'); ?>" alt="Devrath"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-5.jpg'); ?>" alt="Devrath"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-6.jpg'); ?>" alt="Devrath"></a>
+
+                    </div>          -->
+                </div>
+
+
+            <div class="col-lg-3">
+                <!-- FORM BOOK -->
+                <div class="room-detail_book">
+                    <div class="room-detail_total">
+                        <img src="images/icon-logo.png" alt="" class="icon-logo">
+
+                        <p class="price">
+                            <span class="amout">Devrath</span>
+                        </p>
+                    </div>   
+
+                </div>
+                <!-- END / FORM BOOK -->
+
+            </div>
+        </div>
+    </div>
+    <!-- END / DETAIL -->
+    <div class="row">
+        <br>
+    </div>
+
+    </div>
+</section>
+<!-- END / Banquet DETAIL -->
+
+
+
+
+
+
+<!-- BANQUET DETAIL -->
+<section class="section-room-detail bg-white">
+    <div class="container">
+
+        <!-- DETAIL -->
+        <div class="room-detail">
+            <div class="row">
+                <div class="col-lg-9">
+
+                    <!-- LAGER IMGAE -->
+                    <div class="room-detail_img">
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.jpg'); ?>" alt="Palm Court">
+                        </div>
+                                            
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.jpg'); ?>" alt="Palm Court">
+                        </div>
+                    
+                    </div>
+
+                    <div class="room-detail_thumbs">
+                        <!-- <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.jpg'); ?>" alt="Palm Court"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.jpg'); ?>" alt="Palm Court"></a>
+                        -->
+
+                    </div>         
+                </div>
+
+
+            <div class="col-lg-3">
+                <!-- FORM BOOK -->
+                <div class="room-detail_book">
+                    <div class="room-detail_total">
+                        <img src="images/icon-logo.png" alt="" class="icon-logo">
+
+                        <p class="price">
+                            <span class="amout">Palm Court</span>
+                        </p>
+                    </div>   
+
+                </div>
+                <!-- END / FORM BOOK -->
+
+            </div>
+        </div>
+    </div>
+    <!-- END / DETAIL -->
+    <div class="row">
+        <br>
+    </div>
+
+
+    </div>
+</section>
+<!-- END / Banquet DETAIL -->
+
+
+
+<!-- BANQUET DETAIL -->
+<section class="section-room-detail bg-white">
+    <div class="container">
+
+        <!-- DETAIL -->
+        <div class="room-detail">
+            <div class="row">
+                <div class="col-lg-9">
+
+                    <!-- LAGER IMGAE -->
+                    <div class="room-detail_img">
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-1.jpg'); ?>" alt="Royal Pine">
+                        </div>
+                                            
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-2.jpg'); ?>" alt="Royal Pine">
+                        </div>
+
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-3.jpg'); ?>" alt="Royal Pine">
+                        </div>
+                    
+                    </div>
+
+                    <div class="room-detail_thumbs">
+                        <!-- <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-3.jpg'); ?>" alt="Royal Pine"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-3.jpg'); ?>" alt="Royal Pine"></a>
+                        -->
+
+                    </div>         
+                </div>
+
+
+            <div class="col-lg-3">
+                <!-- FORM BOOK -->
+                <div class="room-detail_book">
+                    <div class="room-detail_total">
+                        <img src="images/icon-logo.png" alt="" class="icon-logo">
+
+                        <p class="price">
+                            <span class="amout">Royal Pine</span>
+                        </p>
+                    </div>   
+
+                </div>
+                <!-- END / FORM BOOK -->
+
+            </div>
+        </div>
+    </div>
+    <!-- END / DETAIL -->
+    <div class="row">
+        <br>
+    </div>
+
+
+    </div>
+</section>
+<!-- END / Banquet DETAIL -->
+
+
+
+
 
 
    <!-- RESERVATION -->
@@ -235,9 +419,7 @@
             <div class="contact">
                 <div class="row">
 
-                    <div class="col-md-2 col-lg-2">
-
-                                 
+                    <div class="col-md-2 col-lg-2">                                
 
                     </div>
 
