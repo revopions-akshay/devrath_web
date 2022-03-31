@@ -165,7 +165,14 @@
                         <p class="price">
                             <span class="amout">Devrath</span>
                         </p>
-                    </div>   
+                    </div>  
+                                
+                    <div class="room-detail_form">
+                        <label>Capacity</label>
+                            <p>800 persons</p>
+                        <label>Size </label>
+                        <p>20,000 sq ft</p>                     
+                    </div> 
 
                 </div>
                 <!-- END / FORM BOOK -->
@@ -227,7 +234,16 @@
                         <p class="price">
                             <span class="amout">Royal Pine</span>
                         </p>
-                    </div>   
+                    </div>  
+                    
+                    <div class="room-detail_form">
+                        <label>Capacity</label>
+                            <p>800 persons</p>
+                        <label>Size </label>
+                        <p>20,000 sq ft</p>
+                       
+                      
+                    </div>
 
                 </div>
                 <!-- END / FORM BOOK -->
@@ -298,6 +314,13 @@
                         </p>
                     </div>   
 
+                    <div class="room-detail_form">
+                        <label>Capacity</label>
+                            <p>300 persons</p>
+                        <label>Size </label>
+                        <p>10,000 sq ft</p>                     
+                    </div> 
+
                 </div>
                 <!-- END / FORM BOOK -->
 
@@ -357,7 +380,13 @@
                         <p class="price">
                             <span class="amout">Palm Court</span>
                         </p>
-                    </div>   
+                    </div>  
+                    <div class="room-detail_form">
+                        <label>Capacity</label>
+                            <p>100 - 250 persons</p>
+                        <!-- <label>Size </label>
+                        <p>20,000 sq ft</p>                      -->
+                    </div>  
 
                 </div>
                 <!-- END / FORM BOOK -->
