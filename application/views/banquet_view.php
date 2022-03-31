@@ -111,70 +111,8 @@
    <!-- END / GALLERY -->
 
 
-<!-- BANQUET DETAIL -->
-<section class="section-room-detail bg-white">
-    <div class="container">
 
-        <!-- DETAIL -->
-        <div class="room-detail">
-            <div class="row">
-                <div class="col-lg-9">
-
-                    <!-- LAGER IMGAE -->
-                    <div class="room-detail_img">
-                        <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler.jpg'); ?>" alt="Antler">
-                        </div>
-                                            
-                        <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.jpg'); ?>" alt="Antler">
-                        </div>
-                        <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.jpg'); ?>" alt="Antler">
-                        </div>
-                        <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.jpg'); ?>" alt="Antler">
-                        </div>
-                    </div>
-
-                    <!-- <div class="room-detail_thumbs">
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler.jpg'); ?>" alt="Antler"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.jpg'); ?>" alt="Antler"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.jpg'); ?>" alt="Antler"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.jpg'); ?>" alt="Antler"></a>
-
-                    </div>          -->
-                </div>
-
-
-            <div class="col-lg-3">
-                <!-- FORM BOOK -->
-                <div class="room-detail_book">
-                    <div class="room-detail_total">
-                        <img src="images/icon-logo.png" alt="" class="icon-logo">
-
-                        <p class="price">
-                            <span class="amout">Antler</span>
-                        </p>
-                    </div>   
-
-                </div>
-                <!-- END / FORM BOOK -->
-
-            </div>
-        </div>
-    </div>
-    <!-- END / DETAIL -->
-    <div class="row">
-        <br>
-    </div>
-
-    </div>
-</section>
-<!-- END / Banquet DETAIL -->
-
-
-<!-- BANQUET DETAIL -->
+<!--Devrath  BANQUET DETAIL -->
 <section class="section-room-detail bg-white">
     <div class="container">
 
@@ -246,69 +184,7 @@
 
 
 
-
-
-
-<!-- BANQUET DETAIL -->
-<section class="section-room-detail bg-white">
-    <div class="container">
-
-        <!-- DETAIL -->
-        <div class="room-detail">
-            <div class="row">
-                <div class="col-lg-9">
-
-                    <!-- LAGER IMGAE -->
-                    <div class="room-detail_img">
-                        <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.jpg'); ?>" alt="Palm Court">
-                        </div>
-                                            
-                        <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.jpg'); ?>" alt="Palm Court">
-                        </div>
-                    
-                    </div>
-
-                    <div class="room-detail_thumbs">
-                        <!-- <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.jpg'); ?>" alt="Palm Court"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.jpg'); ?>" alt="Palm Court"></a>
-                        -->
-
-                    </div>         
-                </div>
-
-
-            <div class="col-lg-3">
-                <!-- FORM BOOK -->
-                <div class="room-detail_book">
-                    <div class="room-detail_total">
-                        <img src="images/icon-logo.png" alt="" class="icon-logo">
-
-                        <p class="price">
-                            <span class="amout">Palm Court</span>
-                        </p>
-                    </div>   
-
-                </div>
-                <!-- END / FORM BOOK -->
-
-            </div>
-        </div>
-    </div>
-    <!-- END / DETAIL -->
-    <div class="row">
-        <br>
-    </div>
-
-
-    </div>
-</section>
-<!-- END / Banquet DETAIL -->
-
-
-
-<!-- BANQUET DETAIL -->
+<!-- Royal Pine BANQUET DETAIL -->
 <section class="section-room-detail bg-white">
     <div class="container">
 
@@ -369,6 +245,135 @@
 </section>
 <!-- END / Banquet DETAIL -->
 
+
+
+
+
+
+
+<!-- Antler  BANQUET DETAIL -->
+<section class="section-room-detail bg-white">
+    <div class="container">
+
+        <!-- DETAIL -->
+        <div class="room-detail">
+            <div class="row">
+                <div class="col-lg-9">
+
+                    <!-- LAGER IMGAE -->
+                    <div class="room-detail_img">
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler.jpg'); ?>" alt="Antler">
+                        </div>
+                                            
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.jpg'); ?>" alt="Antler">
+                        </div>
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.jpg'); ?>" alt="Antler">
+                        </div>
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.jpg'); ?>" alt="Antler">
+                        </div>
+                    </div>
+
+                    <!-- <div class="room-detail_thumbs">
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler.jpg'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.jpg'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.jpg'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.jpg'); ?>" alt="Antler"></a>
+
+                    </div>          -->
+                </div>
+
+
+            <div class="col-lg-3">
+                <!-- FORM BOOK -->
+                <div class="room-detail_book">
+                    <div class="room-detail_total">
+                        <img src="images/icon-logo.png" alt="" class="icon-logo">
+
+                        <p class="price">
+                            <span class="amout">Antler</span>
+                        </p>
+                    </div>   
+
+                </div>
+                <!-- END / FORM BOOK -->
+
+            </div>
+        </div>
+    </div>
+    <!-- END / DETAIL -->
+    <div class="row">
+        <br>
+    </div>
+
+    </div>
+</section>
+<!-- END / Banquet DETAIL -->
+
+
+
+
+
+
+<!-- Palm Court  BANQUET DETAIL -->
+<section class="section-room-detail bg-white">
+    <div class="container">
+
+        <!-- DETAIL -->
+        <div class="room-detail">
+            <div class="row">
+                <div class="col-lg-9">
+
+                    <!-- LAGER IMGAE -->
+                    <div class="room-detail_img">
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.jpg'); ?>" alt="Palm Court">
+                        </div>
+                                            
+                        <div class="room_img-item">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.jpg'); ?>" alt="Palm Court">
+                        </div>
+                    
+                    </div>
+
+                    <div class="room-detail_thumbs">
+                        <!-- <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.jpg'); ?>" alt="Palm Court"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.jpg'); ?>" alt="Palm Court"></a>
+                        -->
+
+                    </div>         
+                </div>
+
+
+            <div class="col-lg-3">
+                <!-- FORM BOOK -->
+                <div class="room-detail_book">
+                    <div class="room-detail_total">
+                        <img src="images/icon-logo.png" alt="" class="icon-logo">
+
+                        <p class="price">
+                            <span class="amout">Palm Court</span>
+                        </p>
+                    </div>   
+
+                </div>
+                <!-- END / FORM BOOK -->
+
+            </div>
+        </div>
+    </div>
+    <!-- END / DETAIL -->
+    <div class="row">
+        <br>
+    </div>
+
+
+    </div>
+</section>
+<!-- END / Banquet DETAIL -->
 
 
 

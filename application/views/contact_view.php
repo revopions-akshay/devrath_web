@@ -2,11 +2,11 @@
 
 
  <!-- SUB BANNER -->
- <section class="section-sub-banner" style="background-image: url(<?php echo base_url(); ?>/assets/devrath/images/contact/<?php echo $contactabout[0]->page_breadcrumb; ?>);">
+ <section class="section-sub-banner">
         <div class="sub-banner">
             <div class="container">
                 <div class="text text-center">
-                    <h2>Contact With Us</h2>
+                    <h2 style="color:#000000;">Contact With Us</h2>
                     
                 </div>
             </div>
