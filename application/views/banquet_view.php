@@ -124,33 +124,33 @@
                     <!-- LAGER IMGAE -->
                     <div class="room-detail_img">
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-1.jpg'); ?>" alt="Devrath">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-1.JPG'); ?>" alt="Devrath">
                         </div>
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-2.jpg'); ?>" alt="Devrath">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-2.JPG'); ?>" alt="Devrath">
                         </div>
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-3.jpg'); ?>" alt="Devrath">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-3.JPG'); ?>" alt="Devrath">
                         </div>
                                             
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-4.jpg'); ?>" alt="Devrath">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-4.JPG'); ?>" alt="Devrath">
                         </div>
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-5.jpg'); ?>" alt="Devrath">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-5.JPG'); ?>" alt="Devrath">
                         </div>
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-6.jpg'); ?>" alt="Devrath">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-6.JPG'); ?>" alt="Devrath">
                         </div>
                     </div>
 
                     <!-- <div class="room-detail_thumbs">
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-1.jpg'); ?>" alt="Devrath"></a>
-                         <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-2.jpg'); ?>" alt="Devrath"></a>
-                          <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-3.jpg'); ?>" alt="Devrath"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-4.jpg'); ?>" alt="Devrath"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-5.jpg'); ?>" alt="Devrath"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-6.jpg'); ?>" alt="Devrath"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-1.JPG'); ?>" alt="Devrath"></a>
+                         <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-2.JPG'); ?>" alt="Devrath"></a>
+                          <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-3.JPG'); ?>" alt="Devrath"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-4.JPG'); ?>" alt="Devrath"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-5.JPG'); ?>" alt="Devrath"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-6.JPG'); ?>" alt="Devrath"></a>
 
                     </div>          -->
                 </div>
@@ -203,22 +203,22 @@
                     <!-- LAGER IMGAE -->
                     <div class="room-detail_img">
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-1.jpg'); ?>" alt="Royal Pine">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-1.JPG'); ?>" alt="Royal Pine">
                         </div>
                                             
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-2.jpg'); ?>" alt="Royal Pine">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-2.JPG'); ?>" alt="Royal Pine">
                         </div>
 
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-3.jpg'); ?>" alt="Royal Pine">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-3.JPG'); ?>" alt="Royal Pine">
                         </div>
                     
                     </div>
 
                     <div class="room-detail_thumbs">
-                        <!-- <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-3.jpg'); ?>" alt="Royal Pine"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-3.jpg'); ?>" alt="Royal Pine"></a>
+                        <!-- <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-3.JPG'); ?>" alt="Royal Pine"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/royal-pine-3.JPG'); ?>" alt="Royal Pine"></a>
                         -->
 
                     </div>         
@@ -279,25 +279,25 @@
                     <!-- LAGER IMGAE -->
                     <div class="room-detail_img">
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler.jpg'); ?>" alt="Antler">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler.JPG'); ?>" alt="Antler">
                         </div>
                                             
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.jpg'); ?>" alt="Antler">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.JPG'); ?>" alt="Antler">
                         </div>
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.jpg'); ?>" alt="Antler">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.JPG'); ?>" alt="Antler">
                         </div>
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.jpg'); ?>" alt="Antler">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.JPG'); ?>" alt="Antler">
                         </div>
                     </div>
 
                     <!-- <div class="room-detail_thumbs">
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler.jpg'); ?>" alt="Antler"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.jpg'); ?>" alt="Antler"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.jpg'); ?>" alt="Antler"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.jpg'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler.JPG'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-4.JPG'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-5.JPG'); ?>" alt="Antler"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/antler-6.JPG'); ?>" alt="Antler"></a>
 
                     </div>          -->
                 </div>
@@ -353,18 +353,18 @@
                     <!-- LAGER IMGAE -->
                     <div class="room-detail_img">
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.jpg'); ?>" alt="Palm Court">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.JPG'); ?>" alt="Palm Court">
                         </div>
                                             
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.jpg'); ?>" alt="Palm Court">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.JPG'); ?>" alt="Palm Court">
                         </div>
                     
                     </div>
 
                     <div class="room-detail_thumbs">
-                        <!-- <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.jpg'); ?>" alt="Palm Court"></a>
-                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.jpg'); ?>" alt="Palm Court"></a>
+                        <!-- <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-1.JPG'); ?>" alt="Palm Court"></a>
+                        <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/palm-court-2.JPG'); ?>" alt="Palm Court"></a>
                         -->
 
                     </div>         
