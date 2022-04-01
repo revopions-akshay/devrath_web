@@ -127,7 +127,7 @@
                             <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-1.JPG'); ?>" alt="Devrath">
                         </div>
                         <div class="room_img-item">
-                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-2.JPG'); ?>" alt="Devrath">
+                            <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-22.png'); ?>" alt="Devrath">
                         </div>
                         <div class="room_img-item">
                             <img src="<?php echo base_url('assets/devrath/images/banquet/devrath-3.JPG'); ?>" alt="Devrath">
@@ -146,7 +146,7 @@
 
                     <!-- <div class="room-detail_thumbs">
                         <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-1.JPG'); ?>" alt="Devrath"></a>
-                         <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-2.JPG'); ?>" alt="Devrath"></a>
+                         <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-22.png'); ?>" alt="Devrath"></a>
                           <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-3.JPG'); ?>" alt="Devrath"></a>
                         <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-4.JPG'); ?>" alt="Devrath"></a>
                         <a href="#"><img src="<?php echo base_url('assets/devrath/images/banquet/devrath-5.JPG'); ?>" alt="Devrath"></a>
