@@ -30,14 +30,26 @@
                      -->
                         <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p> -->
 
-                        <p style="text-align: justify;">Devrath – Palace and Resort by Big Bite is an iconic 
-                        luxury resort located on Meerut – Delhi Expressway (NH 58) at Meerut By-Pass. 
-                        With a total area of 10 acres, it has played host to some of the most illustrious social 
-                        and corporate events in the city.</p>
-                        <p style="text-align: justify;">As the name suggests, Devrath Palace is a divine carriage 
-                        that takes you closer to your dream events. With 10 unique and beautifully crafted venues, 
-                        it gives you a wide variety to choose from for your D-Day. 
+                        <p style="text-align: justify;"><b>Devrath is an iconic luxury banquet in</b> Meerut with <b>a total 
+                        carpet area size of 50000 sq yards</b> where it has played host to some of the most illustrious 
+                        corporate and social events in Meerut. </p>
+                        <p style="text-align: justify;">Devrath banquet hall is the best choice for the perfect wedding you 
+                        have been dreaming of <b>with a Gathering capacity varies from 20 to 5000 guests on your list</b>, it’s your
+                         special day and we take the utmost pleasure in creating the most beautiful experiences for you and
+                          loved ones. 
                         </p>
+
+                        <p style="text-align: justify;">A ceremony planned and held at the best wedding hall in Meerut is sure 
+                        to be a memorable and ever-lasting one. Enjoy a unique experience of events for versatile weddings, 
+                        parties, shows in the best way possible only at Devrath as we have <b>scrumptious accommodation facility 
+                        of 41 fully equipped rooms</b>. 
+                        </p>
+
+                        <p style="text-align: justify;">If you are in search of the perfect location for conducting 
+                        a specific event, Devrath is the best wedding hall in Meerut where you get endless 
+                        opportunities to conduct any themed occasions and events, <b>the event hall is located 
+                        at Meerut NH58, Delhi Dehradun express way. The location is ideally perfect for big 
+                        fat grand Indian events.</b></p>
 
 
                     </div>
@@ -57,16 +69,26 @@
                     <h2 class="heading"><?php echo $about[0]->title_two; ?></h2>
                     <div class="desc">
                         <!-- <p><?php echo $about[0]->content_two; ?></p> -->
-                        <p style="text-align: justify;">Creative menus, dedicated catering staff, unique culinary team, 
-                        beautifully designed venues and professional wedding services are all available at Devrath –
-                         Palace and Resort. Our 41 fully equipped living rooms can accommodate up to 100 guests.
-                          The ceaseless energy of our chefs and banqueting team will ensure a successful and truly 
-                          memorable outing for all your family members and guests. </p>
+                       
 
-                          <p style="text-align: justify;">Our creative team of florists and decorators will be pleased to assist you 
-                          with any kind of tailor-made floral arrangements and settings to suit your theme and budget. </p>
+                          <p style="text-align: justify;">With us as your event venue, you can easily avoid the 
+                          hassle of organizing a grand event with our <b>Multi cuisine restaurant which is having 
+                          appetizing, delectable and delicious menu. </b> </p>
                           
-                          <p style="text-align: justify;">At Devrath, we are committed to take care of your loved ones.   </p>
+                          <p style="text-align: justify;"> <b>With 10 captivating venues</b> we are the curators of 
+                          making your moments highly special for you to enjoy and cherish for the rest of your life.</p>
+
+                          <p style="text-align: justify;">As Devrath is one of a kind Meerut’s Full Service wedding 
+                          banquet, <b>Devrath provides many comprehensive facilities like we have an ample parking space 
+                          with 500 cars where your guests can arrive at its full comfort.</b></p>
+
+                          
+                          <p style="text-align: justify;"><b>Once your guests arrive at Devrath then how can we let their 
+                              experience incomplete with our hospitality services including Valet parking</b></p>
+
+                               
+                          <p style="text-align: justify;">At Devrath we really care about you and your loved one therefore 
+                          we strictly following all the <b>COVID protocols very strictly.</b></p>
                     </div>
                 </div>
 
