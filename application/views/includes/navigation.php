@@ -6,7 +6,7 @@
         <div class="container">
             <div class="header_left float-left">
                 <!-- <span><i class="lotus-icon-cloud"></i> 18 °C</span> -->
-                <span><i class="lotus-icon-location"></i><?php echo $settings['email']; ?></span>
+                <span><i class="fa fa-envelope-o mr10"></i><?php echo $settings['email']; ?></span>
                 <span><i class="lotus-icon-phone"></i><?php echo $settings['phone']; ?></span>
             </div>
 

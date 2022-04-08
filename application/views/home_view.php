@@ -12,18 +12,22 @@
                         <h2 class="heading"><?php echo $about[0]->title_one; ?></h2>
                         <span class="box-border"></span>
                         <!-- <p style="text-align: justify;"><?php echo $about[0]->content_one; ?></p> -->
-                        <p style="text-align: justify;">Devrath – Palace and Resort by Big Bite is an iconic luxury resort 
-                        located on Meerut – Delhi Expressway (NH 58) at Meerut By-Pass. With a total area of 10 acres, 
-                        it has played host to some of the most illustrious social and corporate events in the city.</p>
+                        <p style="text-align: justify;"><b>Devrath is an iconic luxury banquet in</b> Meerut with <b>a total 
+                        carpet area size of 50000 sq yards</b> where it has played host to some of the most illustrious 
+                        corporate and social events in Meerut. </p>
+                        <p style="text-align: justify;">Devrath banquet hall is the best choice for the perfect wedding you 
+                        have been dreaming of <b>with a Gathering capacity varies from 20 to 5000 guests on your list</b>, it’s your
+                         special day and we take the utmost pleasure in creating the most beautiful experiences for you and
+                          loved ones. 
+                        </p>
 
-                        <p style="text-align: justify;">As the name suggests, Devrath Palace is a divine carriage that 
-                        takes you closer to your dream events. With 10 unique and beautifully crafted venues, it gives
-                         you a wide variety to choose from for your D-Day.</p>
+                        <p style="text-align: justify;">A ceremony planned and held at the best wedding hall in Meerut is sure 
+                        to be a memorable and ever-lasting one. Enjoy a unique experience of events for versatile weddings, 
+                        parties, shows in the best way possible only at Devrath as we have <b>scrumptious accommodation facility 
+                        of 41 fully equipped rooms</b>. 
+                        </p>
 
-                         <p style="text-align: justify;">Creative menus, dedicated catering staff, unique culinary team, 
-                         beautifully designed venues 
-                         and professional wedding services are all available at Devrath – Palace and Resort.</p> 
-
+                    
                         <a href="/about-us/" class="awe-btn awe-btn-default">READ MORE</a>
                     </div>
                 </div>
