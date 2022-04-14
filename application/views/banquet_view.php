@@ -373,7 +373,7 @@
                         <div class="room_img-item">
                             <!-- <video src="<?php echo base_url('assets/devrath/images/banquet/Jashn1.JPG'); ?>" alt="Jashn"> -->
 
-                            <video  controls poster="<?php echo base_url('assets/devrath/images/banquet/video-thumbnail.png'); ?>">
+                            <video  controls poster="<?php echo base_url('assets/devrath/images/banquet/video-thumbnail.PNG'); ?>">
                                 <source src="<?php echo base_url('assets/devrath/images/banquet/devrath-jashan-video.mp4'); ?>" type="video/mp4">
                                 <source src="<?php echo base_url('assets/devrath/images/banquet/devrath-jashan-video.mp4'); ?>" type="video/ogg">
                                 
