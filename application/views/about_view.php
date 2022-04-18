@@ -18,9 +18,37 @@
             <!-- ITEM -->
             <div class="about-item">
 
-                <div class="img owl-single">
+                <!-- <div class="img owl-single">
                     <img src="<?php echo base_url(); ?>/assets/devrath/images/about/<?php echo $about[0]->file_path; ?>" height="400" alt="">
-                    <!-- <img src="<?php echo base_url(); ?>/assets/devrath/images/about/img-2.jpg" alt=""> -->
+                    
+                </div> -->
+
+                <div class="text">
+                   <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="heading">Wedding events</h2>
+                            <p>Weddings are a celebration to mark the start of a lifetime of love, 
+                            and they require a suitable location to celebrate with magnificent arrangements and breathtaking decor.
+                                Our dedication and services ensure that your special day goes off without a hitch.</p>
+                       </div>
+                       <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>/assets/devrath/images/IMG_4403-min.JPG" height="300" alt="" style="max-width: 80%;">
+                       </div>
+                     
+                   </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>/assets/devrath/images/NAR_1091-min.JPG" height="300" alt="" style="max-width: 80%;">
+                       </div>
+                        <div class="col-md-6">
+                            <p></p>
+                            <h2 class="heading">Corporate events</h2>
+                            <p>Our premium services and luxurious space makes your corporate event a success every time. 
+                                Our team and ambience creates an aura that adds spark to your corporate events.</p>
+                       </div>
+                 
+                    </div>
                 </div>
 
                 <div class="text">
@@ -30,26 +58,24 @@
                      -->
                         <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p> -->
 
-                        <p style="text-align: justify;"><b>Devrath is an iconic luxury banquet in</b> Meerut with <b>a total 
-                        carpet area size of 50000 sq yards</b> where it has played host to some of the most illustrious 
-                        corporate and social events in Meerut. </p>
-                        <p style="text-align: justify;">Devrath banquet hall is the best choice for the perfect wedding you 
-                        have been dreaming of <b>with a Gathering capacity varies from 20 to 5000 guests on your list</b>, it’s your
-                         special day and we take the utmost pleasure in creating the most beautiful experiences for you and
-                          loved ones. 
+                        <p style="text-align: justify;">Devrath – Palace and Resort by Big Bite is an iconic luxury resort located
+                         on Meerut – Delhi Expressway (NH 58) at Meerut By-Pass with a total area of 10 acres, it has played host 
+                         to some of the most illustrious Signature Weddings, Luxury Occasions, Mega Conferences, Product Launching and Exhibitions, to perfection. </p>
+                        <p style="text-align: justify;">As the name suggests, Devrath Palace is a divine carriage that takes you closer to your dream events. We are known for our lavish indoor and outdoor beautifully crafted venues.</p>
+                        <p style="text-align: justify;">Creative menus, dedicated catering staff, unique culinary team, beautifully designed venues and professional wedding services are all available at Devrath – Palace and Resort. Our 41 fully equipped living rooms can accommodate up to 100 guests. The ceaseless energy of our chefs and banqueting team will ensure a successful and truly memorable outing for all your family members and guests. 
+
                         </p>
 
-                        <p style="text-align: justify;">A ceremony planned and held at the best wedding hall in Meerut is sure 
-                        to be a memorable and ever-lasting one. Enjoy a unique experience of events for versatile weddings, 
-                        parties, shows in the best way possible only at Devrath as we have <b>scrumptious accommodation facility 
-                        of 41 fully equipped rooms</b>. 
+                        <p style="text-align: justify;">Devrath is an extraordinary combination of rich traditional architecture
+                            and heritage look with various amenties. You will get the experience that will never diminish but always nourish 
+                            in the mind whenever you recall those moments. Devrath palace and resort is the perfect destination wedding venue.
+                            The Hotel is adorned with green carpets and lawn all around making the area spacious with facilities you to outdoor functions 
+                            lavishly in an open sky and that will leave you utterly spell bound.</p>
+
+                        <p style="text-align: justify;">Devrath is an extra-ordinary combination of rich treditional a
                         </p>
 
-                        <p style="text-align: justify;">If you are in search of the perfect location for conducting 
-                        a specific event, Devrath is the best wedding hall in Meerut where you get endless 
-                        opportunities to conduct any themed occasions and events, <b>the event hall is located 
-                        at Meerut NH58, Delhi Dehradun express way. The location is ideally perfect for big 
-                        fat grand Indian events.</b></p>
+                        <p style="text-align: justify;">At Devrath, we are committed to take care of your loved ones.   </p>
 
 
                     </div>
@@ -61,17 +87,17 @@
             <!-- ITEM -->
             <div class="about-item about-right">
 
-                <div class="img">
+                <!-- <div class="img">
                     <img src="<?php echo base_url(); ?>/assets/devrath/images/about/<?php echo $about[0]->file_path_two; ?>" height="400" alt="">
-                </div>
+                </div> -->
 
                 <div class="text">
-                    <h2 class="heading"><?php echo $about[0]->title_two; ?></h2>
+                    <!-- <h2 class="heading"><?php echo $about[0]->title_two; ?></h2> -->
                     <div class="desc">
-                        <!-- <p><?php echo $about[0]->content_two; ?></p> -->
+                        
                        
 
-                          <p style="text-align: justify;">With us as your event venue, you can easily avoid the 
+                          <!-- <p style="text-align: justify;">With us as your event venue, you can easily avoid the 
                           hassle of organizing a grand event with our <b>Multi cuisine restaurant which is having 
                           appetizing, delectable and delicious menu. </b> </p>
                           
@@ -88,7 +114,7 @@
 
                                
                           <p style="text-align: justify;">At Devrath we really care about you and your loved one therefore 
-                          we strictly following all the <b>COVID protocols very strictly.</b></p>
+                          we strictly following all the <b>COVID protocols very strictly.</b></p> -->
                     </div>
                 </div>
 

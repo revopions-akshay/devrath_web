@@ -1,46 +1,42 @@
    <!-- SUB BANNER -->
-   <section class="section-sub-banner" style="background-image: url(<?php echo base_url(); ?>/assets/devrath/images/restaurant/<?php echo $restaurant[0]->page_breadcrumb; ?>);">
+    <section class="section-sub-banner" style="background-image: url(<?php echo base_url(); ?>/assets/devrath/images/restaurant/<?php echo $restaurant[0]->page_breadcrumb; ?>);">
 
 
        <div class="sub-banner">
            <div class="container">
                <div class="text text-center">
                    <h2>Restaurant</h2>
-                   <!-- <p>Lorem Ipsum is simply dummy text of the printing</p> -->
+                  
                </div>
            </div>
 
        </div>
 
    </section>
-   <!-- END / SUB BANNER -->
-
-   <!-- RESTAURANTS -->
+  <!--
    <section class="section-restaurant-4 bg-white">
        <div class="container">
 
            <div class="container">
                <div class="about">
-                   <!-- ITEM -->
+                  
                    <div class="about-item">
 
                        <div class="img owl-single">
                            <img src="<?php echo base_url(); ?>/assets/devrath/images/restaurant/<?php echo $restaurant[0]->file_path; ?>" alt="">
-                           <!-- <img src="<?php echo base_url(); ?>/assets/devrath/images/about/img-2.jpg" alt=""> -->
+                         
                        </div>
 
                        <div class="text">
                            <h2 class="heading"><?php echo $restaurant[0]->title_one; ?></h2>
                            <div class="desc" style="line-height: 1.7em !important;">
                                <p><?php echo $restaurant[0]->content_one; ?></p><br>
-                               <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p> -->
+                               
                            </div>
                        </div>
 
                    </div>
-                   <!-- END / ITEM -->
-
-                   <!-- ITEM -->
+                  
                    <div class="about-item about-right">
 
                        <div class="img">
@@ -55,7 +51,7 @@
                        </div>
 
                    </div>
-                   <!-- END / ITEM -->
+                 ->
 
                </div>
 
@@ -63,7 +59,7 @@
 
        </div>
    </section>
-   <!-- END / RESTAURANTS -->
+   -->
 
 
 

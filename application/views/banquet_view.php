@@ -16,31 +16,29 @@
    <!-- END / SUB BANNER -->
 
    <!-- RESTAURANTS -->
-   <section class="section-restaurant-4 bg-white">
+   <!-- <section class="section-restaurant-4 bg-white">
        <div class="container">
 
            <div class="container">
                <div class="about">
-                   <!-- ITEM -->
+                  
                    <div class="about-item">
 
                        <div class="img owl-single">
                            <img src="<?php echo base_url(); ?>/assets/devrath/images/banquet/<?php echo $banquet[0]->file_path; ?>" alt="">
-                           <!-- <img src="<?php echo base_url(); ?>/assets/devrath/images/about/img-2.jpg" alt=""> -->
+                          
                        </div>
 
                        <div class="text">
                            <h2 class="heading"><?php echo $banquet[0]->title_one; ?></h2>
                            <div class="desc">
                                <p><?php echo $banquet[0]->content_one; ?></p><br>
-                               <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p> -->
+                               
                            </div>
                        </div>
 
                    </div>
-                   <!-- END / ITEM -->
-
-                   <!-- ITEM -->
+                  
                    <div class="about-item about-right">
 
                        <div class="img">
@@ -55,7 +53,7 @@
                        </div>
 
                    </div>
-                   <!-- END / ITEM -->
+               
 
                </div>
 
@@ -63,7 +61,7 @@
 
        </div>
    </section>
-   <!-- END / RESTAURANTS -->
+   -->
 
 
 
@@ -169,7 +167,7 @@
                                 
                     <div class="room-detail_form">
                         <label>Capacity</label>
-                            <p>800 persons</p>
+                            <p>1000 persons</p>
                         <label>Size </label>
                         <p>20,000 sq ft</p>                     
                     </div> 
@@ -238,7 +236,7 @@
                     
                     <div class="room-detail_form">
                         <label>Capacity</label>
-                            <p>800 persons</p>
+                            <p>1000 persons</p>
                         <label>Size </label>
                         <p>20,000 sq ft</p>
                        
@@ -475,13 +473,13 @@
                             <img src="<?php echo base_url('assets/devrath/images/banquet/Palm-court1.JPG'); ?>" alt="Palm Court">
                         </div>
                                             
-                        <div class="room_img-item">
+                        <!-- <div class="room_img-item">
                             <img src="<?php echo base_url('assets/devrath/images/banquet/Palm-court2.JPG'); ?>" alt="Palm Court">
-                        </div>
+                        </div> -->
 
-                        <div class="room_img-item">
+                        <!-- <div class="room_img-item">
                             <img src="<?php echo base_url('assets/devrath/images/banquet/Palm-court3.JPG'); ?>" alt="Palm Court">
-                        </div>
+                        </div> -->
 
                         <div class="room_img-item">
                             <img src="<?php echo base_url('assets/devrath/images/banquet/Palm-court4.JPG'); ?>" alt="Palm Court">
