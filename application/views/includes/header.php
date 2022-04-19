@@ -101,6 +101,7 @@
       height: auto;
       width:100%;
     }
+  }
 
 
 
