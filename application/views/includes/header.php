@@ -66,10 +66,31 @@
     }
 
 
+    .center-image{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 300px;
+      width: 250px;
+    }
+    .mobile{
+      display: none;
+    }
+
+
+
     @media only screen and (max-width: 600px) {
       .slider-style-2{
         margin-top: 96px;
       }
+
+      .desktop{
+        display: none;
+      }
+
+      .mobile{
+      display: block;
+    }
 
     }
 

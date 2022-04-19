@@ -12,27 +12,42 @@
                 <div class="text">
                    <div class="row">
                         <div class="col-md-6">
-                            <h2 class="heading">Wedding events</h2>
-                            <p>Weddings are a celebration to mark the start of a lifetime of love, 
+                            <h2 class="heading" style="text-align: center;">Wedding events</h2>
+                            <p style="text-align: center;">Weddings are a celebration to mark the start of a lifetime of love, 
                             and they require a suitable location to celebrate with magnificent arrangements and breathtaking decor.
                                 Our dedication and services ensure that your special day goes off without a hitch.</p>
                        </div>
                        <div class="col-md-6">
-                            <img src="<?php echo base_url(); ?>/assets/devrath/images/IMG_4403-min.JPG" height="300" alt="" style="max-width: 80%;">
+                            <img src="<?php echo base_url(); ?>/assets/devrath/images/IMG_4403-min.JPG" height="300" alt="" class="center-image" >
                        </div>
                      
                    </div>
 
-                    <div class="row">
+                    <div class="row  desktop">
                         <div class="col-md-6">
-                            <img src="<?php echo base_url(); ?>/assets/devrath/images/NAR_1091-min.JPG" height="300" alt="" style="max-width: 80%;">
+                            <img src="<?php echo base_url(); ?>/assets/devrath/images/NAR_1091-min.JPG" height="300" alt="" class="center-image">
                        </div>
                         <div class="col-md-6">
                             <p></p>
-                            <h2 class="heading">Corporate events</h2>
-                            <p>Our premium services and luxurious space makes your corporate event a success every time. 
+                            <h2 class="heading" style="text-align: center;">Corporate events</h2>
+                            <p style="text-align: center;">Our premium services and luxurious space makes your corporate event a success every time. 
                                 Our team and ambience creates an aura that adds spark to your corporate events.</p>
                        </div>
+                 
+                    </div>
+
+                    <div class="row  mobile">
+                        <div class="col-md-6">
+                            <p></p>
+                            <h2 class="heading" style="text-align: center;">Corporate events</h2>
+                            <p style="text-align: center;">Our premium services and luxurious space makes your corporate event a success every time. 
+                                Our team and ambience creates an aura that adds spark to your corporate events.</p>
+                       </div>
+
+                        <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>/assets/devrath/images/NAR_1091-min.JPG" height="300" alt="" class="center-image">
+                       </div>
+                     
                  
                     </div>
                 </div>
@@ -115,7 +130,7 @@
 
 
 
-<section class="section-home-about bg-white">
+<!-- <section class="section-home-about bg-white">
     <div class="container">
         <div class="home-about">
             <div class="row">
@@ -138,7 +153,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 
