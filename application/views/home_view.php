@@ -70,11 +70,9 @@
                         <p style="text-align: justify;">Devrath is an extraordinary combination of rich traditional architecture
                             and heritage look with various amenties. You will get the experience that will never diminish but always nourish 
                             in the mind whenever you recall those moments. Devrath palace and resort is the perfect destination wedding venue.
-                            The Hotel is adorned with green carpets and lawn all around making the area spacious with facilities you to outdoor functions 
-                            lavishly in an open sky and that will leave you utterly spell bound.</p>
-
-                        <p style="text-align: justify;">Devrath is an extra-ordinary combination of rich treditional a
                         </p>
+
+                       
 
                         <p style="text-align: justify;">At Devrath, we are committed to take care of your loved ones.   </p>
 
