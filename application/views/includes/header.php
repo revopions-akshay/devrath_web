@@ -77,6 +77,11 @@
       display: none;
     }
 
+    .gallery_image{
+      height: 400px;
+      width:100%;
+    }
+
 
 
     @media only screen and (max-width: 600px) {
@@ -92,6 +97,9 @@
       display: block;
     }
 
+    .gallery_image{
+      height: auto;
+      width:100%;
     }
 
 
